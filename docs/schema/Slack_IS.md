@@ -5,7 +5,7 @@
 - [SlackAccessTokens](#slackaccesstokens)
 
 ## SlackAccessTokens
-**Physical table:** `OSUSR_9V3_SLACKACCESSTOKENS`  
+**Physical table:** `OSUSR_9v3_SlackAccessTokens`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

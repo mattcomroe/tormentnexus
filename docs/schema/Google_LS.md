@@ -5,7 +5,7 @@
 - [Apps](#apps)
 
 ## Apps
-**Physical table:** `OSUSR_H5H_APPS`  
+**Physical table:** `OSUSR_h5h_Apps`  
 **Description:** Apps entity  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

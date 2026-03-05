@@ -8,7 +8,7 @@
 - [TestTable](#testtable)
 
 ## BinaryOr
-**Physical table:** `OSUSR_FZ2_BINARYOR`  
+**Physical table:** `OSUSR_fz2_BinaryOr`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -16,7 +16,7 @@
 | BATCH | nvarchar | 250 | YES | ('') |
 
 ## ClassDates
-**Physical table:** `OSUSR_FZ2_CLASSDATES`  
+**Physical table:** `OSUSR_fz2_ClassDates`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -25,7 +25,7 @@
 | RECURRINGCLASSID | bigint |  | YES | ((0)) |
 
 ## SomeNonesense
-**Physical table:** `OSUSR_YJQ_SOMENONESENSE`  
+**Physical table:** `OSUSR_yjq_SomeNonesense`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -33,7 +33,7 @@
 | NAME | nvarchar | 50 | YES | ('') |
 
 ## TestTable
-**Physical table:** `OSUSR_YJQ_TESTTABLE`  
+**Physical table:** `OSUSR_yjq_TestTable`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

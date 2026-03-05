@@ -5,6 +5,6 @@
 - [ArchModule](#archmodule)
 
 ## ArchModule
-**Physical table:** `OSUSR_65I_ARCHMODULE`  
+**Physical table:** `OSUSR_65i_ArchModule`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

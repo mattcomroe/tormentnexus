@@ -6,11 +6,11 @@
 - [item](#item)
 
 ## EmojiTest
-**Physical table:** `OSUSR_JKI_EMOJITEST`  
+**Physical table:** `OSUSR_jki_EmojiTest`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## item
-**Physical table:** `OSUSR_JKI_ITEM`  
+**Physical table:** `OSUSR_jki_item`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

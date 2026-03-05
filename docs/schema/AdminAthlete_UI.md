@@ -5,7 +5,7 @@
 - [AthleteAlertType](#athletealerttype)
 
 ## AthleteAlertType
-**Physical table:** `OSUSR_PBD_ATHLETEALERTTYPE`  
+**Physical table:** `OSUSR_pbd_AthleteAlertType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

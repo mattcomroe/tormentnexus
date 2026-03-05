@@ -6,7 +6,7 @@
 - [EmailProcessType](#emailprocesstype)
 
 ## EmailProcess
-**Physical table:** `OSUSR_TAU_EMAILPROCESS`  
+**Physical table:** `OSUSR_tau_EmailProcess`  
 **Description:** Auxiliar entity that contains all platform emails that will run through a BPT  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -138,7 +138,7 @@
 | ATTRIBUTES | nvarchar | 2000 | YES | ('') |
 
 ## EmailProcessType
-**Physical table:** `OSUSR_TAU_EMAILPROCESSTYPE`  
+**Physical table:** `OSUSR_tau_EmailProcessType`  
 **Description:** contains all BPTs that can run asynchronously through the Email_AP  
 
 | Column | Data Type | Max Length | Nullable | Default |

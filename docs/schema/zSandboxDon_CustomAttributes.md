@@ -12,7 +12,7 @@
 - [UserAnswer](#useranswer)
 
 ## AttributeAccessibility
-**Physical table:** `OSUSR_8CD_OBJECTACCESSIBILITY`  
+**Physical table:** `OSUSR_8cd_ObjectAccessibility`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -22,7 +22,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AttributeDefinition
-**Physical table:** `OSUSR_8CD_OBJECTKEYSPECIFICATIONJSONLIST6`  
+**Physical table:** `OSUSR_8cd_ObjectKeySpecificationJSONList6`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -37,7 +37,7 @@
 | USERPROMPT | nvarchar | 50 | YES | ('') |
 
 ## CustomAttribute
-**Physical table:** `OSUSR_8CD_CUSTOMOBJECT_JSON6`  
+**Physical table:** `OSUSR_8cd_CustomObject_Json6`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -61,7 +61,7 @@
 | ATTRIBUTEACCESSIBILITYID | int |  | YES | (NULL) |
 
 ## CustomAttributeAccess
-**Physical table:** `OSUSR_8CD_CUSTOMOBJECTACCESS`  
+**Physical table:** `OSUSR_8cd_CustomObjectAccess`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -71,7 +71,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CustomAttributeUsage
-**Physical table:** `OSUSR_8CD_CUSTOMOBJECTUSAGE`  
+**Physical table:** `OSUSR_8cd_CustomObjectUsage`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -81,7 +81,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CustomFieldType
-**Physical table:** `OSUSR_8CD_CUSTOMFIELDTYPE1`  
+**Physical table:** `OSUSR_8cd_CustomFieldType1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -91,7 +91,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SaleForceAttribute
-**Physical table:** `OSUSR_8CD_SALEFORCEOBJECT`  
+**Physical table:** `OSUSR_8cd_SaleForceObject`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -99,7 +99,7 @@
 | ATTRIBUTE1 | nvarchar | 50 | YES | ('') |
 
 ## UserAnswer
-**Physical table:** `OSUSR_8CD_USERSELECTIONJSONLISTCUSTOMFIELDS5`  
+**Physical table:** `OSUSR_8cd_UserSelectionJsonListCustomFields5`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

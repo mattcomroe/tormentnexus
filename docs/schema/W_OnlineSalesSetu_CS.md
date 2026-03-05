@@ -6,7 +6,7 @@
 - [OnlineSalesFacebookPixel](#onlinesalesfacebookpixel)
 
 ## OnlineSalesAnalyticsCode
-**Physical table:** `OSUSR_VQQ_ONLINESALESANALYTICSCODE`  
+**Physical table:** `OSUSR_vqq_OnlineSalesAnalyticsCode`  
 **Description:** Codes provided by the Customer for analytic/tracking purposes on the online sales portal.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -17,7 +17,7 @@
 | CUSTOMERID | bigint |  | NO | ((0)) |
 
 ## OnlineSalesFacebookPixel
-**Physical table:** `OSUSR_VQQ_ONLINESALESFACEBOOKPIXEL`  
+**Physical table:** `OSUSR_vqq_OnlineSalesFacebookPixel`  
 **Description:** Codes provided by the Customer for analytic/tracking purposes on the online sales portal.  
 
 | Column | Data Type | Max Length | Nullable | Default |

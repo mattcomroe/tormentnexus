@@ -5,7 +5,7 @@
 - [BiometricType](#biometrictype)
 
 ## BiometricType
-**Physical table:** `OSUSR_3A7_BIOMETRICTYPE`  
+**Physical table:** `OSUSR_3a7_BiometricType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

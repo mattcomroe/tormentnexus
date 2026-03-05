@@ -5,7 +5,7 @@
 - [ProgressBarColor](#progressbarcolor)
 
 ## ProgressBarColor
-**Physical table:** `OSUSR_WBX_PROGRESSBARCOLOR`  
+**Physical table:** `OSUSR_wbx_ProgressBarColor`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

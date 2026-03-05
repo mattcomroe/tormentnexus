@@ -17,7 +17,7 @@
 - [RequestType](#requesttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_43W_ASYNCPROCESS`  
+**Physical table:** `OSUSR_43w_AsyncProcess`  
 **Description:** Auxiliar entity that contains all membership asynchronous processes, which will run through the Membership_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -27,7 +27,7 @@
 | ASYNCPROCESSTYPEID | int |  | YES | (NULL) |
 
 ## AsyncProcessType
-**Physical table:** `OSUSR_43W_ASYNCPROCESSTYPE`  
+**Physical table:** `OSUSR_43w_AsyncProcessType`  
 **Description:** contains all timers and BPTs that can run asynchronously through the Membership_AP  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -38,7 +38,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CloudSearchAuditResult
-**Physical table:** `OSUSR_43W_CLOUDSEARCHAUDITRESULT`  
+**Physical table:** `OSUSR_43w_CloudSearchAuditResult`  
 **Description:** Tracks audit results for Email_CloudSearchAudit timer in CloudSearchSyncAudit_AP  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | NUMCONFLICTING | int |  | YES | ((0)) |
 
 ## CloudSearchFilterUsage
-**Physical table:** `OSUSR_43W_CLOUDSEARCHFILTERUSAGE`  
+**Physical table:** `OSUSR_43w_CloudSearchFilterUsage`  
 **Description:** Indicates the usage of the filter  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -59,7 +59,7 @@
 | USAGE | nvarchar | 50 | YES | ('') |
 
 ## CloudSearchLogicOperator
-**Physical table:** `OSUSR_43W_CLOUDSEARCHLOGICOPERATOR`  
+**Physical table:** `OSUSR_43w_CloudSearchLogicOperator`  
 **Description:** Cloud Search logic operator  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -69,7 +69,7 @@
 | OPERATOR | nvarchar | 50 | YES | ('') |
 
 ## CloudSearchReturnData
-**Physical table:** `OSUSR_43W_CLOUDSEARCHRETURNDATA`  
+**Physical table:** `OSUSR_43w_CloudSearchReturnData`  
 **Description:** Indicates what fields CloudSearch should return  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -79,7 +79,7 @@
 | ATTRIBUTE | nvarchar | 200 | YES | ('') |
 
 ## CloudSearchSync
-**Physical table:** `OSUSR_43W_CLOUDSEARCHSYNC`  
+**Physical table:** `OSUSR_43w_CloudSearchSync`  
 **Description:** Contains only one record with that manages when it is syncing with CloudSearch via cloudsearch_API  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -90,7 +90,7 @@
 | SYNCID | nvarchar | 50 | YES | ('') |
 
 ## CloudSearchSyncClient
-**Physical table:** `OSUSR_43W_CLOUDSEARCHSYNCCLIENT`  
+**Physical table:** `OSUSR_43w_CloudSearchSyncClient`  
 **Description:** Contains all the clients that will be synced in CloudSearch in a specified SyncId from Cloudsearch_API  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -100,7 +100,7 @@
 | SYNCID | nvarchar | 50 | YES | ('') |
 
 ## EndPointDomain
-**Physical table:** `OSUSR_43W_ENDPOINTDOMAIN`  
+**Physical table:** `OSUSR_43w_EndPointDomain`  
 **Description:** Holds information about a domain's identifier needed to build the base URL  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -110,7 +110,7 @@
 | DESCRIPTION | nvarchar | 1000 | YES | ('') |
 
 ## GlobalSearchActionType
-**Physical table:** `OSUSR_43W_GLOBALSEARCHACTIONTYPE`  
+**Physical table:** `OSUSR_43w_GlobalSearchActionType`  
 **Description:** Global Search Action Type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -121,7 +121,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## GlobalSearchType
-**Physical table:** `OSUSR_43W_GLOBALSEARCHTYPE`  
+**Physical table:** `OSUSR_43w_GlobalSearchType`  
 **Description:** Global Search Type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -132,7 +132,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_43W_REQUEST`  
+**Physical table:** `OSUSR_43w_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -155,7 +155,7 @@
 | FILE | varbinary | -1 | YES | (NULL) |
 
 ## RequestType
-**Physical table:** `OSUSR_43W_REQUESTTYPE`  
+**Physical table:** `OSUSR_43w_RequestType`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |

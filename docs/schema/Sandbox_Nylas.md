@@ -7,16 +7,16 @@
 - [NylasCalendar](#nylascalendar)
 
 ## ExportedEvent
-**Physical table:** `OSUSR_BFF_EXPORTEDEVENT`  
+**Physical table:** `OSUSR_bff_ExportedEvent`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## NylasAccount
-**Physical table:** `OSUSR_BFF_NYLASACCOUNT`  
+**Physical table:** `OSUSR_bff_NylasAccount`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## NylasCalendar
-**Physical table:** `OSUSR_BFF_NYLASCALENDAR`  
+**Physical table:** `OSUSR_bff_NylasCalendar`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

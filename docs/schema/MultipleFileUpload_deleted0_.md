@@ -5,7 +5,7 @@
 - [UploadCache](#uploadcache)
 
 ## UploadCache
-**Physical table:** `OSUSR_HYR_UPLOADCACHE`  
+**Physical table:** `OSUSR_hyr_UploadCache`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

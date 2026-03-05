@@ -7,7 +7,7 @@
 - [MenuSubItem](#menusubitem)
 
 ## Image
-**Physical table:** `OSUSR_HJR_IMAGE`  
+**Physical table:** `OSUSR_hjr_Image`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -20,7 +20,7 @@
 | CREATEDAT | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## MenuItem
-**Physical table:** `OSUSR_HJR_MENUITEM`  
+**Physical table:** `OSUSR_hjr_MenuItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -30,7 +30,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## MenuSubItem
-**Physical table:** `OSUSR_HJR_MENUSUBITEM`  
+**Physical table:** `OSUSR_hjr_MenuSubItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |

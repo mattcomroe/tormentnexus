@@ -9,7 +9,7 @@
 - [StaticTermV2Attribute](#statictermv2attribute)
 
 ## CustomerCustomDictionary
-**Physical table:** `OSUSR_EF1_CUSTOMERCUSTOMDICTIONARY`  
+**Physical table:** `OSUSR_ef1_CustomerCustomDictionary`  
 **Description:** Entity that holds Customer's Custom Dictionary settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -25,7 +25,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StaticTerm
-**Physical table:** `OSUSR_EF1_STATICTERM`  
+**Physical table:** `OSUSR_ef1_StaticTerm`  
 **Description:** Entity that holds the Terms that are Customizable per Users and per Language (Locale)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -38,19 +38,19 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## StaticTermCategory
-**Physical table:** `OSUSR_EF1_STATICTERMCATEGORY`  
+**Physical table:** `OSUSR_ef1_StaticTermCategory`  
 **Description:** Entity that holds the Categories for static terms that are Customizable per Users and per Language (Locale)  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## StaticTermV2
-**Physical table:** `OSUSR_EF1_STATICTERMV2`  
+**Physical table:** `OSUSR_ef1_StaticTermV2`  
 **Description:** Mobile version of Static Term that holds the Terms that are Customizable per Users and per Language (Locale)  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## StaticTermV2Attribute
-**Physical table:** `OSUSR_EF1_STATICTERMV2ATTRIBUTE`  
+**Physical table:** `OSUSR_ef1_StaticTermV2Attribute`  
 **Description:** Static Entity that relates to the attribute available in terms  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

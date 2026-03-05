@@ -9,7 +9,7 @@
 - [UnorderedEvent](#unorderedevent)
 
 ## EventProcessingStatus
-**Physical table:** `OSUSR_CH5_EVENTPROCESSINGSTATUS`  
+**Physical table:** `OSUSR_ch5_EventProcessingStatus`  
 **Description:** Keeps track of the last event order number that was processed, for each event type.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -18,7 +18,7 @@
 | LASTPROCESSEDORDER | bigint |  | YES | ((0)) |
 
 ## EventType
-**Physical table:** `OSUSR_CH5_EVENTTYPE`  
+**Physical table:** `OSUSR_ch5_EventType`  
 **Description:** This will contain all the Event types available to use for Amazon SNS Events  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -30,7 +30,7 @@
 | CODE | nvarchar | 50 | YES | ('') |
 
 ## MAndBTimerLog
-**Physical table:** `OSUSR_CH5_MANDBTIMERLOG`  
+**Physical table:** `OSUSR_ch5_MAndBTimerLog`  
 **Description:** Temporary table that contains all needed information regarding Membership and Billing Timer to log: - When the Timer started and ended - How many Triggers per timer were going to be launched - How many Triggers per timer were actually launched - How many CloudSearch API calls we got -  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -52,7 +52,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## MAndBUserQueueS3SNS
-**Physical table:** `OSUSR_CH5_MANDBUSERQUEUES3SNS`  
+**Physical table:** `OSUSR_ch5_MAndBUserQueueS3SNS`  
 **Description:** Contains all users that will be triggered to S3/SNS  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -62,7 +62,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## UnorderedEvent
-**Physical table:** `OSUSR_CH5_UNORDEREDEVENT`  
+**Physical table:** `OSUSR_ch5_UnorderedEvent`  
 **Description:** Events that were received out of order.  
 
 | Column | Data Type | Max Length | Nullable | Default |

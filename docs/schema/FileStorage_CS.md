@@ -5,7 +5,7 @@
 - [FileStorage](#filestorage)
 
 ## FileStorage
-**Physical table:** `OSUSR_MRI_FILESTORAGE`  
+**Physical table:** `OSUSR_mri_FileStorage`  
 **Description:** Contains files information to get from an external provider  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -11,7 +11,7 @@
 - [PulseLoanerDeviceLocation](#pulseloanerdevicelocation)
 
 ## CustomerPulseSettings
-**Physical table:** `OSUSR_K9A_TENANTPULSESETTINGS`  
+**Physical table:** `OSUSR_k9a_TenantPulseSettings`  
 **Description:** Pulse settings that apply to all locations of a Customer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -25,7 +25,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## LocationPulseSettings
-**Physical table:** `OSUSR_K9A_LOCATIONPULSESETTINGS`  
+**Physical table:** `OSUSR_k9a_LocationPulseSettings`  
 **Description:** Contains the Pulse feature settings for a given location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -46,7 +46,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PulseDevice
-**Physical table:** `OSUSR_K9A_PULSEDEVICE`  
+**Physical table:** `OSUSR_k9a_PulseDevice`  
 **Description:** Represents a Pulse device to be used for heart rate monitoring.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -62,7 +62,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PulseDeviceAssignHistory
-**Physical table:** `OSUSR_K9A_PULSEDEVICEASSIGNHISTORY`  
+**Physical table:** `OSUSR_k9a_PulseDeviceAssignHistory`  
 **Description:** Represents the history of the belts assinged to a UserClassLogin.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -80,7 +80,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PulseDeviceGlobalUser
-**Physical table:** `OSUSR_K9A_PULSEDEVICEGLOBALUSER`  
+**Physical table:** `OSUSR_k9a_PulseDeviceGlobalUser`  
 **Description:** Represents a Pulse Device that is tied to a Global User. The Pulse Device's represented here should have a Personal device type.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -97,7 +97,7 @@
 | MYZONEFACILITYNAME | nvarchar | 50 | YES | ('') |
 
 ## PulseDeviceType
-**Physical table:** `OSUSR_K9A_PULSEDEVICETYPE`  
+**Physical table:** `OSUSR_k9a_PulseDeviceType`  
 **Description:** The possible types of Pulse devices.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -107,7 +107,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## PulseLoanerDeviceLocation
-**Physical table:** `OSUSR_K9A_PULSELOANERDEVICELOCATION`  
+**Physical table:** `OSUSR_k9a_PulseLoanerDeviceLocation`  
 **Description:** Represents a Pulse Device that is tied to a location. The Pulse Device's represented here should have a Loaner device type.  
 
 | Column | Data Type | Max Length | Nullable | Default |

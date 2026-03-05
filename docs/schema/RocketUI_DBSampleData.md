@@ -12,7 +12,7 @@
 - [Sample_Tag](#sample-tag)
 
 ## Sample_KanbanCard
-**Physical table:** `OSUSR_PCU_SAMPLE_KANBANCARD`  
+**Physical table:** `OSUSR_pcu_Sample_KanbanCard`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -26,7 +26,7 @@
 | STATUSID | bigint |  | YES | (NULL) |
 
 ## Sample_KanbanCardPerson
-**Physical table:** `OSUSR_PCU_SAMPLE_KANBANCARDPERSON`  
+**Physical table:** `OSUSR_pcu_Sample_KanbanCardPerson`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -35,7 +35,7 @@
 | SAMPLE_EMPLOYEEID | int |  | YES | (NULL) |
 
 ## Sample_KanbanCardTags
-**Physical table:** `OSUSR_PCU_SAMPLE_KANBANCARDTAGS`  
+**Physical table:** `OSUSR_pcu_Sample_KanbanCardTags`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -44,7 +44,7 @@
 | SAMPLE_TAGID | bigint |  | YES | (NULL) |
 
 ## Sample_KanbanColumn
-**Physical table:** `OSUSR_PCU_SAMPLE_KANBANCOLUMN`  
+**Physical table:** `OSUSR_pcu_Sample_KanbanColumn`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -54,7 +54,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_KanbanProjectPerson
-**Physical table:** `OSUSR_PCU_SAMPLE_KANBANPROJECTPERSON`  
+**Physical table:** `OSUSR_pcu_Sample_KanbanProjectPerson`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -63,7 +63,7 @@
 | SAMPLE_EMPLOYEEID | int |  | YES | (NULL) |
 
 ## Sample_Project
-**Physical table:** `OSUSR_PCU_SAMPLE_PROJECT`  
+**Physical table:** `OSUSR_pcu_Sample_Project`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -75,7 +75,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Status
-**Physical table:** `OSUSR_PCU_SAMPLE_STATUS`  
+**Physical table:** `OSUSR_pcu_Sample_Status`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -84,7 +84,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Tag
-**Physical table:** `OSUSR_PCU_SAMPLE_TAG`  
+**Physical table:** `OSUSR_pcu_Sample_Tag`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -6,7 +6,7 @@
 - [UserSettingSocial](#usersettingsocial)
 
 ## UserSettingNotification
-**Physical table:** `OSUSR_72O_USERSETTINGNOTIFICATION`  
+**Physical table:** `OSUSR_72o_UserSettingNotification`  
 **Description:** Data about a users notification settings and preferences  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -42,7 +42,7 @@
 | SMSSUBSCRIBEDTOLLFREE | bit |  | YES | ((0)) |
 
 ## UserSettingSocial
-**Physical table:** `OSUSR_72O_USERSETTINGSOCIAL`  
+**Physical table:** `OSUSR_72o_UserSettingSocial`  
 **Description:** Contains end user social settings and preferences  
 
 | Column | Data Type | Max Length | Nullable | Default |

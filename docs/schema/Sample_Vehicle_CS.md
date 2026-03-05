@@ -7,7 +7,7 @@
 - [ModelVersion](#modelversion)
 
 ## Brand
-**Physical table:** `OSUSR_MT1_BRAND`  
+**Physical table:** `OSUSR_mt1_Brand`  
 **Description:** Entity that holds the records of type Brand.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -21,7 +21,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Model
-**Physical table:** `OSUSR_MT1_MODEL`  
+**Physical table:** `OSUSR_mt1_Model`  
 **Description:** Entity that holds the records of type Model.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -36,7 +36,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## ModelVersion
-**Physical table:** `OSUSR_MT1_MODELVERSION`  
+**Physical table:** `OSUSR_mt1_ModelVersion`  
 **Description:** Entity that holds the records of type ModelVersion.  
 
 | Column | Data Type | Max Length | Nullable | Default |

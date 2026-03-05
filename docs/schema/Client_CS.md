@@ -32,7 +32,7 @@
 - [UserSuspendedRoles](#usersuspendedroles)
 
 ## ClientAppReview
-**Physical table:** `OSUSR_M0Z_CLIENTAPPREVIEW`  
+**Physical table:** `OSUSR_m0z_ClientAppReview`  
 **Description:** Tracks review and feedback left by clients in the app review popup  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | PROMPTEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ClientAppReviewBlacklist
-**Physical table:** `OSUSR_M0Z_CLIENTAPPREVIEWBLACKLIST`  
+**Physical table:** `OSUSR_m0z_ClientAppReviewBlacklist`  
 **Description:** Holds list of clients that will never see app review prompts  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -56,7 +56,7 @@
 | GLOBALUSERID | int |  | YES | (NULL) |
 
 ## ClientAppSyncSettings
-**Physical table:** `OSUSR_HWC_CLIENTAPPSETTINGS`  
+**Physical table:** `OSUSR_hwc_ClientAppSettings`  
 **Description:** Contains persistent settings to be used exclusively for Wodify Client App  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -71,7 +71,7 @@
 | GOOGLECALENDARID | int |  | YES | ((0)) |
 
 ## ClientScheduledDeactivation
-**Physical table:** `OSUSR_M0Z_CLIENTSCHEDULEDDEACTIVATION`  
+**Physical table:** `OSUSR_m0z_ClientScheduledDeactivation`  
 **Description:** Request and status data for async scheduled client deactivation process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -87,7 +87,7 @@
 | MEMBERPLANID | bigint |  | YES | ((0)) |
 
 ## CustomQuickNavLink
-**Physical table:** `OSUSR_M0Z_CUSTOMQUICKNAVLINK`  
+**Physical table:** `OSUSR_m0z_CustomQuickNavLink`  
 **Description:** Custom links for Quick Nav  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -104,7 +104,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## DefaultQuickNavLink
-**Physical table:** `OSUSR_M0Z_DEFAULTQUICKNAVLINK`  
+**Physical table:** `OSUSR_m0z_DefaultQuickNavLink`  
 **Description:** Default links for Quick Nav  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -117,7 +117,7 @@
 | SHORTCUTTEXT | nvarchar | 50 | YES | ('') |
 
 ## Group
-**Physical table:** `OSUSR_H1I_GROUP`  
+**Physical table:** `OSUSR_h1i_Group`  
 **Description:** The group of participants  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -129,7 +129,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## GroupParticipant
-**Physical table:** `OSUSR_H1I_GROUPPARTICIPANT`  
+**Physical table:** `OSUSR_h1i_GroupParticipant`  
 **Description:** Contains a group of clients with types within a group  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -148,7 +148,7 @@
 | LEADGROUPPARTICIPANTID | bigint |  | YES | (NULL) |
 
 ## GroupParticipantType
-**Physical table:** `OSUSR_H1I_GROUPPARTICIPANTTYPE`  
+**Physical table:** `OSUSR_h1i_GroupParticipantType`  
 **Description:** Group participant type (for instance guardians, members, dependents)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -159,7 +159,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## MemberDeactivationReason
-**Physical table:** `OSUSR_HWC_MEMBERDEACTIVATIONREASON`  
+**Physical table:** `OSUSR_hwc_MemberDeactivationReason`  
 **Description:** Indicates why a Members was deactivated  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -170,7 +170,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## MemberRelationship
-**Physical table:** `OSUSR_72O_MEMBERRELATIONSHIP`  
+**Physical table:** `OSUSR_72o_MemberRelationship`  
 **Description:** Entity for a relationship between a ParentUser and a ChildUser  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -190,7 +190,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberRelationshipStatus
-**Physical table:** `OSUSR_72O_MEMBERRELATIONSHIPSTATUS`  
+**Physical table:** `OSUSR_72o_MemberRelationshipStatus`  
 **Description:** Entity for the status of a relationship. Can be Current or Past  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -200,7 +200,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## MemberRelationshipType
-**Physical table:** `OSUSR_72O_MEMBERRELATIONSHIPTYPE`  
+**Physical table:** `OSUSR_72o_MemberRelationshipType`  
 **Description:** Entity for the Type of a relationship (Family, Coworker, Friend, Acquantaince, or Other)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -210,7 +210,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## MemberSettings
-**Physical table:** `OSUSR_HWC_MEMBERSETTINGS`  
+**Physical table:** `OSUSR_hwc_MemberSettings`  
 **Description:** Contains all Settings for a specific Member (Client)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -259,7 +259,7 @@
 | ISCORENAVDARK | bit |  | YES | ((0)) |
 
 ## MemberSettingsHistory
-**Physical table:** `OSUSR_HWC_MEMBERSETTINGSHISTORY`  
+**Physical table:** `OSUSR_hwc_MemberSettingsHistory`  
 **Description:** Contains what was changed when Member was updated  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -271,7 +271,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ReviewType
-**Physical table:** `OSUSR_M0Z_REVIEWTYPE`  
+**Physical table:** `OSUSR_m0z_ReviewType`  
 **Description:** Dictionary holding values for tyoes of appstore review (negative/neutral/positive)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -282,7 +282,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TriggerType
-**Physical table:** `OSUSR_M0Z_TRIGGERTYPE`  
+**Physical table:** `OSUSR_m0z_TriggerType`  
 **Description:** Holds possible values on when the user was prompted for app review  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -293,7 +293,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## UserEmployeeBiography
-**Physical table:** `OSUSR_M0Z_USEREMPLOYEEBIOGRAPHY`  
+**Physical table:** `OSUSR_m0z_UserEmployeeBiography`  
 **Description:** Stores information related to an employee's bio.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -309,7 +309,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## UserEmployeeBiographyLink
-**Physical table:** `OSUSR_M0Z_USEREMPLOYEEBIOGRAPHYLINK`  
+**Physical table:** `OSUSR_m0z_UserEmployeeBiographyLink`  
 **Description:** Stores links for Employee Bio  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -327,7 +327,7 @@
 | USERID | int |  | YES | (NULL) |
 
 ## UserFileStorage
-**Physical table:** `OSUSR_H1I_USERRACKSPACEFILE`  
+**Physical table:** `OSUSR_h1i_UserRackspaceFile`  
 **Description:** Contains all the files associated with the User  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -337,7 +337,7 @@
 | FILESTORAGEID | int |  | YES | (NULL) |
 
 ## UserGoogleAccount
-**Physical table:** `OSUSR_H1I_USERGOOGLEACCOUNT`  
+**Physical table:** `OSUSR_h1i_UserGoogleAccount`  
 **Description:** Relationship between GoogleAccounts and users. This model assumes an account may be shared by several users.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -351,7 +351,7 @@
 | ISSETUPONNEWAPPOINTMENTS | bit |  | YES | ((0)) |
 
 ## UserGoogleAccountServiceCalendar
-**Physical table:** `OSUSR_H1I_USERGOOGLEACCOUNTSERVICECALENDAR`  
+**Physical table:** `OSUSR_h1i_UserGoogleAccountServiceCalendar`  
 **Description:** Table to hold configuration for the service calendar for the google account  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -360,7 +360,7 @@
 | HEXCOLOR | nvarchar | 8 | YES | ('') |
 
 ## UserGoogleCalendar
-**Physical table:** `OSUSR_H1I_USERGOOGLECALENDAR`  
+**Physical table:** `OSUSR_h1i_UserGoogleCalendar`  
 **Description:** Relation between a user and a Google Calendar, indicating the the user has chosen to synchronize their appointments with the calendar.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -372,7 +372,7 @@
 | USERGOOGLECALENDARTYPEID | int |  | YES | (NULL) |
 
 ## UserGoogleCalendarType
-**Physical table:** `OSUSR_HWC_USERGOOGLECALENDARTYPE`  
+**Physical table:** `OSUSR_hwc_UserGoogleCalendarType`  
 **Description:** Stores the type of google calendars  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -383,7 +383,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## UserNylasAccount
-**Physical table:** `OSUSR_M0Z_USERNYLASACCOUNT`  
+**Physical table:** `OSUSR_m0z_UserNylasAccount`  
 **Description:** Associates a NylasAccount with a user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -393,7 +393,7 @@
 | NYLASACCOUNTID | bigint |  | YES | (NULL) |
 
 ## UserNylasCalendar
-**Physical table:** `OSUSR_M0Z_USERNYLASCALENDAR`  
+**Physical table:** `OSUSR_m0z_UserNylasCalendar`  
 **Description:** Associates a NylasCalendar with a user and contains user-specific settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -408,7 +408,7 @@
 | ISCUSTOMERCALENDAR | bit |  | YES | ((0)) |
 
 ## UserQuickNavSettings
-**Physical table:** `OSUSR_M0Z_USERQUICKNAVSETTINGS`  
+**Physical table:** `OSUSR_m0z_UserQuickNavSettings`  
 **Description:** User Quick Nav settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -432,7 +432,7 @@
 | ISEDITNAVBAROPEN | bit |  | YES | ((0)) |
 
 ## UserSuspendedRoles
-**Physical table:** `OSUSR_72O_USERSUSPENDEDROLES`  
+**Physical table:** `OSUSR_72o_UserSuspendedRoles`  
 **Description:** Holds the roles that a user has while they or their Customer is suspended. These roles are not active until the user/Customer are reinstated.  
 
 | Column | Data Type | Max Length | Nullable | Default |

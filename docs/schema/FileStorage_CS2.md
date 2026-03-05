@@ -20,7 +20,7 @@
 - [Source](#source)
 
 ## File
-**Physical table:** `OSUSR_8E7_FILE`  
+**Physical table:** `OSUSR_8e7_File`  
 **Description:** Stores information related to a file  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -38,25 +38,25 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## File_Archive
-**Physical table:** `OSUSR_8E7_ARCHIVEFILE`  
+**Physical table:** `OSUSR_8e7_ArchiveFile`  
 **Description:** Stores information related to an archive file  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FileMetadata_2
-**Physical table:** `OSUSR_8E7_FILEMETADATA_2`  
+**Physical table:** `OSUSR_8e7_FileMetadata_2`  
 **Description:** Holds metadata about a file stored  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FileMetadata_Archive
-**Physical table:** `OSUSR_8E7_ARCHIVEFILEMETADATA`  
+**Physical table:** `OSUSR_8e7_ArchiveFileMetadata`  
 **Description:** Holds metadata about a archive file stored  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FileType
-**Physical table:** `OSUSR_8E7_FILETYPE`  
+**Physical table:** `OSUSR_8e7_FileType`  
 **Description:** Type of files supported  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -65,7 +65,7 @@ _Column definitions not found in schema export._
 | LABEL | nvarchar | 100 | YES | ('') |
 
 ## Folder
-**Physical table:** `OSUSR_8E7_FOLDER`  
+**Physical table:** `OSUSR_8e7_Folder`  
 **Description:** Contains information about a folder created to hold files  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -78,25 +78,25 @@ _Column definitions not found in schema export._
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## FolderOrCategory
-**Physical table:** `OSUSR_8E7_FOLDERORCATEGORY1`  
+**Physical table:** `OSUSR_8e7_FolderOrCategory1`  
 **Description:** contains Folder or Category values  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FolderPermission
-**Physical table:** `OSUSR_8E7_FOLDERPERMISSION1`  
+**Physical table:** `OSUSR_8e7_FolderPermission1`  
 **Description:** Stores the different permissions assigned to  folder in MediaFolder  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FolderPermissionsType
-**Physical table:** `OSUSR_8E7_FOLDERPERMISSIONSTYPE1`  
+**Physical table:** `OSUSR_8e7_FolderPermissionsType1`  
 **Description:** Type of folder permissions for media library  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Image
-**Physical table:** `OSUSR_8E7_IMAGE`  
+**Physical table:** `OSUSR_8e7_Image`  
 **Description:** If the entity File is an image, it will have a record here with the external properties for images  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -108,25 +108,25 @@ _Column definitions not found in schema export._
 | ISDEFAULT | bit |  | YES | ((0)) |
 
 ## Image_Archive
-**Physical table:** `OSUSR_8E7_ARCHIVEIMAGE`  
+**Physical table:** `OSUSR_8e7_ArchiveImage`  
 **Description:** If the entity ArchiveFile is an image, it will have a record here with the external properties for images  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## MediaFolder
-**Physical table:** `OSUSR_8E7_MEDIAFOLDER`  
+**Physical table:** `OSUSR_8e7_MediaFolder`  
 **Description:** Stores the folder/category for a permission for CkBox  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## MediaLibraryWorkspace
-**Physical table:** `OSUSR_8E7_MEDIALIBRARYWORKSPACE1`  
+**Physical table:** `OSUSR_8e7_MediaLibraryWorkspace1`  
 **Description:** Stores the Customer/Tenant's WorkspaceId for CkBox  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## MIMEType
-**Physical table:** `OSUSR_8E7_MIMETYPE`  
+**Physical table:** `OSUSR_8e7_MIMEType`  
 **Description:** Store information about supported MIME Types.  The Multipurpose Internet Mail Extensions (MIME) type is a standardized way to indicate the nature and format of a document. It is defined and standardized in IETF RFC 6838. The Internet Assigned Numbers Authority (IANA) is the official body responsible for keeping track of all official MIME types, and you can find the most up-to-date and complete list at the Media Types page  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -142,13 +142,13 @@ _Column definitions not found in schema export._
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## NameIdentifier
-**Physical table:** `OSUSR_8E7_NAMEIDENTIFIER`  
+**Physical table:** `OSUSR_8e7_NameIdentifier`  
 **Description:** Name identifier used to identify a file. Used with Identifier.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Source
-**Physical table:** `OSUSR_8E7_SOURCE`  
+**Physical table:** `OSUSR_8e7_Source`  
 **Description:** From where the request is done.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

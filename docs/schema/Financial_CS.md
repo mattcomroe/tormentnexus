@@ -36,7 +36,7 @@
 - [TransactionType](#transactiontype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_C31_ASYNCPROCESS`  
+**Physical table:** `OSUSR_c31_AsyncProcess`  
 **Description:** Auxiliar entity that contains all asynchronous processes, which will run through the AP module in BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -45,7 +45,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## AutoBillAttempts
-**Physical table:** `OSUSR_C31_AUTOBILLATTEMPTS`  
+**Physical table:** `OSUSR_c31_AutoBillAttempts`  
 **Description:** Number and labels of the auto bill attempts.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -56,7 +56,7 @@
 | ISACTIVE | bit |  | YES | ((1)) |
 
 ## Discount
-**Physical table:** `OSUSR_72O_DISCOUNT`  
+**Physical table:** `OSUSR_72o_Discount`  
 **Description:** Contains information of any discount of customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -76,7 +76,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## DiscountType
-**Physical table:** `OSUSR_72O_DISCOUNTTYPE`  
+**Physical table:** `OSUSR_72o_DiscountType`  
 **Description:** Static record of Discount types  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -86,7 +86,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## FinancialLocationSettings
-**Physical table:** `OSUSR_72O_FINANCIALLOCATIONSETTINGS`  
+**Physical table:** `OSUSR_72o_FinancialLocationSettings`  
 **Description:** Contains all the Financial settings of a Customer per Location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -104,7 +104,7 @@
 | PAYMENTPROCESSCONFIGID | int |  | YES | (NULL) |
 
 ## FinancialSettings
-**Physical table:** `OSUSR_72O_FINANCIALSETTINGS`  
+**Physical table:** `OSUSR_72o_FinancialSettings`  
 **Description:** Contains all the settings of a Customer regarding Financial. One record per Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -123,7 +123,7 @@
 | CUSTOMERID | bigint |  | NO |  |
 
 ## InvoiceBillingAttempt
-**Physical table:** `OSUSR_C31_INVOICEBILLINGATTEMPT`  
+**Physical table:** `OSUSR_c31_InvoiceBillingAttempt`  
 **Description:** Stores the number of billing attempts for an invoice.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -138,7 +138,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## InvoiceDetail
-**Physical table:** `OSUSR_72O_INVOICEDETAIL`  
+**Physical table:** `OSUSR_72o_InvoiceDetail`  
 **Description:** Contains details of invoice  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -209,7 +209,7 @@
 | INVOICEDETAILSOURCEID | int |  | YES | (NULL) |
 
 ## InvoiceDetailDisplayType
-**Physical table:** `OSUSR_72O_INVOICEDETAILDISPLAYTYPE`  
+**Physical table:** `OSUSR_72o_InvoiceDetailDisplayType`  
 **Description:** Static records of InvoiceDetailDisplay type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -220,7 +220,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## InvoiceDetailExtraDiscount
-**Physical table:** `OSUSR_72O_INVOICEDETAILEXTRADISCOUNT`  
+**Physical table:** `OSUSR_72o_InvoiceDetailExtraDiscount`  
 **Description:** Additional discounts applied to an invoice detail. Usually created by applying promo codes to an invoice.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -237,7 +237,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## InvoiceDetailSource
-**Physical table:** `OSUSR_C31_INVOICEDETAILSOURCE`  
+**Physical table:** `OSUSR_c31_InvoiceDetailSource`  
 **Description:** Possible retail channels an invoice detail with an associated productid could be added from  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -248,7 +248,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## InvoiceHeader
-**Physical table:** `OSUSR_72O_INVOICEHEADER`  
+**Physical table:** `OSUSR_72o_InvoiceHeader`  
 **Description:** Contains information of invoice header  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -319,7 +319,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## InvoiceHeaderStatus
-**Physical table:** `OSUSR_72O_INVOICEHEADERSTATUS`  
+**Physical table:** `OSUSR_72o_InvoiceHeaderStatus`  
 **Description:** Static records of Invoice Header status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -330,7 +330,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PartialRefundTransaction
-**Physical table:** `OSUSR_72O_PARTIALREFUNDTRANSACTION`  
+**Physical table:** `OSUSR_72o_PartialRefundTransaction`  
 **Description:** Registers which invoice item was refunded by a partial refund transaction.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -343,7 +343,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PaymentMethod
-**Physical table:** `OSUSR_72O_PAYMENTMETHOD`  
+**Physical table:** `OSUSR_72o_PaymentMethod`  
 **Description:** Contains information of payment method  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -395,7 +395,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PaymentMethodTestMapping
-**Physical table:** `OSUSR_72O_PAYMENTMETHODTESTMAPPING`  
+**Physical table:** `OSUSR_72o_PaymentMethodTestMapping`  
 **Description:** Entity used for non-production environments to do the mapping between credit cards from different payment processors.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -407,7 +407,7 @@
 | TARGET_PAYMENTMETHODNUMBER | nvarchar | 50 | YES | ('') |
 
 ## PaymentProcessor
-**Physical table:** `OSUSR_72O_PAYMENTPROCESSOR`  
+**Physical table:** `OSUSR_72o_PaymentProcessor`  
 **Description:** The available payment processors.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -417,7 +417,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PaymentProcessorConfiguration
-**Physical table:** `OSUSR_C31_PAYMENTPROCESSORCONFIGURATION`  
+**Physical table:** `OSUSR_c31_PaymentProcessorConfiguration`  
 **Description:** Payment processor configuration. Used for Ezidebit  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -469,7 +469,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## PaymentProcessorConfigurationType
-**Physical table:** `OSUSR_72O_PAYMENTPROCESSORCONFIGURATIONTYPE`  
+**Physical table:** `OSUSR_72o_PaymentProcessorConfigurationType`  
 **Description:** Static records of PaymentProcessorConfiguration type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -480,7 +480,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PaymentProcessorConfigurationVersion
-**Physical table:** `OSUSR_72O_GOEMERCHANTCONFIGURATION`  
+**Physical table:** `OSUSR_72o_GoEmerchantConfiguration`  
 **Description:** Version of payment processor configurations. Old version are kep, so we can perform operation os transactions that wre made with different credentials.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -568,7 +568,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_C31_REQUEST`  
+**Physical table:** `OSUSR_c31_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -597,7 +597,7 @@
 | ATTRIBUTES | nvarchar | -1 | YES | ('') |
 
 ## RequestImportPaymentMethodImportFile
-**Physical table:** `OSUSR_C31_REQUESTIMPORTPAYMENTMETHODIMPORTFILE`  
+**Physical table:** `OSUSR_c31_RequestImportPaymentMethodImportFile`  
 **Description:** Represents a payment method import file to be completed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -608,7 +608,7 @@
 | IMPORTFILE | varbinary | -1 | YES | (NULL) |
 
 ## RequestImportPaymentMethodImportLog
-**Physical table:** `OSUSR_C31_REQUESTIMPORTPAYMENTMETHODIMPORTLOG`  
+**Physical table:** `OSUSR_c31_RequestImportPaymentMethodImportLog`  
 **Description:** Represents a log for a given payment method import.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -621,7 +621,7 @@
 | INVALIDMESSAGE | nvarchar | 1500 | YES | ('') |
 
 ## RequestType
-**Physical table:** `OSUSR_C31_REQUESTTYPE`  
+**Physical table:** `OSUSR_c31_RequestType`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -630,7 +630,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## SharedPaymentMethod
-**Physical table:** `OSUSR_72O_SHAREDPAYMENTMETHOD`  
+**Physical table:** `OSUSR_72o_SharedPaymentMethod`  
 **Description:** Entity that will have the information for the shared payment methods.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -648,7 +648,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## StoreCredit
-**Physical table:** `OSUSR_72O_STORECREDIT`  
+**Physical table:** `OSUSR_72o_StoreCredit`  
 **Description:** Represents the store credit that a user has available at a given Customer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -660,7 +660,7 @@
 | CREDITAVAILABLE | decimal |  | YES | ((0)) |
 
 ## TaxRate
-**Physical table:** `OSUSR_72O_TAXRATE`  
+**Physical table:** `OSUSR_72o_TaxRate`  
 **Description:** Contains information of tax rate  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -680,7 +680,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## TaxRateType
-**Physical table:** `OSUSR_72O_TAXRATETYPE`  
+**Physical table:** `OSUSR_72o_TaxRateType`  
 **Description:** Static records of Tax Rate type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -691,7 +691,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Transaction
-**Physical table:** `OSUSR_72O_TRANSACTION`  
+**Physical table:** `OSUSR_72o_Transaction`  
 **Description:** Financial transaction. Represents a transfer of money.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -742,7 +742,7 @@
 | CAPITALPAYDOWNAMOUNT | decimal |  | YES | ((0)) |
 
 ## TransactionStripePaymentMethod
-**Physical table:** `OSUSR_72O_TRANSACTIONSTRIPEPAYMENTMETHOD`  
+**Physical table:** `OSUSR_72o_TransactionStripePaymentMethod`  
 **Description:** Relates a Transaction to a Stripe Payment Method. Whenever a Transaction occurs in a Stripe Customer, a record is created here.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -755,7 +755,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## TransactionStripeTransaction
-**Physical table:** `OSUSR_72O_TRANSACTIONSTRIPETRANSACTION`  
+**Physical table:** `OSUSR_72o_TransactionStripeTransaction`  
 **Description:** Relates a Core transaction to a Stripe transaction.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -766,7 +766,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## TransactionType
-**Physical table:** `OSUSR_72O_TRANSACTIONTYPE`  
+**Physical table:** `OSUSR_72o_TransactionType`  
 **Description:** Possible transaction types  
 
 | Column | Data Type | Max Length | Nullable | Default |

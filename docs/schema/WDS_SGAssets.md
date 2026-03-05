@@ -17,7 +17,7 @@
 - [Styleguide_Speed](#styleguide-speed)
 
 ## AccordionVariations
-**Physical table:** `OSUSR_EDM_ACCORDIONVARIATIONS`  
+**Physical table:** `OSUSR_edm_AccordionVariations`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -27,7 +27,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Styleguide_Alert
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_ALERT`  
+**Physical table:** `OSUSR_8y1_Styleguide_Alert`  
 **Description:** Different types of alert messages  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -36,7 +36,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## Styleguide_AnimationType
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_ANIMATIONTYPE`  
+**Physical table:** `OSUSR_8y1_Styleguide_AnimationType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -44,14 +44,14 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## Styleguide_Autoplay
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_AUTOPLAY`  
+**Physical table:** `OSUSR_8y1_Styleguide_Autoplay`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
 | AUTOPLAY | nvarchar | 50 | NO |  |
 
 ## Styleguide_BreakColumns
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_BREAKCOLUMNS`  
+**Physical table:** `OSUSR_8y1_Styleguide_BreakColumns`  
 **Description:** Different ways of breaking the columns.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -60,7 +60,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## Styleguide_Color
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_COLOR`  
+**Physical table:** `OSUSR_8y1_Styleguide_Color`  
 **Description:** Different colors available.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -69,7 +69,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Styleguide_GutterSize
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_GUTTERSIZE`  
+**Physical table:** `OSUSR_8y1_Styleguide_GutterSize`  
 **Description:** Different sizes of gutter.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -79,7 +79,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## Styleguide_MessageStatus
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_MESSAGESTATUS`  
+**Physical table:** `OSUSR_8y1_Styleguide_MessageStatus`  
 **Description:** Identify if the message was Received, Sent or Read.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Styleguide_Position
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_POSITION`  
+**Physical table:** `OSUSR_8y1_Styleguide_Position`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -96,7 +96,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## Styleguide_Shape
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_SHAPE`  
+**Physical table:** `OSUSR_8y1_Styleguide_Shape`  
 **Description:** Different shapes.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -105,7 +105,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Styleguide_Size
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_SIZE`  
+**Physical table:** `OSUSR_8y1_Styleguide_Size`  
 **Description:** Different sizes.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -113,7 +113,7 @@
 | SIZE | nvarchar | 50 | NO |  |
 
 ## Styleguide_Space
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_SPACE`  
+**Physical table:** `OSUSR_8y1_Styleguide_Space`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -122,7 +122,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## Styleguide_Speed
-**Physical table:** `OSUSR_8Y1_STYLEGUIDE_SPEED`  
+**Physical table:** `OSUSR_8y1_Styleguide_Speed`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

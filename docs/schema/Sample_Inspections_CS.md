@@ -12,7 +12,7 @@
 - [QuestionCategory](#questioncategory)
 
 ## AnswerType
-**Physical table:** `OSUSR_D4O_ANSWERTYPE`  
+**Physical table:** `OSUSR_d4o_AnswerType`  
 **Description:** Type of the answer to the inspection questions.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -26,7 +26,7 @@
 | BACKGROUNDCOLOR | nvarchar | 50 | YES | ('') |
 
 ## Establishment
-**Physical table:** `OSUSR_D4O_ESTABLISHMENT`  
+**Physical table:** `OSUSR_d4o_Establishment`  
 **Description:** For bootstrapping purposes only. Matches the establishment with the corresponding sample location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -41,7 +41,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Inspection
-**Physical table:** `OSUSR_D4O_INSPECTION`  
+**Physical table:** `OSUSR_d4o_Inspection`  
 **Description:** Represents an inspection associated with a location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -64,7 +64,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## InspectionAnswer
-**Physical table:** `OSUSR_D4O_INSPECTIONANSWER`  
+**Physical table:** `OSUSR_d4o_InspectionAnswer`  
 **Description:** Represents the answer to a specific question in an inspection.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -80,7 +80,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## InspectionReason
-**Physical table:** `OSUSR_D4O_INSPECTIONREASON`  
+**Physical table:** `OSUSR_d4o_InspectionReason`  
 **Description:** Reason for the inspection.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -92,7 +92,7 @@
 | SHOWADDITIONALFIELD | bit |  | YES | ((0)) |
 
 ## InspectionStatus
-**Physical table:** `OSUSR_D4O_INSPECTIONSTATUS`  
+**Physical table:** `OSUSR_d4o_InspectionStatus`  
 **Description:** Status of the inspection.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -105,7 +105,7 @@
 | TEXTCLASS | nvarchar | 50 | YES | ('') |
 
 ## Question
-**Physical table:** `OSUSR_D4O_QUESTION`  
+**Physical table:** `OSUSR_d4o_Question`  
 **Description:** Represents a question in an inspection.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -124,7 +124,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## QuestionCategory
-**Physical table:** `OSUSR_D4O_QUESTIONCATEGORY`  
+**Physical table:** `OSUSR_d4o_QuestionCategory`  
 **Description:** Represents a category of questions in an inspection.  
 
 | Column | Data Type | Max Length | Nullable | Default |

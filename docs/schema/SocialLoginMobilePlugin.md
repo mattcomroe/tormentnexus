@@ -6,12 +6,12 @@
 - [Provider](#provider)
 
 ## Authentication
-**Physical table:** `OSUSR_DPT_AUTHENTICATION2`  
+**Physical table:** `OSUSR_dpt_Authentication2`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Provider
-**Physical table:** `OSUSR_DPT_PROVIDER2`  
+**Physical table:** `OSUSR_dpt_Provider2`  
 **Description:** Holds static information about the available social login providers.  
 
 | Column | Data Type | Max Length | Nullable | Default |

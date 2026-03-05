@@ -42,7 +42,7 @@
 - [ServiceWaiver](#servicewaiver)
 
 ## Appointment
-**Physical table:** `OSUSR_591_APPOINTMENT`  
+**Physical table:** `OSUSR_591_Appointment`  
 **Description:** Entity that stores appointments in a Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -71,7 +71,7 @@
 | PAYRATEID | bigint |  | YES | (NULL) |
 
 ## AppointmentGenerationError
-**Physical table:** `OSUSR_MJX_APPOINTMENTGENERATIONERROR`  
+**Physical table:** `OSUSR_mjx_AppointmentGenerationError`  
 **Description:** When an error occurs during appointment generation, logs error associated with failed generation  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -84,7 +84,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## AppointmentGoogleCalendar
-**Physical table:** `OSUSR_591_APPOINTMENTGOOGLECALENDAR`  
+**Physical table:** `OSUSR_591_AppointmentGoogleCalendar`  
 **Description:** Keeps records of the Google Calendars an appointment has been exported to  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -96,7 +96,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## AppointmentSyncQueue
-**Physical table:** `OSUSR_591_APPOINTMENTSYNCQUEUE`  
+**Physical table:** `OSUSR_591_AppointmentSyncQueue`  
 **Description:** Queue of appointments that need to be exported to Google Calendar.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -107,7 +107,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## AsyncProcess
-**Physical table:** `OSUSR_591_ASYNCPROCESS`  
+**Physical table:** `OSUSR_591_AsyncProcess`  
 **Description:** Asynchronous Process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -117,7 +117,7 @@
 | REQUESTID | bigint |  | YES | (NULL) |
 
 ## Availability
-**Physical table:** `OSUSR_591_AVAILABILITY`  
+**Physical table:** `OSUSR_591_Availability`  
 **Description:** Provider availability  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -138,7 +138,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## AvailabilityServices
-**Physical table:** `OSUSR_591_AVAILABILITYSERVICES`  
+**Physical table:** `OSUSR_591_AvailabilityServices`  
 **Description:** Services that are associated with an availability  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -152,7 +152,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## Booking
-**Physical table:** `OSUSR_591_BOOKING`  
+**Physical table:** `OSUSR_591_Booking`  
 **Description:** Entity that stores appointment bookings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -181,7 +181,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## BookingCancellation
-**Physical table:** `OSUSR_591_BOOKINGCANCELLATION`  
+**Physical table:** `OSUSR_591_BookingCancellation`  
 **Description:** Entity to store booking cancellation info  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -197,7 +197,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## BookingDefaultConfiguration
-**Physical table:** `OSUSR_591_BOOKINGDEFAULTCONFIGURATION`  
+**Physical table:** `OSUSR_591_BookingDefaultConfiguration`  
 **Description:** Entity that stores the services booking configuration by Customer. These values will populate the ServiceBooking record when creating a new service.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -234,7 +234,7 @@
 | ALLOWPROVIDERDOUBLEBOOKING | bit |  | YES | ((0)) |
 
 ## BookingPenalty
-**Physical table:** `OSUSR_MJX_BOOKINGPENALTY`  
+**Physical table:** `OSUSR_mjx_BookingPenalty`  
 **Description:** Booking Penalty record, which will give the state that the penalties are in for a Booking and the date/time if they were updated (fee waived/session forgiven/refunded).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -255,7 +255,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## BookingStatus
-**Physical table:** `OSUSR_591_BOOKINGSTATUS`  
+**Physical table:** `OSUSR_591_BookingStatus`  
 **Description:** Status of the booking  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -265,7 +265,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## CalendarEventType
-**Physical table:** `OSUSR_591_CALENDAREVENTTYPE`  
+**Physical table:** `OSUSR_591_CalendarEventType`  
 **Description:** Defines all the events that can be created on calendar  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -274,7 +274,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## CalendarView
-**Physical table:** `OSUSR_591_CALENDARVIEW`  
+**Physical table:** `OSUSR_591_CalendarView`  
 **Description:** Table to hold the calendar view filter for a user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -291,7 +291,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## CalendarViewService
-**Physical table:** `OSUSR_591_CALENDARVIEWSERVICE`  
+**Physical table:** `OSUSR_591_CalendarViewService`  
 **Description:** Service that is associated with the default view  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -307,7 +307,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## Color
-**Physical table:** `OSUSR_591_COLOR`  
+**Physical table:** `OSUSR_591_Color`  
 **Description:** Color to be displayed in the calendar  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -317,7 +317,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## ProviderCalendarView
-**Physical table:** `OSUSR_591_PROVIDERCALENDARVIEW`  
+**Physical table:** `OSUSR_591_ProviderCalendarView`  
 **Description:** Table to hold the calendar view filter for a user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -334,7 +334,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ProviderCalendarViewService
-**Physical table:** `OSUSR_591_PROVIDERCALENDARVIEWSERVICE`  
+**Physical table:** `OSUSR_591_ProviderCalendarViewService`  
 **Description:** Service that is associated with the provider default view  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -350,7 +350,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## RecurringAppointment
-**Physical table:** `OSUSR_591_RECURRINGAPPOINTMENT`  
+**Physical table:** `OSUSR_591_RecurringAppointment`  
 **Description:** Stores appointment data relating to a recurring appointment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -379,7 +379,7 @@
 | PAYRATEID | bigint |  | YES | (NULL) |
 
 ## RecurringAppointmentBooking
-**Physical table:** `OSUSR_591_RECURRINGAPPOINTMENTBOOKINGS`  
+**Physical table:** `OSUSR_591_RecurringAppointmentBookings`  
 **Description:** Entity that stores appointment bookings used for generating recurring appointments  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -398,7 +398,7 @@
 | EXTERNALID | bigint |  | YES | ((0)) |
 
 ## Repetition
-**Physical table:** `OSUSR_591_REPETITION`  
+**Physical table:** `OSUSR_591_Repetition`  
 **Description:** Event repetition configurations  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -434,7 +434,7 @@
 | PAYRATEID | bigint |  | YES | (NULL) |
 
 ## RepetitionCategory
-**Physical table:** `OSUSR_591_REPETITIONCATEGORY`  
+**Physical table:** `OSUSR_591_RepetitionCategory`  
 **Description:** Repetition Category  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -443,7 +443,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## RepetitionEndType
-**Physical table:** `OSUSR_591_REPETITIONENDTYPE`  
+**Physical table:** `OSUSR_591_RepetitionEndType`  
 **Description:** Repetition End Type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -453,7 +453,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## RepetitionServices
-**Physical table:** `OSUSR_591_REPETITIONSERVICES`  
+**Physical table:** `OSUSR_591_RepetitionServices`  
 **Description:** Services that are associated with a repetition  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -467,7 +467,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## RepetitionSyncQueue
-**Physical table:** `OSUSR_591_REPETITIONSYNCQUEUE`  
+**Physical table:** `OSUSR_591_RepetitionSyncQueue`  
 **Description:** Queue of repetiton that need to be exported to Google Calendar.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -479,7 +479,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## RepetitionType
-**Physical table:** `OSUSR_591_REPETITIONTYPE`  
+**Physical table:** `OSUSR_591_RepetitionType`  
 **Description:** Repetition Type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -489,7 +489,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_MJX_REQUEST`  
+**Physical table:** `OSUSR_mjx_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -510,7 +510,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestAppointmentForUpdate
-**Physical table:** `OSUSR_MJX_CHANGEREPETITION_APPOINTMENT`  
+**Physical table:** `OSUSR_mjx_ChangeRepetition_Appointment`  
 **Description:** Entity that stores request details for updating appointment and changing repetition  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -538,7 +538,7 @@
 | PAYRATEID | bigint |  | YES | ((0)) |
 
 ## RequestBookingForUpdate
-**Physical table:** `OSUSR_MJX_CHANGEREPETITION_BOOKING`  
+**Physical table:** `OSUSR_mjx_ChangeRepetition_Booking`  
 **Description:** Entity that stores request details for updating appointment and changing repetition  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -557,7 +557,7 @@
 | REQUESTID | bigint |  | YES | (NULL) |
 
 ## RequestRepetitionForUpdate
-**Physical table:** `OSUSR_MJX_CHANGEREPETITION_REPETITION`  
+**Physical table:** `OSUSR_mjx_ChangeRepetition_Repetition`  
 **Description:** Entity that stores request details for updating appointment and changing repetition  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -590,7 +590,7 @@
 | PAYRATEID | bigint |  | YES | ((0)) |
 
 ## RequestType
-**Physical table:** `OSUSR_MJX_REQUESTTYPE1`  
+**Physical table:** `OSUSR_mjx_RequestType1`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -601,7 +601,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Service
-**Physical table:** `OSUSR_591_SERVICE`  
+**Physical table:** `OSUSR_591_Service`  
 **Description:** Entity that stores the services provided by Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -665,7 +665,7 @@
 | SSI_ISENDSSTARTTIME | bit |  | YES | ((0)) |
 
 ## ServiceDuration
-**Physical table:** `OSUSR_591_SERVICEDURATION`  
+**Physical table:** `OSUSR_591_ServiceDuration`  
 **Description:** Store all the durations that a service can have  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -681,7 +681,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ServiceLocation
-**Physical table:** `OSUSR_591_SERVICELOCATION`  
+**Physical table:** `OSUSR_591_ServiceLocation`  
 **Description:** Locations where the service will be provided  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -700,7 +700,7 @@
 | SHOWINSIMPLESIGNIN | bit |  | YES | ((0)) |
 
 ## ServiceMembership
-**Physical table:** `OSUSR_591_SERVICEMEMBERSHIP`  
+**Physical table:** `OSUSR_591_ServiceMembership`  
 **Description:** Stores the relatioships between services and member plan templates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -719,7 +719,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ServiceProvider
-**Physical table:** `OSUSR_591_SERVICEPROVIDER`  
+**Physical table:** `OSUSR_591_ServiceProvider`  
 **Description:** Provider of a service in a location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -739,7 +739,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ServiceProviderEmail
-**Physical table:** `OSUSR_591_SERVICEPROVIDEREMAIL`  
+**Physical table:** `OSUSR_591_ServiceProviderEmail`  
 **Description:** Table to hold information about the sent emails  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -761,7 +761,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ServiceWaiver
-**Physical table:** `OSUSR_591_SERVICEWAIVER`  
+**Physical table:** `OSUSR_591_ServiceWaiver`  
 **Description:** Stores the waivers associated with the service  
 
 | Column | Data Type | Max Length | Nullable | Default |

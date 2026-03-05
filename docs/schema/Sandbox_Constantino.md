@@ -7,17 +7,17 @@
 - [Z_Sample_Employee](#z-sample-employee)
 
 ## ABCD_List
-**Physical table:** `OSUSR_ON7_ABCD_LIST`  
+**Physical table:** `OSUSR_on7_ABCD_List`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FileBinary
-**Physical table:** `OSUSR_ON7_FILEBINARY`  
+**Physical table:** `OSUSR_on7_FileBinary`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Z_Sample_Employee
-**Physical table:** `OSUSR_ON7_Z_SAMPLE_EMPLOYEE`  
+**Physical table:** `OSUSR_on7_Z_Sample_Employee`  
 **Description:** Dumy entity that holds the records of employees.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

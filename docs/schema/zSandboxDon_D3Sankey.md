@@ -5,7 +5,7 @@
 - [SankySortType](#sankysorttype)
 
 ## SankySortType
-**Physical table:** `OSUSR_BCG_SANKYSORTTYPE`  
+**Physical table:** `OSUSR_bcg_SankySortType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

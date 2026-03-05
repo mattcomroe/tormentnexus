@@ -5,7 +5,7 @@
 - [MetabaseDashboard](#metabasedashboard)
 
 ## MetabaseDashboard
-**Physical table:** `OSUSR_RYO_METABASEDASHBOARD`  
+**Physical table:** `OSUSR_ryo_MetabaseDashboard`  
 **Description:** All available dashboards from Metabase.  
 
 | Column | Data Type | Max Length | Nullable | Default |

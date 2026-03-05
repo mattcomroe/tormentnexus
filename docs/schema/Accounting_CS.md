@@ -6,7 +6,7 @@
 - [CustomerAccounting](#customeraccounting)
 
 ## AccountingType
-**Physical table:** `OSUSR_0MH_ACCOUNTINGTYPE`  
+**Physical table:** `OSUSR_0mh_AccountingType`  
 **Description:** Accounting integrations supported by Wodify  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -17,7 +17,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CustomerAccounting
-**Physical table:** `OSUSR_0MH_CUSTOMERACCOUNTING`  
+**Physical table:** `OSUSR_0mh_CustomerAccounting`  
 **Description:** Entity that have accounting types for each Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |

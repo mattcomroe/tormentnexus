@@ -9,7 +9,7 @@
 - [LocationSettingCoachPage](#locationsettingcoachpage)
 
 ## CoachPageClientAppSetting
-**Physical table:** `OSUSR_5NJ_COACHPAGECLIENTAPPSETTING2`  
+**Physical table:** `OSUSR_5nj_CoachPageClientAppSetting2`  
 **Description:** Coach settings for Coach Page in Client App  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -23,7 +23,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CoachPageOnlineSalesSetting
-**Physical table:** `OSUSR_5NJ_COACHPAGEONLINESALESSETTING`  
+**Physical table:** `OSUSR_5nj_CoachPageOnlineSalesSetting`  
 **Description:** Coach settings for Coach Page in Online Sales  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -40,7 +40,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerSettingCoachPage
-**Physical table:** `OSUSR_5NJ_CUSTOMERSETTINGCOACHPAGE1`  
+**Physical table:** `OSUSR_5nj_CustomerSettingCoachPage1`  
 **Description:** Customer settings for Coach Page  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -54,7 +54,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerSettingOnlineSales
-**Physical table:** `OSUSR_5NJ_TENANTSETTINGONLINESALES`  
+**Physical table:** `OSUSR_5nj_TenantSettingOnlineSales`  
 **Description:** Online Sales settings for the Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -72,7 +72,7 @@
 | FORCEWAIVERSIGNING | bit |  | YES | ((1)) |
 
 ## LocationSettingCoachPage
-**Physical table:** `OSUSR_5NJ_LOCATIONSETTINGCOACHPAGE1`  
+**Physical table:** `OSUSR_5nj_LocationSettingCoachPage1`  
 **Description:** Location settings for Coach Page  
 
 | Column | Data Type | Max Length | Nullable | Default |

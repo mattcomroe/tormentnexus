@@ -20,7 +20,7 @@
 - [Vendor](#vendor)
 
 ## CustomerSettingShopify
-**Physical table:** `OSUSR_72O_TENANTSETTINGSHOPIFY`  
+**Physical table:** `OSUSR_72o_TenantSettingShopify`  
 **Description:** Contains Customer Shopify data and settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -41,7 +41,7 @@
 | CUSTOMERID | bigint |  | NO | ((0)) |
 
 ## FeaturedProduct
-**Physical table:** `OSUSR_6MF_FEATUREDPRODUCTS`  
+**Physical table:** `OSUSR_6mf_FeaturedProducts`  
 **Description:** Contains which products are shown at the top on POS and Mobile app  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -56,7 +56,7 @@
 | MOBILEPOSORDER | int |  | YES | ((0)) |
 
 ## Product
-**Physical table:** `OSUSR_72O_PRODUCT`  
+**Physical table:** `OSUSR_72o_Product`  
 **Description:** Retail product.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -99,7 +99,7 @@
 | ISONSALE | bit |  | YES | ((0)) |
 
 ## ProductLocationAvailability
-**Physical table:** `OSUSR_6MF_PRODUCTLOCATIONAVAILABILITY`  
+**Physical table:** `OSUSR_6mf_ProductLocationAvailability`  
 **Description:** Indicates for each location of the product, what is its availability  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -117,7 +117,7 @@
 | ISSELFSERVICEFORMOBILEAPP | bit |  | YES | ((0)) |
 
 ## ProductLocationTaxRate
-**Physical table:** `OSUSR_72O_PRODUCTLOCATIONTAXRATE`  
+**Physical table:** `OSUSR_72o_ProductLocationTaxRate`  
 **Description:** Contains the tax rate for each product in each location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -135,7 +135,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ProductOption
-**Physical table:** `OSUSR_72O_PRODUCTOPTION`  
+**Physical table:** `OSUSR_72o_ProductOption`  
 **Description:** An option, that will generate a product variant.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -156,7 +156,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ProductOptionTitle
-**Physical table:** `OSUSR_72O_PRODUCTOPTIONTITLE`  
+**Physical table:** `OSUSR_72o_ProductOptionTitle`  
 **Description:** Types of Product Option  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -168,7 +168,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ProductOptionValue
-**Physical table:** `OSUSR_72O_PRODUCTOPTIONVALUE`  
+**Physical table:** `OSUSR_72o_ProductOptionValue`  
 **Description:** Contains possible values for each product option  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -186,7 +186,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ProductProductVariantLocation
-**Physical table:** `OSUSR_72O_PRODUCTPRODUCTVARIANTLOCATION`  
+**Physical table:** `OSUSR_72o_ProductProductVariantLocation`  
 **Description:** Associates the product with its variant in the location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -200,7 +200,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ProductStarred
-**Physical table:** `OSUSR_6MF_PRODUCTSTARRED`  
+**Physical table:** `OSUSR_6mf_ProductStarred`  
 **Description:** Indicates for each location if the product is starred.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -215,7 +215,7 @@
 | ISSTARRED | bit |  | YES | ((0)) |
 
 ## ProductType
-**Physical table:** `OSUSR_72O_PRODUCTTYPE`  
+**Physical table:** `OSUSR_72o_ProductType`  
 **Description:** Categorizes the type of product, if its a custom, store credit, Wodify Billing, etc  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -229,7 +229,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ProductVariant
-**Physical table:** `OSUSR_72O_PRODUCTVARIANT`  
+**Physical table:** `OSUSR_72o_ProductVariant`  
 **Description:** A product variant, such as "Small / Black" for a T-shirt. A variant is the result of instancing an item from product options.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -259,7 +259,7 @@
 | ISONSALE | bit |  | YES | ((0)) |
 
 ## ProductVariantProductOptionValue
-**Physical table:** `OSUSR_72O_PRODUCTVARIANTPRODUCTOPTIONVALUE`  
+**Physical table:** `OSUSR_72o_ProductVariantProductOptionValue`  
 **Description:** Associates the product option value to the variant  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -271,7 +271,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## RequiredShopifyWebhook
-**Physical table:** `OSUSR_72O_REQUIREDSHOPIFYWEBHOOK`  
+**Physical table:** `OSUSR_72o_RequiredShopifyWebhook`  
 **Description:** Defines required data for all Shopify webhooks  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -284,7 +284,7 @@
 | ISAPI | bit |  | YES | ((0)) |
 
 ## ShopifyRegisteredWebhook
-**Physical table:** `OSUSR_72O_SHOPIFYREGISTEREDWEBHOOK`  
+**Physical table:** `OSUSR_72o_ShopifyRegisteredWebhook`  
 **Description:** This is NOT for public use, and does NOT have any Upserts/Removes/etc. associated with it  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -296,7 +296,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## Vendor
-**Physical table:** `OSUSR_72O_VENDOR`  
+**Physical table:** `OSUSR_72o_Vendor`  
 **Description:** Contains all product vendors  
 
 | Column | Data Type | Max Length | Nullable | Default |

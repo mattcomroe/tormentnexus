@@ -6,7 +6,7 @@
 - [UnitTest](#unittest)
 
 ## Feature_SE
-**Physical table:** `OSUSR_GPN_FEATURE_SE`  
+**Physical table:** `OSUSR_gpn_Feature_SE`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -16,7 +16,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## UnitTest
-**Physical table:** `OSUSR_GPN_UNITTEST`  
+**Physical table:** `OSUSR_gpn_UnitTest`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

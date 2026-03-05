@@ -5,6 +5,6 @@
 - [Request](#request)
 
 ## Request
-**Physical table:** `OSUSR_5K2_REQUEST`  
+**Physical table:** `OSUSR_5k2_Request`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

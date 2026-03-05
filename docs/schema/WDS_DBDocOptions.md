@@ -14,7 +14,7 @@
 - [DOC_Space](#doc-space)
 
 ## DOC_AnimationTypes
-**Physical table:** `OSUSR_RNK_DOC_ANIMATIONTYPES`  
+**Physical table:** `OSUSR_rnk_DOC_AnimationTypes`  
 **Description:** Used only for documentation, because can't fetch data from Library Modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -22,7 +22,7 @@
 | ANIMATIONTYPE | nvarchar | 50 | NO |  |
 
 ## DOC_BreakColumns
-**Physical table:** `OSUSR_RNK_DOC_BREAKCOLUMNS`  
+**Physical table:** `OSUSR_rnk_DOC_BreakColumns`  
 **Description:** Different ways of breaking the columns.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## DOC_Color
-**Physical table:** `OSUSR_RNK_DOC_COLOR`  
+**Physical table:** `OSUSR_rnk_DOC_Color`  
 **Description:** Used only for documentation, because can't fetch data from Library Modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -40,7 +40,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## DOC_GutterSize
-**Physical table:** `OSUSR_RNK_DOC_GUTTERSIZE`  
+**Physical table:** `OSUSR_rnk_DOC_GutterSize`  
 **Description:** Different sizes of gutter.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -50,7 +50,7 @@
 | IMAGENAME | nvarchar | 50 | YES | ('') |
 
 ## DOC_MessageStatus
-**Physical table:** `OSUSR_RNK_DOC_MESSAGESTATUS`  
+**Physical table:** `OSUSR_rnk_DOC_MessageStatus`  
 **Description:** Identify if the message was Received, Sent or Read.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -59,7 +59,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## DOC_Position
-**Physical table:** `OSUSR_RNK_DOC_POSITION`  
+**Physical table:** `OSUSR_rnk_DOC_Position`  
 **Description:** Used only for documentation, because can't fetch data from Library Modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -67,7 +67,7 @@
 | POSITION | nvarchar | 50 | NO |  |
 
 ## DOC_RibbonPosition
-**Physical table:** `OSUSR_RNK_DOC_RIBBONPOSITION`  
+**Physical table:** `OSUSR_rnk_DOC_RibbonPosition`  
 **Description:** Used only for documentation, because can't fetch data from Library Modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -75,7 +75,7 @@
 | POSITION | nvarchar | 50 | NO |  |
 
 ## DOC_Shape
-**Physical table:** `OSUSR_RNK_DOC_SHAPE`  
+**Physical table:** `OSUSR_rnk_DOC_Shape`  
 **Description:** Different shapes.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -84,7 +84,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## DOC_Size
-**Physical table:** `OSUSR_RNK_DOC_SIZE`  
+**Physical table:** `OSUSR_rnk_DOC_Size`  
 **Description:** Different sizes.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -92,7 +92,7 @@
 | SIZE | nvarchar | 50 | NO |  |
 
 ## DOC_Space
-**Physical table:** `OSUSR_RNK_DOC_SPACE`  
+**Physical table:** `OSUSR_rnk_DOC_Space`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -7,7 +7,7 @@
 - [TechnicalDebt_Pattern](#technicaldebt-pattern)
 
 ## TechnicalDebt_Category
-**Physical table:** `OSUSR_481_TECHNICALDEBT_CATEGORY`  
+**Physical table:** `OSUSR_481_TechnicalDebt_Category`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -21,7 +21,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## TechnicalDebt_Level
-**Physical table:** `OSUSR_481_TECHNICALDEBT_LEVEL`  
+**Physical table:** `OSUSR_481_TechnicalDebt_Level`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -35,7 +35,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## TechnicalDebt_Pattern
-**Physical table:** `OSUSR_481_TECHNICALDEBT_PATTERN`  
+**Physical table:** `OSUSR_481_TechnicalDebt_Pattern`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

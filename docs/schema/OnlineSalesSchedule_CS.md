@@ -5,7 +5,7 @@
 - [OnlineMembershipSaleSchedule](#onlinemembershipsaleschedule)
 
 ## OnlineMembershipSaleSchedule
-**Physical table:** `OSUSR_NF2_ONLINEMEMBERSHIPSALESCHEDULE`  
+**Physical table:** `OSUSR_nf2_OnlineMembershipSaleSchedule`  
 **Description:** Connects OnlineMembershipSale entity with Class entity  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -6,7 +6,7 @@
 - [DummyList](#dummylist)
 
 ## DummyDropdown
-**Physical table:** `OSUSR_IV7_DUMMYDROPDOWN`  
+**Physical table:** `OSUSR_iv7_DummyDropdown`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -16,7 +16,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DummyList
-**Physical table:** `OSUSR_IV7_DUMMYLIST`  
+**Physical table:** `OSUSR_iv7_DummyList`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

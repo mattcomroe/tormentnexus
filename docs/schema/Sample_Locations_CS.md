@@ -10,7 +10,7 @@
 - [LocationType](#locationtype)
 
 ## DayOfWeek
-**Physical table:** `OSUSR_0QA_DAYOFWEEK`  
+**Physical table:** `OSUSR_0qa_DayOfWeek`  
 **Description:** Entity that holds the records of type DayOfWeek.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -19,7 +19,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Location
-**Physical table:** `OSUSR_0QA_LOCATION`  
+**Physical table:** `OSUSR_0qa_Location`  
 **Description:** Entity that holds the records of type Location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -42,7 +42,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LocationContact
-**Physical table:** `OSUSR_0QA_LOCATIONCONTACT`  
+**Physical table:** `OSUSR_0qa_LocationContact`  
 **Description:** Entity that holds the records of type LocationContact.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -58,7 +58,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LocationOpeningHours
-**Physical table:** `OSUSR_0QA_LOCATIONOPENINGHOURS`  
+**Physical table:** `OSUSR_0qa_LocationOpeningHours`  
 **Description:** Entity that holds the records of type LocationOpeningHours.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -75,7 +75,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LocationPictures
-**Physical table:** `OSUSR_0QA_LOCATIONPICTURES`  
+**Physical table:** `OSUSR_0qa_LocationPictures`  
 **Description:** Entity that holds the records of type LocationPicture.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -93,7 +93,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LocationType
-**Physical table:** `OSUSR_0QA_LOCATIONTYPE`  
+**Physical table:** `OSUSR_0qa_LocationType`  
 **Description:** Entity that holds the records of type LocationType.  
 
 | Column | Data Type | Max Length | Nullable | Default |

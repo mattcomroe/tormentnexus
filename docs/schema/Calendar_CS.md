@@ -21,7 +21,7 @@
 - [HeaderPosition](#headerposition)
 
 ## ButtonIcon
-**Physical table:** `OSUSR_BO7_BUTTONICON`  
+**Physical table:** `OSUSR_bo7_ButtonIcon`  
 **Description:** Contains the icons used to navigate in the calendar.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Calendar
-**Physical table:** `OSUSR_BO7_CALENDAR`  
+**Physical table:** `OSUSR_bo7_Calendar`  
 **Description:** Contains all the main configurations for the creation of a calendar  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -65,7 +65,7 @@
 | SELECTHELPER | bit |  | YES | ((0)) |
 
 ## CalendarAction
-**Physical table:** `OSUSR_BO7_CALENDARACTION`  
+**Physical table:** `OSUSR_bo7_CalendarAction`  
 **Description:** It contains all the possible actions that a user can have while selecting days and events  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CalendarBusinessHoursDOW
-**Physical table:** `OSUSR_BO7_CALENDARBUSINESSHOURSDOW`  
+**Physical table:** `OSUSR_bo7_CalendarBusinessHoursDOW`  
 **Description:** Emphasizes certain time slots on the calendar. By default, Monday-Friday  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -84,7 +84,7 @@
 | DAYOFWEEKID | int |  | YES | (NULL) |
 
 ## CalendarDefaultFilter
-**Physical table:** `OSUSR_BO7_CALENDARDEFAULTFILTER`  
+**Physical table:** `OSUSR_bo7_CalendarDefaultFilter`  
 **Description:** It contains the default filters for each calendar for each Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -97,7 +97,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## CalendarDisplayHeader
-**Physical table:** `OSUSR_BO7_CALENDARDISPLAYHEADER`  
+**Physical table:** `OSUSR_bo7_CalendarDisplayHeader`  
 **Description:** All the Elements that will be displayed in the header  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -112,7 +112,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## CalendarEvent
-**Physical table:** `OSUSR_BO7_CALENDAREVENT`  
+**Physical table:** `OSUSR_bo7_CalendarEvent`  
 **Description:** Settings to Drag or Resizing events in a global way  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -131,7 +131,7 @@
 | TEXTCOLOR | nvarchar | 50 | YES | ('') |
 
 ## CalendarFilter
-**Physical table:** `OSUSR_BO7_CALENDARFILTER`  
+**Physical table:** `OSUSR_bo7_CalendarFilter`  
 **Description:** It contains all possible filters for all calendars. Is used to get the default filters for each calendar  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -140,7 +140,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## CalendarHiddenDay
-**Physical table:** `OSUSR_BO7_CALENDARHIDDENDAYS`  
+**Physical table:** `OSUSR_bo7_CalendarHiddenDays`  
 **Description:** Exclude certain days-of-the-week from being displayed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -150,7 +150,7 @@
 | DAYOFWEEKID | int |  | YES | (NULL) |
 
 ## CalendarModule
-**Physical table:** `OSUSR_BO7_CALENDARMODULE`  
+**Physical table:** `OSUSR_bo7_CalendarModule`  
 **Description:** It contains all the Calendars that will be displayed in the application  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -159,7 +159,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## CalendarTextCustom
-**Physical table:** `OSUSR_BO7_CALENDARTEXTCUSTOM`  
+**Physical table:** `OSUSR_bo7_CalendarTextCustom`  
 **Description:** It contains Text Customization for text that is dinamic.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -169,7 +169,7 @@
 | VALUE | nvarchar | 50 | YES | ('') |
 
 ## CalendarTimezone
-**Physical table:** `OSUSR_BO7_CALENDARTIMEZONE`  
+**Physical table:** `OSUSR_bo7_CalendarTimezone`  
 **Description:** Contains the timezone in which dates throughout the API are parsed and rendered.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -178,7 +178,7 @@
 | TIMEZONE | nvarchar | 50 | YES | ('') |
 
 ## CustomerSettingCalendar
-**Physical table:** `OSUSR_BO7_CALENDARSETTING`  
+**Physical table:** `OSUSR_bo7_CalendarSetting`  
 **Description:** Contains all the general settings for the calendars for each Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -196,7 +196,7 @@
 | CUSTOMERID | bigint |  | NO |  |
 
 ## ElementType
-**Physical table:** `OSUSR_BO7_ELEMENTTYPE`  
+**Physical table:** `OSUSR_bo7_ElementType`  
 **Description:** Contains all the possible types of buttons that can appear on the header  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -206,7 +206,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## EventLimitClick
-**Physical table:** `OSUSR_BO7_EVENTLIMITCLICK`  
+**Physical table:** `OSUSR_bo7_EventLimitClick`  
 **Description:** Determines the action taken when the user clicks on a "more" link created by the eventLimit option.  "popover", "week", "day", view name "popover" (the default) Displays a rectangular panel over the cell with a full list of events for that day. "week" Goes to a week view, as determined by the views in the header. "day" Goes to a day view, as determined by the views in the header. view name A literal string name of any of the Available Views.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -216,7 +216,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## HeaderElement
-**Physical table:** `OSUSR_BO7_HEADERELEMENT`  
+**Physical table:** `OSUSR_bo7_HeaderElement`  
 **Description:** Contains all the possible buttons that can appear on the header  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -229,7 +229,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## HeaderPosition
-**Physical table:** `OSUSR_BO7_HEADERPOSITION`  
+**Physical table:** `OSUSR_bo7_HeaderPosition`  
 **Description:** Contains all the positions that the Element will stay (left, right or center)  
 
 | Column | Data Type | Max Length | Nullable | Default |

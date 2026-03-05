@@ -5,7 +5,7 @@
 - [WodifyColor](#wodifycolor)
 
 ## WodifyColor
-**Physical table:** `OSUSR_LX9_WODIFYCOLOR`  
+**Physical table:** `OSUSR_lx9_WodifyColor`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

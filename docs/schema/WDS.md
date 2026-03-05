@@ -7,7 +7,7 @@
 - [DeviceType](#devicetype)
 
 ## DateFormat
-**Physical table:** `OSUSR_KH4_DATEFORMAT`  
+**Physical table:** `OSUSR_kh4_DateFormat`  
 **Description:** Holds all possible DateFormats that can be used  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -28,7 +28,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DeviceResponsive
-**Physical table:** `OSUSR_KH4_DEVICERESPONSIVE`  
+**Physical table:** `OSUSR_kh4_DeviceResponsive`  
 **Description:** Defines the behavior response according to the device or group of devices types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -38,7 +38,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DeviceType
-**Physical table:** `OSUSR_KH4_DEVICETYPE`  
+**Physical table:** `OSUSR_kh4_DeviceType`  
 **Description:** Type of devices which can access the application  
 
 | Column | Data Type | Max Length | Nullable | Default |

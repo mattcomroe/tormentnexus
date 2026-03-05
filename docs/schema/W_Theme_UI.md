@@ -6,7 +6,7 @@
 - [Session](#session)
 
 ## AuthenticationToken
-**Physical table:** `OSUSR_I68_AUTHENTICATIONTOKEN`  
+**Physical table:** `OSUSR_i68_AuthenticationToken`  
 **Description:** Contains all cookie tokens created by users during login  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -18,7 +18,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Session
-**Physical table:** `OSUSR_0SP_SESSION`  
+**Physical table:** `OSUSR_0sp_Session`  
 **Description:** Contains data that is supposed to be in session, but because there is no session in REACT, we use an entity  
 
 | Column | Data Type | Max Length | Nullable | Default |

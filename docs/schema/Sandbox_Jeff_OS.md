@@ -5,7 +5,7 @@
 - [ZosTest](#zostest)
 
 ## ZosTest
-**Physical table:** `OSUSR_MU8_ZOSTEST`  
+**Physical table:** `OSUSR_mu8_ZosTest`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

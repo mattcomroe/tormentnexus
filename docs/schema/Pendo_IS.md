@@ -6,7 +6,7 @@
 - [Type](#type)
 
 ## Kind
-**Physical table:** `OSUSR_VIN_KIND`  
+**Physical table:** `OSUSR_vin_Kind`  
 **Description:** visitor or "account"  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -17,7 +17,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Type
-**Physical table:** `OSUSR_VIN_TYPE`  
+**Physical table:** `OSUSR_vin_Type`  
 **Description:** type of metadata field  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -10,7 +10,7 @@
 - [TaskTag](#tasktag)
 
 ## Task
-**Physical table:** `OSUSR_RJ6_TASK`  
+**Physical table:** `OSUSR_rj6_Task`  
 **Description:** Represents a task that needs to be carried out  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -33,7 +33,7 @@
 | ISACTIVE | bit |  | YES | ((1)) |
 
 ## TaskAttachment
-**Physical table:** `OSUSR_RJ6_TASKATTACHMENT`  
+**Physical table:** `OSUSR_rj6_TaskAttachment`  
 **Description:** Entity that holds the metadata of the task's attachments.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## TaskAttachmentBinary
-**Physical table:** `OSUSR_RJ6_TASKATTACHMENTBINARY`  
+**Physical table:** `OSUSR_rj6_TaskAttachmentBinary`  
 **Description:** Entity that holds the binary content of the task's attachments.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -58,7 +58,7 @@
 | BINARY | varbinary | -1 | YES | (NULL) |
 
 ## TaskProject
-**Physical table:** `OSUSR_RJ6_TASKPROJECT`  
+**Physical table:** `OSUSR_rj6_TaskProject`  
 **Description:** Represents a project that groups several tasks that need to be carried out.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -72,7 +72,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## TaskSort
-**Physical table:** `OSUSR_RJ6_TASKSORT`  
+**Physical table:** `OSUSR_rj6_TaskSort`  
 **Description:** Holds the possible values for the sorting of tasks' list  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -84,7 +84,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TaskTag
-**Physical table:** `OSUSR_RJ6_TAG`  
+**Physical table:** `OSUSR_rj6_Tag`  
 **Description:** Holds the possible values for a task's tag  
 
 | Column | Data Type | Max Length | Nullable | Default |

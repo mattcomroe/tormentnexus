@@ -5,7 +5,7 @@
 - [Recurrence](#recurrence)
 
 ## Recurrence
-**Physical table:** `OSUSR_95V_RECURRENCE`  
+**Physical table:** `OSUSR_95v_Recurrence`  
 **Description:** Defines the available recurrence periods for calendar events.  
 
 | Column | Data Type | Max Length | Nullable | Default |

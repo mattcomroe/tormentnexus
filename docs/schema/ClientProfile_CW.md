@@ -8,22 +8,22 @@
 - [ClientProfileTabs](#clientprofiletabs)
 
 ## ActivityHistoryCategory
-**Physical table:** `OSUSR_Q0Z_ACTIVITYHISTORYCATEGORY`  
+**Physical table:** `OSUSR_q0z_ActivityHistoryCategory`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ActivityHistoryDummy
-**Physical table:** `OSUSR_Q0Z_ACTIVITYHISTORYDUMMY`  
+**Physical table:** `OSUSR_q0z_ActivityHistoryDummy`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ActivityHistorySource
-**Physical table:** `OSUSR_Q0Z_ACTIVITYHISTORYSOURCE`  
+**Physical table:** `OSUSR_q0z_ActivityHistorySource`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ClientProfileTabs
-**Physical table:** `OSUSR_L2D_CLIENTPROFILETABS`  
+**Physical table:** `OSUSR_l2d_ClientProfileTabs`  
 **Description:** Contains the client profile tab numbers  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

@@ -8,7 +8,7 @@
 - [FirebaseStructureType](#firebasestructuretype)
 
 ## ConfigurationRecord
-**Physical table:** `OSUSR_WXU_CONFIGURATIONRECORD1`  
+**Physical table:** `OSUSR_wxu_ConfigurationRecord1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -19,7 +19,7 @@
 | STRUCTURENAME | nvarchar | 50 | YES | ('') |
 
 ## DataType
-**Physical table:** `OSUSR_WXU_DATATYPE1`  
+**Physical table:** `OSUSR_wxu_DataType1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -27,7 +27,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## EmailMessageJSONType
-**Physical table:** `OSUSR_WXU_EMAILMESSAGEJSONTYPE`  
+**Physical table:** `OSUSR_wxu_EmailMessageJSONType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -37,7 +37,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## FirebaseStructureType
-**Physical table:** `OSUSR_WXU_FIREBASESTRUCTURETYPE`  
+**Physical table:** `OSUSR_wxu_FirebaseStructureType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

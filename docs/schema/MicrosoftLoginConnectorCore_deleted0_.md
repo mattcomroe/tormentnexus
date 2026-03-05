@@ -14,7 +14,7 @@
 - [TokenRequest](#tokenrequest)
 
 ## B2CUser
-**Physical table:** `OSUSR_1R1_B2CUSER1`  
+**Physical table:** `OSUSR_1r1_B2CUser1`  
 **Description:** The entitie will keep track of what OutSystems user is a Azure AD B2C user. It could be important to keep track of this. The entites events are also exposed so you could start an enrollment process or something like that if needed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -24,7 +24,7 @@
 | OAUTH2APPLICATIONID | bigint |  | YES | (NULL) |
 
 ## OAuth2Application
-**Physical table:** `OSUSR_1R1_OAUTH2APPLICATION1`  
+**Physical table:** `OSUSR_1r1_OAuth2Application1`  
 **Description:** Stores the Azure AD application data  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -40,7 +40,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## OAuth2ApplicationAdvanced
-**Physical table:** `OSUSR_1R1_OAUTH2APPLICATIONADVANCED1`  
+**Physical table:** `OSUSR_1r1_OAuth2ApplicationAdvanced1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -49,7 +49,7 @@
 | ISCREATEOSACCOUNTIFNOTEXIST | bit |  | YES | ((0)) |
 
 ## OAuth2ApplicationB2C
-**Physical table:** `OSUSR_1R1_OAUTH2APPLICATIONB2C1`  
+**Physical table:** `OSUSR_1r1_OAuth2ApplicationB2C1`  
 **Description:** Stores data needed to login to a Azure AD B2C tenant  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -59,7 +59,7 @@
 | POLICYNAME | nvarchar | 50 | YES | ('') |
 
 ## OAuth2ApplicationEspace
-**Physical table:** `OSUSR_1R1_OAUTH2APPLICATIONESPACE1`  
+**Physical table:** `OSUSR_1r1_OAuth2ApplicationEspace1`  
 **Description:** Reference table to link OAuth applications with Espace that are allowed to use these applications  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -69,7 +69,7 @@
 | ESPACEID | int |  | YES | (NULL) |
 
 ## OAuth2ApplicationResources
-**Physical table:** `OSUSR_1R1_OAUTH2APPLICATIONRESOURCES1`  
+**Physical table:** `OSUSR_1r1_OAuth2ApplicationResources1`  
 **Description:** Reference table to link OAuth applications with Rersouces of which a token can be requested  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -80,7 +80,7 @@
 | ISDEFAULT | bit |  | YES | ((0)) |
 
 ## OAuth2ApplicationRole
-**Physical table:** `OSUSR_1R1_OAUTH2APPLICATIONROLE1`  
+**Physical table:** `OSUSR_1r1_OAuth2ApplicationRole1`  
 **Description:** Reference table to link OAuth applications with an OutSytems Role. This is used for token based assignment of Roles  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -90,7 +90,7 @@
 | ROLEID | int |  | YES | (NULL) |
 
 ## OAuth2Resource
-**Physical table:** `OSUSR_1R1_OAUTH2RESOURCE1`  
+**Physical table:** `OSUSR_1r1_OAuth2Resource1`  
 **Description:** Stores an Azure AD Application resource of which tokens can be retrieved  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -101,7 +101,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## OAuthProvider
-**Physical table:** `OSUSR_1R1_OAUTHPROVIDER1`  
+**Physical table:** `OSUSR_1r1_OAuthProvider1`  
 **Description:** Indicates what type of OAuth provider is used  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -112,7 +112,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TokenRequest
-**Physical table:** `OSUSR_1R1_TOKENREQUEST1`  
+**Physical table:** `OSUSR_1r1_TokenRequest1`  
 **Description:** Azure Token info for Azure Requests  
 
 | Column | Data Type | Max Length | Nullable | Default |

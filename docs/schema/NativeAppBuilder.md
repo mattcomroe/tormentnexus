@@ -7,7 +7,7 @@
 - [ErrorsAndInfo](#errorsandinfo)
 
 ## DismissedErrorsOrInfo
-**Physical table:** `OSUSR_JCE_DISMISSEDERRORSORINFO`  
+**Physical table:** `OSUSR_jce_DismissedErrorsOrInfo`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -16,7 +16,7 @@
 | USERNAME | nvarchar | 50 | YES | ('') |
 
 ## ErrorInfoType
-**Physical table:** `OSUSR_JCE_ERRORINFOTYPE`  
+**Physical table:** `OSUSR_jce_ErrorInfoType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -26,7 +26,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ErrorsAndInfo
-**Physical table:** `OSUSR_JCE_ERRORSANDINFO`  
+**Physical table:** `OSUSR_jce_ErrorsAndInfo`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

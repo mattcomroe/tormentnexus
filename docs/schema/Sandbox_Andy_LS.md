@@ -5,6 +5,6 @@
 - [ExceptionType](#exceptiontype)
 
 ## ExceptionType
-**Physical table:** `OSUSR_A9U_ERRORTYPE`  
+**Physical table:** `OSUSR_a9u_ErrorType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

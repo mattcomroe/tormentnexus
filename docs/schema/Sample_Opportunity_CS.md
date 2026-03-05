@@ -10,7 +10,7 @@
 - [OrderStatus](#orderstatus)
 
 ## Opportunity
-**Physical table:** `OSUSR_YC7_OPPORTUNITY`  
+**Physical table:** `OSUSR_yc7_Opportunity`  
 **Description:** Represents an opportunity associated with a company.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -34,7 +34,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## OpportunityStage
-**Physical table:** `OSUSR_YC7_OPPORTUNITYSTAGE`  
+**Physical table:** `OSUSR_yc7_OpportunityStage`  
 **Description:** Stage of the Opportunity.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | TEXTCOLOR | nvarchar | 50 | YES | ('') |
 
 ## OpportunityType
-**Physical table:** `OSUSR_YC7_OPPORTUNITYTYPE`  
+**Physical table:** `OSUSR_yc7_OpportunityType`  
 **Description:** Type of Opportunity.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -58,7 +58,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Order
-**Physical table:** `OSUSR_YC7_ORDER`  
+**Physical table:** `OSUSR_yc7_Order`  
 **Description:** Represents an order associated with a company, possibly originated from an opportunity.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -80,7 +80,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## OrderItem
-**Physical table:** `OSUSR_YC7_ORDERITEM`  
+**Physical table:** `OSUSR_yc7_OrderItem`  
 **Description:** Each record represents one item (product) inside the order.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -98,7 +98,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## OrderStatus
-**Physical table:** `OSUSR_YC7_ORDERSTATUS`  
+**Physical table:** `OSUSR_yc7_OrderStatus`  
 **Description:** Status of the Order.  
 
 | Column | Data Type | Max Length | Nullable | Default |

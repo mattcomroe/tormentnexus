@@ -8,25 +8,25 @@
 - [Module](#module)
 
 ## Icon
-**Physical table:** `OSUSR_GP3_ICON`  
+**Physical table:** `OSUSR_gp3_Icon`  
 **Description:** Wodify icon available in font  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## IconKeyword
-**Physical table:** `OSUSR_GP3_ICONKEYWORD`  
+**Physical table:** `OSUSR_gp3_IconKeyword`  
 **Description:** Find icon from multiple keywords  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## IconModule
-**Physical table:** `OSUSR_GP3_ICONMODULE`  
+**Physical table:** `OSUSR_gp3_IconModule`  
 **Description:** Relation between icon and modules  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Module
-**Physical table:** `OSUSR_GP3_MODULE`  
+**Physical table:** `OSUSR_gp3_Module`  
 **Description:** Groups icons into a "module" feature  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

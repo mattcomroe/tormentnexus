@@ -5,7 +5,7 @@
 - [Templates_TertiaryMenuItem](#templates-tertiarymenuitem)
 
 ## Templates_TertiaryMenuItem
-**Physical table:** `OSUSR_CR5_TEMPLATES_TERTIARYMENUITEM`  
+**Physical table:** `OSUSR_cr5_Templates_TertiaryMenuItem`  
 **Description:** Must be copied into a module that contains screens with tertiary navigation.  
 
 | Column | Data Type | Max Length | Nullable | Default |

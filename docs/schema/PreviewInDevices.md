@@ -12,7 +12,7 @@
 - [FeatureToggle](#featuretoggle)
 
 ## ActivationParameter
-**Physical table:** `OSUSR_UTN_ACTIVATIONPARAMETER`  
+**Physical table:** `OSUSR_utn_ActivationParameter`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -20,7 +20,7 @@
 | INFONAME | nvarchar | 75 | YES | ('') |
 
 ## Background
-**Physical table:** `OSUSR_UTN_BACKGROUND`  
+**Physical table:** `OSUSR_utn_Background`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -28,7 +28,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## ButtonShare
-**Physical table:** `OSUSR_UTN_BUTTONSHARE`  
+**Physical table:** `OSUSR_utn_ButtonShare`  
 **Description:** Identifiers of the buttons to share (useful to validate and prevent manipulations)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -36,7 +36,7 @@
 | ID | nvarchar | 50 | NO |  |
 
 ## ConfigurationParameter
-**Physical table:** `OSUSR_UTN_CONFIGURATIONPARAMETER`  
+**Physical table:** `OSUSR_utn_ConfigurationParameter`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -48,7 +48,7 @@
 | FEATURETOGGLENAME | nvarchar | 50 | YES | ('') |
 
 ## Device
-**Physical table:** `OSUSR_UTN_DEVICE1`  
+**Physical table:** `OSUSR_utn_Device1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -66,7 +66,7 @@
 | SYSTEM | nvarchar | 50 | YES | ('') |
 
 ## DeviceColor
-**Physical table:** `OSUSR_UTN_DEVICECOLOR`  
+**Physical table:** `OSUSR_utn_DeviceColor`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -74,7 +74,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## DeviceType
-**Physical table:** `OSUSR_UTN_DEVICE`  
+**Physical table:** `OSUSR_utn_Device`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -85,7 +85,7 @@
 | CSSCLASS | nvarchar | 50 | YES | ('') |
 
 ## FeatureToggle
-**Physical table:** `OSUSR_UTN_FEATURETOGGLE`  
+**Physical table:** `OSUSR_utn_FeatureToggle`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

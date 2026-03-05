@@ -8,7 +8,7 @@
 - [TextObjectTag](#textobjecttag)
 
 ## ObjectNote
-**Physical table:** `OSUSR_UWR_OBJECTNOTE`  
+**Physical table:** `OSUSR_uwr_ObjectNote`  
 **Description:** Contains all the Notes for all the Objects. ObjectId is the identifier of the entity (Lead.Id, Invoice.Id, LocationId etc) ObjectTypeId is the definition of the Object (Lead, Invoice, Location, etc)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -22,7 +22,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ObjectTag
-**Physical table:** `OSUSR_UWR_OBJECTTAG`  
+**Physical table:** `OSUSR_uwr_ObjectTag`  
 **Description:** Contains all the Tags for all the Objects. ObjectId is the identifier of the entity (Lead.Id, Invoice.Id, LocationId etc) ObjectTypeId is the definition of the Object (Lead, Invoice, Location, etc)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -36,7 +36,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## Tag
-**Physical table:** `OSUSR_UWR_TAG`  
+**Physical table:** `OSUSR_uwr_Tag`  
 **Description:** Contains all the tags for the entire application. Can be reused for several modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -53,7 +53,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## TextObjectTag
-**Physical table:** `OSUSR_EAB_TEXTOBJECTTAG`  
+**Physical table:** `OSUSR_eab_TextObjectTag`  
 **Description:** Contains all the Tags for all the Objects with Text as the ObjectId ObjectId is the identifier of the entity (CkBox AssetId) ObjectTypeId is the definition of the Object (Lead, Invoice, Location, etc)  
 
 | Column | Data Type | Max Length | Nullable | Default |

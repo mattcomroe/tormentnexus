@@ -17,7 +17,7 @@
 - [SpecialityLocation](#specialitylocation)
 
 ## Appointment
-**Physical table:** `OSUSR_PFN_APPOINTMENT`  
+**Physical table:** `OSUSR_pfn_Appointment`  
 **Description:** Entity that holds the appointment records.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## AppointmentStatus
-**Physical table:** `OSUSR_PFN_APPOINTMENTSTATUS`  
+**Physical table:** `OSUSR_pfn_AppointmentStatus`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -48,7 +48,7 @@
 | COLORID | nvarchar | 50 | YES | ('') |
 
 ## BloodType
-**Physical table:** `OSUSR_PFN_BLOODTYPE`  
+**Physical table:** `OSUSR_pfn_BloodType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -58,7 +58,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Doctor
-**Physical table:** `OSUSR_PFN_DOCTOR`  
+**Physical table:** `OSUSR_pfn_Doctor`  
 **Description:** Entity that holds the doctors records.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | RATING | decimal |  | YES | ((0)) |
 
 ## DoctorLocation
-**Physical table:** `OSUSR_PFN_DOCTORLOCATION`  
+**Physical table:** `OSUSR_pfn_DoctorLocation`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -83,7 +83,7 @@
 | LOCATIONID | int |  | YES | (NULL) |
 
 ## DoctorThumbnail
-**Physical table:** `OSUSR_PFN_DOCTORTHUMBNAIL`  
+**Physical table:** `OSUSR_pfn_DoctorThumbnail`  
 **Description:** Entity that holds the records of Doctors thumbnails.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -98,7 +98,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## HealthcareNews
-**Physical table:** `OSUSR_PFN_HEALTHCARENEWS`  
+**Physical table:** `OSUSR_pfn_HealthcareNews`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -111,7 +111,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## HealthcareNewsPicture
-**Physical table:** `OSUSR_PFN_HEALTHCARENEWSPICTURE`  
+**Physical table:** `OSUSR_pfn_HealthcareNewsPicture`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -125,7 +125,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## HealthCareOnboarding
-**Physical table:** `OSUSR_PFN_HEALTHCAREONBOARDING`  
+**Physical table:** `OSUSR_pfn_HealthCareOnboarding`  
 **Description:** Entity that holds the records of customer health care onboardings.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -145,7 +145,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PatientDetail
-**Physical table:** `OSUSR_PFN_PATIENTDETAIL`  
+**Physical table:** `OSUSR_pfn_PatientDetail`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -159,7 +159,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Prescription
-**Physical table:** `OSUSR_PFN_PRESCRIPTION`  
+**Physical table:** `OSUSR_pfn_Prescription`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -174,7 +174,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Speciality
-**Physical table:** `OSUSR_PFN_SPECIALITY`  
+**Physical table:** `OSUSR_pfn_Speciality`  
 **Description:** Entity that holds the specialities records.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -187,7 +187,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## SpecialityLocation
-**Physical table:** `OSUSR_PFN_SPECIALITYLOCATION`  
+**Physical table:** `OSUSR_pfn_SpecialityLocation`  
 **Description:** Entity that holds the speciality and the location records.  
 
 | Column | Data Type | Max Length | Nullable | Default |

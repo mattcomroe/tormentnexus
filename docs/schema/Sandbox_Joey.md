@@ -6,11 +6,11 @@
 - [FieldValueDataType](#fieldvaluedatatype)
 
 ## Entity1
-**Physical table:** `OSUSR_33A_ENTITY1`  
+**Physical table:** `OSUSR_33a_Entity1`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FieldValueDataType
-**Physical table:** `OSUSR_33A_FIELDVALUEDATATYPE`  
+**Physical table:** `OSUSR_33a_FieldValueDataType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

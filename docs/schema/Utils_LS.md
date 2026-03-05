@@ -28,7 +28,7 @@
 - [UOMWeight](#uomweight)
 
 ## AcceptedFiletype
-**Physical table:** `OSUSR_B3S_ACCEPTEDFILETYPE`  
+**Physical table:** `OSUSR_b3s_AcceptedFileType`  
 **Description:** Filetype extensions for validation. The FileExtension field value should be in lower case.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -42,7 +42,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ActionRole
-**Physical table:** `OSUSR_B3S_ACTIONROLE`  
+**Physical table:** `OSUSR_b3s_ActionRole`  
 **Description:** option, role, role definition,  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -53,7 +53,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ActionType
-**Physical table:** `OSUSR_B3S_ACTIONTYPE`  
+**Physical table:** `OSUSR_b3s_ActionType`  
 **Description:** service/resource type - task, email, sms, in app chat, etc.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -64,7 +64,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AvatarRing
-**Physical table:** `OSUSR_B3S_AVATARRING`  
+**Physical table:** `OSUSR_b3s_AvatarRing`  
 **Description:** Defines avatar ring types  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -76,7 +76,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Color
-**Physical table:** `OSUSR_B3S_COLOR`  
+**Physical table:** `OSUSR_b3s_Color`  
 **Description:** Static colors to use for database representation when storing discrete color options  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | HEXCODE | nvarchar | 10 | YES | ('') |
 
 ## ColorObjectType
-**Physical table:** `OSUSR_B3S_COLOROBJECTTYPE`  
+**Physical table:** `OSUSR_b3s_ColorObjectType`  
 **Description:** Represents an entity or business concept that can have Colors.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -99,7 +99,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ColorObjectTypeMapping
-**Physical table:** `OSUSR_B3S_COLOROBJECTTYPEMAPPING`  
+**Physical table:** `OSUSR_b3s_ColorObjectTypeMapping`  
 **Description:** Associates a Color with an individual ColorObjectType so a Color can be used by multiple ColorObjectTypes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -109,7 +109,7 @@
 | COLOROBJECTTYPEID | int |  | YES | (NULL) |
 
 ## DateFormat
-**Physical table:** `OSUSR_B3S_DATEFORMAT`  
+**Physical table:** `OSUSR_b3s_DateFormat`  
 **Description:** Holds all possible DateFormats that can be used  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -137,7 +137,7 @@
 | SHORTDATEABBREVMONTHNOYEARFO | nvarchar | 50 | YES | ('') |
 
 ## DateRange
-**Physical table:** `OSUSR_KVS_DATERANGE`  
+**Physical table:** `OSUSR_kvs_DateRange`  
 **Description:** Week starts on Monday  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -148,7 +148,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DayOfWeek
-**Physical table:** `OSUSR_B3S_DAYOFWEEK`  
+**Physical table:** `OSUSR_b3s_DayOfWeek`  
 **Description:** Contains all possible days of the week  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -159,7 +159,7 @@
 | DAYOFWEEKVALUE | int |  | YES | ((0)) |
 
 ## DaysOfTheMonth
-**Physical table:** `OSUSR_B3S_DAYSOFTHEMONTH`  
+**Physical table:** `OSUSR_b3s_DaysOfTheMonth`  
 **Description:** Day's of the month 1st - 31st  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -170,7 +170,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Languages
-**Physical table:** `OSUSR_B3S_LANGUAGES`  
+**Physical table:** `OSUSR_b3s_Languages`  
 **Description:** Contains supported Languanges  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -182,7 +182,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ObjectType
-**Physical table:** `OSUSR_B3S_OBJECTTYPE`  
+**Physical table:** `OSUSR_b3s_ObjectType`  
 **Description:** Represents an entity or business concept that can have tags.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -194,7 +194,7 @@
 | EXTERNALNAME | nvarchar | 50 | YES | ('') |
 
 ## ObjectTypeActionType
-**Physical table:** `OSUSR_B3S_OBJECTTYPEACTIONTYPE`  
+**Physical table:** `OSUSR_b3s_ObjectTypeActionType`  
 **Description:** joining table for an object type and the services it's accessible to  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -208,7 +208,7 @@
 | ACTIONROLEID | int |  | YES | (NULL) |
 
 ## PaymentAccountSource
-**Physical table:** `OSUSR_KVS_PAYMENTACCOUNTSOURCE`  
+**Physical table:** `OSUSR_kvs_PaymentAccountSource`  
 **Description:** Types of payment methods that the system can accept (if configured).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -221,7 +221,7 @@
 | ISANONYMOUS | bit |  | YES | ((0)) |
 
 ## PaymentAccountType
-**Physical table:** `OSUSR_KVS_PAYMENTACCOUNTTYPE`  
+**Physical table:** `OSUSR_kvs_PaymentAccountType`  
 **Description:** Represents the possible payment account types. These are further sub-categorized by the PaymentAccountSource static entity.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -235,7 +235,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## SystemOfMeasure
-**Physical table:** `OSUSR_KVS_SYSTEMOFMEASURE`  
+**Physical table:** `OSUSR_kvs_SystemOfMeasure`  
 **Description:** System of measurement.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -247,7 +247,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TimePointType
-**Physical table:** `OSUSR_B3S_TIMEPOINTTYPE`  
+**Physical table:** `OSUSR_b3s_TimePointType`  
 **Description:** contains possible types of point in time  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -258,7 +258,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TimeRelationType
-**Physical table:** `OSUSR_B3S_TIMERELATIONTYPE`  
+**Physical table:** `OSUSR_b3s_TimeRelationType`  
 **Description:** Suggests a type of relationship to a point in time — perfect for before/after/during  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -269,7 +269,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TransactionResultStatus
-**Physical table:** `OSUSR_KVS_TRANSACTIONRESULTSTATUS`  
+**Physical table:** `OSUSR_kvs_TransactionResultStatus`  
 **Description:** Possible transaction results.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -279,7 +279,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## UnitsOfTime
-**Physical table:** `OSUSR_B3S_UNITSOFTIME`  
+**Physical table:** `OSUSR_b3s_UnitsOfTime`  
 **Description:** Contains all possible time units  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -293,7 +293,7 @@
 | NUMBEROFDAYS | int |  | YES | ((0)) |
 
 ## UOMDistance
-**Physical table:** `OSUSR_B3S_UOMDISTANCE`  
+**Physical table:** `OSUSR_b3s_UOMDistance`  
 **Description:** Units of measure for distance.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -304,7 +304,7 @@
 | SYSTEMOFMEASURE | int |  | YES | (NULL) |
 
 ## UOMTemperature
-**Physical table:** `OSUSR_B3S_UOMTEMPERATURE`  
+**Physical table:** `OSUSR_b3s_UOMTemperature`  
 **Description:** Unit of Measure for Temperature  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -315,7 +315,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## UOMWeight
-**Physical table:** `OSUSR_B3S_UOMWEIGHT`  
+**Physical table:** `OSUSR_b3s_UOMWeight`  
 **Description:** Units of measure for weight,  
 
 | Column | Data Type | Max Length | Nullable | Default |

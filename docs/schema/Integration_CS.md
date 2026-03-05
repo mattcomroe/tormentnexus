@@ -5,7 +5,7 @@
 - [ExternalIdentity](#externalidentity)
 
 ## ExternalIdentity
-**Physical table:** `OSUSR_T08_EXTERNALIDENTITY`  
+**Physical table:** `OSUSR_t08_ExternalIdentity`  
 **Description:** Maps external identifiers from integrations to records in wodify entities  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

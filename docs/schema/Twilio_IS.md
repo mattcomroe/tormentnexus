@@ -6,7 +6,7 @@
 - [TwilioBlacklistWords](#twilioblacklistwords)
 
 ## PhoneNumberVerificationStatus
-**Physical table:** `OSUSR_366_PHONENUMBERVERIFICATIONSTATUS`  
+**Physical table:** `OSUSR_366_PhoneNumberVerificationStatus`  
 **Description:** Static record of different status states during the SMS Toll free phone number verification process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -17,7 +17,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TwilioBlacklistWords
-**Physical table:** `OSUSR_366_TWILIOBLACKLISTWORDS`  
+**Physical table:** `OSUSR_366_TwilioBlacklistWords`  
 **Description:** Twilio Blacklisted Words  
 
 | Column | Data Type | Max Length | Nullable | Default |

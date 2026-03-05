@@ -5,7 +5,7 @@
 - [OAuth2](#oauth2)
 
 ## OAuth2
-**Physical table:** `OSUSR_AZF_OAUTH2`  
+**Physical table:** `OSUSR_azf_OAuth2`  
 **Description:** Contains data to integrate the customer with quickbooks  
 
 | Column | Data Type | Max Length | Nullable | Default |

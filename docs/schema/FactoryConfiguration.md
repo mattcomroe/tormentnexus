@@ -7,16 +7,16 @@
 - [Parameters](#parameters)
 
 ## CDNExclusionRegex
-**Physical table:** `OSUSR_2EE_CDNEXCLUSIONREGEX`  
+**Physical table:** `OSUSR_2ee_CDNExclusionRegex`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## MenuItem
-**Physical table:** `OSUSR_2EE_MENUITEM1`  
+**Physical table:** `OSUSR_2ee_MenuItem1`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Parameters
-**Physical table:** `OSUSR_2EE_PARAMETERS1`  
+**Physical table:** `OSUSR_2ee_Parameters1`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

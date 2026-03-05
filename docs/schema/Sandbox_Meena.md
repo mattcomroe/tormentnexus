@@ -5,7 +5,7 @@
 - [Seam](#seam)
 
 ## Seam
-**Physical table:** `OSUSR_HUZ_SEAM`  
+**Physical table:** `OSUSR_huz_Seam`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

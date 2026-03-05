@@ -8,22 +8,22 @@
 - [PinPosition](#pinposition)
 
 ## FileSizeLimit
-**Physical table:** `OSUSR_3KB_FILESIZELIMIT`  
+**Physical table:** `OSUSR_3kb_FileSizeLimit`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FileUploadType
-**Physical table:** `OSUSR_3KB_FILEUPLOADTYPE`  
+**Physical table:** `OSUSR_3kb_FileUploadType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ImageType
-**Physical table:** `OSUSR_3KB_IMAGETYPE`  
+**Physical table:** `OSUSR_3kb_ImageType`  
 **Description:** Extension to generate an image  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## PinPosition
-**Physical table:** `OSUSR_3KB_PINPOSITION`  
+**Physical table:** `OSUSR_3kb_PinPosition`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

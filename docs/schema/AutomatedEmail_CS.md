@@ -17,7 +17,7 @@
 - [GlobalTemplateProcessType](#globaltemplateprocesstype)
 
 ## AsyncEmailTemplateRequest
-**Physical table:** `OSUSR_BY8_ASYNCRESETEMAILTEMPLATEWORKBUCKET`  
+**Physical table:** `OSUSR_by8_AsyncResetEmailTemplateWorkBucket`  
 **Description:** Processes for email and global email template requests  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | AUTOEMAILSUBEMAILTEMPLATEID | bigint |  | YES | ((0)) |
 
 ## AsyncRetryRequest
-**Physical table:** `OSUSR_BY8_ASYNCRETRYREQUEST`  
+**Physical table:** `OSUSR_by8_AsyncRetryRequest`  
 **Description:** Processes for retrying failed events  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -57,7 +57,7 @@
 | ASYNCEMAILTEMPLATEREQUESTID | bigint |  | YES | (NULL) |
 
 ## EmailTemplate
-**Physical table:** `OSUSR_BY8_EMAILTEMPLATE`  
+**Physical table:** `OSUSR_by8_EmailTemplate`  
 **Description:** Table to store email template references (initially implemented for the BeePlugin)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -92,7 +92,7 @@
 | GLOBALTEMPLATEPUBLISHRESPONS | int |  | YES | (NULL) |
 
 ## EmailTemplateCopyHistory
-**Physical table:** `OSUSR_BY8_EMAILTEMPLATECOPYHISTORY`  
+**Physical table:** `OSUSR_by8_EmailTemplateCopyHistory`  
 **Description:** Stores history of templates copied from other templates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -102,7 +102,7 @@
 | COPIEDFROMEMAILTEMPLATEID | bigint |  | YES | (NULL) |
 
 ## EmailTemplateCustomRow
-**Physical table:** `OSUSR_BY8_EMAILTEMPLATECUSTOMROW`  
+**Physical table:** `OSUSR_by8_EmailTemplateCustomRow`  
 **Description:** Table to store email template custom saved row references (initially implemented for the BeePlugin)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -121,7 +121,7 @@
 | GUID | nvarchar | 50 | YES | ('') |
 
 ## EmailTemplateLineage
-**Physical table:** `OSUSR_BY8_EMAILTEMPLATELINEAGE`  
+**Physical table:** `OSUSR_by8_EmailTemplateLineage`  
 **Description:** Auxillary table to keep track of template version history  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -133,7 +133,7 @@
 | SOURCEEMAILTEMPLATEID | bigint |  | YES | (NULL) |
 
 ## EmailTemplateUser
-**Physical table:** `OSUSR_BY8_EMAILTEMPLATEUSER`  
+**Physical table:** `OSUSR_by8_EmailTemplateUser`  
 **Description:** relation between users and automated email templates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -145,7 +145,7 @@
 | ISSTARRED | bit |  | YES | ((0)) |
 
 ## GlobalEmailTemplate
-**Physical table:** `OSUSR_BY8_GLOBALEMAILTEMPLATE1`  
+**Physical table:** `OSUSR_by8_GlobalEmailTemplate1`  
 **Description:** Stores wodify global email templates to federate to Email templates across environments  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -178,7 +178,7 @@
 | GLOBALEMAILTEMPLATETYPEID | int |  | YES | (NULL) |
 
 ## GlobalEmailTemplateEmailTemplateCustomRow
-**Physical table:** `OSUSR_BY8_GLOBALEMAILTEMPLATEEMAILTEMPLATECUSTOMROW`  
+**Physical table:** `OSUSR_by8_GlobalEmailTemplateEmailTemplateCustomRow`  
 **Description:** Auxillary table to keep track of custom synced rows being used in global email templates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -188,7 +188,7 @@
 | GLOBALEMAILTEMPLATEID | bigint |  | YES | (NULL) |
 
 ## GlobalEmailTemplatePublishResponse
-**Physical table:** `OSUSR_BY8_GLOBALEMAILTEMPLATEPUBLISHRESPONSE`  
+**Physical table:** `OSUSR_by8_GlobalEmailTemplatePublishResponse`  
 **Description:** Global template Publish response options, to record state when a user receives, accepts, or rejects a new version of a GlobalEmailTemplate  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -199,7 +199,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## GlobalEmailTemplateType
-**Physical table:** `OSUSR_BY8_GLOBALEMAILTEMPLATETYPE`  
+**Physical table:** `OSUSR_by8_GlobalEmailTemplateType`  
 **Description:** Available types for global email templates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -210,7 +210,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## GlobalEmailTemplateUser
-**Physical table:** `OSUSR_BY8_GLOBALEMAILTEMPLATEUSER`  
+**Physical table:** `OSUSR_by8_GlobalEmailTemplateUser`  
 **Description:** Stores relationship between a user and a global template, in order to allow a user to denote a global template as a favorite  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -222,7 +222,7 @@
 | ISSTARRED | bit |  | YES | ((0)) |
 
 ## GlobalTemplateProcessType
-**Physical table:** `OSUSR_BY8_PROCESSTYPE`  
+**Physical table:** `OSUSR_by8_ProcessType`  
 **Description:** Static entity for global template async process types  
 
 | Column | Data Type | Max Length | Nullable | Default |

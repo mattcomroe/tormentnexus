@@ -16,7 +16,7 @@
 - [WizardStep](#wizardstep)
 
 ## AutoPlay
-**Physical table:** `OSUSR_ZDL_AUTOPLAY`  
+**Physical table:** `OSUSR_zdl_AutoPlay`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -27,7 +27,7 @@
 | AUTOPLAYSPEED | nvarchar | 20 | YES | ('') |
 
 ## Color
-**Physical table:** `OSUSR_ZDL_COLOR`  
+**Physical table:** `OSUSR_zdl_Color`  
 **Description:** Collection of curated colors which match with the respective CSS classes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## DeviceResponsive
-**Physical table:** `OSUSR_ZDL_DEVICERESPONSIVE`  
+**Physical table:** `OSUSR_zdl_DeviceResponsive`  
 **Description:** Defines the behavior response according to the device or group of devices types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DeviceType
-**Physical table:** `OSUSR_ZDL_DEVICETYPE`  
+**Physical table:** `OSUSR_zdl_DeviceType`  
 **Description:** Type of devices which can access the application  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -58,7 +58,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Gender
-**Physical table:** `OSUSR_ZDL_GENDER`  
+**Physical table:** `OSUSR_zdl_Gender`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -67,7 +67,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Orientation
-**Physical table:** `OSUSR_ZDL_ORIENTATION`  
+**Physical table:** `OSUSR_zdl_Orientation`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -76,7 +76,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Position
-**Physical table:** `OSUSR_ZDL_POSITION`  
+**Physical table:** `OSUSR_zdl_Position`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -84,7 +84,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## ResponsiveBehavior
-**Physical table:** `OSUSR_ZDL_RESPONSIVEBEHAVIOR`  
+**Physical table:** `OSUSR_zdl_ResponsiveBehavior`  
 **Description:** Defines the breaking behavior.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -94,7 +94,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sizes
-**Physical table:** `OSUSR_ZDL_SIZES`  
+**Physical table:** `OSUSR_zdl_Sizes`  
 **Description:** Auto, Small, Medium, Large  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -104,7 +104,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Tabs
-**Physical table:** `OSUSR_ZDL_TABS`  
+**Physical table:** `OSUSR_zdl_Tabs`  
 **Description:** Defines which tab should be active.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -113,7 +113,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Trigger
-**Physical table:** `OSUSR_ZDL_TRIGGER`  
+**Physical table:** `OSUSR_zdl_Trigger`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -121,7 +121,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## WizardStep
-**Physical table:** `OSUSR_ZDL_WIZARDSTEP`  
+**Physical table:** `OSUSR_zdl_WizardStep`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

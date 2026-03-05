@@ -40,7 +40,7 @@
 - [TimerStatus](#timerstatus)
 
 ## APIControl
-**Physical table:** `OSUSR_MRN_APICONTROL`  
+**Physical table:** `OSUSR_mrn_APIControl`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -53,7 +53,7 @@
 | SNAPSHOTID | bigint |  | YES | ((0)) |
 
 ## ApplicationDef
-**Physical table:** `OSUSR_MRN_APPLICATIONDEF`  
+**Physical table:** `OSUSR_mrn_ApplicationDef`  
 **Description:** Stores the information about an OutSystems application and its violations  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -77,7 +77,7 @@
 | CYCLICDEPENDENCIESCOUNTER | bigint |  | YES | ((0)) |
 
 ## ApplicationNode
-**Physical table:** `OSUSR_MRN_APPLICATIONNODE`  
+**Physical table:** `OSUSR_mrn_ApplicationNode`  
 **Description:** Ties an Application to a specific Snapshot  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | NAME | nvarchar | 150 | YES | ('') |
 
 ## ApplicationReference
-**Physical table:** `OSUSR_MRN_APPLICATIONREFERENCE`  
+**Physical table:** `OSUSR_mrn_ApplicationReference`  
 **Description:** Entity that stores the applications references  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -98,7 +98,7 @@
 | TARGETAPPLICATION | int |  | YES | (NULL) |
 
 ## Configuration
-**Physical table:** `OSUSR_MRN_CONFIGURATION`  
+**Physical table:** `OSUSR_mrn_Configuration`  
 **Description:** Stores the general configurations for the Discovery application  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -116,7 +116,7 @@
 | VERSION | nvarchar | 50 | YES | ('') |
 
 ## Domain
-**Physical table:** `OSUSR_MRN_DOMAIN1`  
+**Physical table:** `OSUSR_mrn_Domain1`  
 **Description:** Defines an independent ecosystem that your teams can manage at their own pace and needs  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -142,7 +142,7 @@
 | EXPOSEDACTIONSDOMAINCOUNTER | int |  | YES | ((0)) |
 
 ## DomainLayer
-**Physical table:** `OSUSR_MRN_DOMAINLAYER`  
+**Physical table:** `OSUSR_mrn_DomainLayer`  
 **Description:** Domain Layers  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -155,7 +155,7 @@
 | DESCRIPTION | nvarchar | 512 | YES | ('') |
 
 ## DomainReference
-**Physical table:** `OSUSR_MRN_DOMAINREFERENCE`  
+**Physical table:** `OSUSR_mrn_DomainReference`  
 **Description:** Stores references between domains  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -165,7 +165,7 @@
 | TARGETDOMAINID | bigint |  | YES | (NULL) |
 
 ## DomainReferenceApplication
-**Physical table:** `OSUSR_MRN_DOMAINREFERENCEAPPLICATION`  
+**Physical table:** `OSUSR_mrn_DomainReferenceApplication`  
 **Description:** Stores information about references between domain applications  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -176,7 +176,7 @@
 | TARGETAPPLICATIONDEFID | int |  | YES | (NULL) |
 
 ## DomainReferenceModule
-**Physical table:** `OSUSR_MRN_DOMAINREFERENCEMODULE`  
+**Physical table:** `OSUSR_mrn_DomainReferenceModule`  
 **Description:** Stores information about references between domain modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -187,7 +187,7 @@
 | TARGETMODULEDEFID | int |  | YES | (NULL) |
 
 ## DomainReferenceNameKind
-**Physical table:** `OSUSR_MRN_DOMAINREFERENCENAMEKIND`  
+**Physical table:** `OSUSR_mrn_DomainReferenceNameKind`  
 **Description:** Stores information about the reference kind in a domain module  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -199,7 +199,7 @@
 | ELEMENTKIND | nvarchar | 50 | YES | ('') |
 
 ## ElementNode
-**Physical table:** `OSUSR_MRN_ELEMENTNODE`  
+**Physical table:** `OSUSR_mrn_ElementNode`  
 **Description:** Stores the information about an OutSystems element and the Module/Snapshot it belongs to  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -213,7 +213,7 @@
 | ISPUBLIC | bit |  | YES | ((0)) |
 
 ## ImportMap_Application
-**Physical table:** `OSUSR_MRN_IMPORTMAP_APPLICATION`  
+**Physical table:** `OSUSR_mrn_ImportMap_Application`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -221,7 +221,7 @@
 | APPLICATIONDEFID | int |  | YES | (NULL) |
 
 ## ImportMap_Domain
-**Physical table:** `OSUSR_MRN_IMPORTMAP_DOMAIN1`  
+**Physical table:** `OSUSR_mrn_ImportMap_Domain1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -229,7 +229,7 @@
 | DOMAINID | bigint |  | YES | (NULL) |
 
 ## ImportMap_Element
-**Physical table:** `OSUSR_MRN_IMPORTMAP_ELEMENT`  
+**Physical table:** `OSUSR_mrn_ImportMap_Element`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -237,7 +237,7 @@
 | ELEMENTNODEID | int |  | YES | (NULL) |
 
 ## ImportMap_Module
-**Physical table:** `OSUSR_MRN_IMPORTMAP_MODULE`  
+**Physical table:** `OSUSR_mrn_ImportMap_Module`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -246,7 +246,7 @@
 | MODULENODEID | int |  | YES | (NULL) |
 
 ## ImportMap_ModuleLayer
-**Physical table:** `OSUSR_MRN_IMPORTMAP_MODULELAYER`  
+**Physical table:** `OSUSR_mrn_ImportMap_ModuleLayer`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -254,7 +254,7 @@
 | MODULELAYERID | int |  | YES | (NULL) |
 
 ## LifeTimeServiceUsers
-**Physical table:** `OSUSR_MRN_LIFETIMESERVICEUSERS`  
+**Physical table:** `OSUSR_mrn_LifeTimeServiceUsers`  
 **Description:** Stores the information about the LifeTime user set in the configurations  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -266,7 +266,7 @@
 | LIFETIMEENVIRONMENTURL | nvarchar | 200 | YES | ('') |
 
 ## MenuItem
-**Physical table:** `OSUSR_MRN_MENUITEM`  
+**Physical table:** `OSUSR_mrn_MenuItem`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -275,7 +275,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## ModuleDef
-**Physical table:** `OSUSR_MRN_MODULEDEF`  
+**Physical table:** `OSUSR_mrn_ModuleDef`  
 **Description:** Stores the information about an OutSystems module and its violations  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -304,7 +304,7 @@
 | WEAKUPPERVIOLATIONSCOUNTER | int |  | YES | ((0)) |
 
 ## ModuleEffort
-**Physical table:** `OSUSR_MRN_MODULEEFFORT`  
+**Physical table:** `OSUSR_mrn_ModuleEffort`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -313,7 +313,7 @@
 | EFFORT | decimal |  | YES | ((0)) |
 
 ## ModuleLayer
-**Physical table:** `OSUSR_MRN_MODULELAYER`  
+**Physical table:** `OSUSR_mrn_ModuleLayer`  
 **Description:** Stores the information about a Module Layer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -331,7 +331,7 @@
 | CHECKSIDEVIOLATIONS | bit |  | YES | ((0)) |
 
 ## ModuleNode
-**Physical table:** `OSUSR_MRN_MODULENODE`  
+**Physical table:** `OSUSR_mrn_ModuleNode`  
 **Description:** Ties a Module to a specific Snapshot  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -347,7 +347,7 @@
 | EFFORT | decimal |  | YES | ((0)) |
 
 ## OldReference
-**Physical table:** `OSUSR_MRN_OLDREFERENCE`  
+**Physical table:** `OSUSR_mrn_OldReference`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -357,7 +357,7 @@
 | TARGETELEMENTNODEID | int |  | YES | (NULL) |
 
 ## Reference
-**Physical table:** `OSUSR_MRN_REFERENCE`  
+**Physical table:** `OSUSR_mrn_Reference`  
 **Description:** Stores the information about references of a module's element in another module for a specific snapshot  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -369,7 +369,7 @@
 | ISRECENT | bit |  | YES | ((0)) |
 
 ## ReferenceKind
-**Physical table:** `OSUSR_MRN_REFERENCEKIND`  
+**Physical table:** `OSUSR_mrn_ReferenceKind`  
 **Description:** Reference Kinds (Outsystems Element types)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -386,7 +386,7 @@
 | ENABLEVIOLATIONS | bit |  | YES | ((0)) |
 
 ## SnapShot
-**Physical table:** `OSUSR_MRN_SNAPSHOT`  
+**Physical table:** `OSUSR_mrn_SnapShot`  
 **Description:** Entity used to keep information about Snapshots  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -398,7 +398,7 @@
 | JSONVERSION | nvarchar | 50 | YES | ('') |
 
 ## Snapshot_json
-**Physical table:** `OSUSR_MRN_SNAPSHOT_JSON`  
+**Physical table:** `OSUSR_mrn_Snapshot_json`  
 **Description:** Entity used to keep the JSON text regarding a specific Snapshot  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -407,7 +407,7 @@
 | JSON | nvarchar | -1 | YES | ('') |
 
 ## SnapShot_Stats
-**Physical table:** `OSUSR_MRN_SNAPSHOT_STATS`  
+**Physical table:** `OSUSR_mrn_SnapShot_Stats`  
 **Description:** Entity with the agregator of the snapshots statistics taken on the environment only ( only snapshots of the enviorment activation code will be created )  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -417,7 +417,7 @@
 | SNAPSHOTDATE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## SnapShot_StatsApplications
-**Physical table:** `OSUSR_MRN_SNAPSHOT_STATSAPPLICATIONS`  
+**Physical table:** `OSUSR_mrn_SnapShot_StatsApplications`  
 **Description:** Entity with the agregator of the snapshots statistics taken on the environment for all active aplications  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -432,7 +432,7 @@
 | TOTALCOUNTER | bigint |  | YES | ((0)) |
 
 ## SnapShot_StatsDomain
-**Physical table:** `OSUSR_MRN_SNAPSHOT_STATSDOMAIN`  
+**Physical table:** `OSUSR_mrn_SnapShot_StatsDomain`  
 **Description:** Entity with the agregator of the snapshots statistics taken on the environment for all active Domains  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -446,7 +446,7 @@
 | DOWNDEPENDENCIESCOUNTER | int |  | YES | ((0)) |
 
 ## SnapShot_StatsModules
-**Physical table:** `OSUSR_MRN_SNAPSHOT_STATSMODULES`  
+**Physical table:** `OSUSR_mrn_SnapShot_StatsModules`  
 **Description:** Entity with the agregator of the snapshots statistics taken on the environment for all active modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -461,7 +461,7 @@
 | TOTALCOUNTER | bigint |  | YES | ((0)) |
 
 ## SnapshotModuleDefTmp
-**Physical table:** `OSUSR_MRN_SNAPSHOTMODULEDEFTMP`  
+**Physical table:** `OSUSR_mrn_SnapshotModuleDefTmp`  
 **Description:** Auxiliary table for module definition fans  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -472,7 +472,7 @@
 | SNAPSHOTID | int |  | YES | (NULL) |
 
 ## SnapshotToLoad
-**Physical table:** `OSUSR_MRN_SNAPSHOTTOLOAD`  
+**Physical table:** `OSUSR_mrn_SnapshotToLoad`  
 **Description:** Entity used to keep information about which Snapshot is waiting to be loaded  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -482,7 +482,7 @@
 | KEEPLAYERS | bit |  | YES | ((0)) |
 
 ## SystemApps
-**Physical table:** `OSUSR_MRN_SYSTEMAPPS`  
+**Physical table:** `OSUSR_mrn_SystemApps`  
 **Description:** Applications to exclude from analysis  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -492,7 +492,7 @@
 | IGNORE | bit |  | YES | ((0)) |
 
 ## TimerStatus
-**Physical table:** `OSUSR_MRN_TIMERSTATUS`  
+**Physical table:** `OSUSR_mrn_TimerStatus`  
 **Description:** Static Entity with Timer Status  
 
 | Column | Data Type | Max Length | Nullable | Default |

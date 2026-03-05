@@ -10,31 +10,31 @@
 - [Provider](#provider)
 
 ## AppleUserInfo
-**Physical table:** `OSUSR_NJS_APPLEUSERINFO`  
+**Physical table:** `OSUSR_njs_AppleUserInfo`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ApplicationConfiguration
-**Physical table:** `OSUSR_NJS_APPLICATIONCONFIGURATION`  
+**Physical table:** `OSUSR_njs_ApplicationConfiguration`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ApplicationType
-**Physical table:** `OSUSR_NJS_APPLICATIONTYPE`  
+**Physical table:** `OSUSR_njs_ApplicationType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## AuthenticationConfiguration
-**Physical table:** `OSUSR_NJS_AUTHENTICATIONCONFIGURATION`  
+**Physical table:** `OSUSR_njs_AuthenticationConfiguration`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## AuthenticationDetail
-**Physical table:** `OSUSR_NJS_AUTHENTICATIONDETAIL`  
+**Physical table:** `OSUSR_njs_AuthenticationDetail`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Provider
-**Physical table:** `OSUSR_NJS_PROVIDER`  
+**Physical table:** `OSUSR_njs_Provider`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

@@ -6,7 +6,7 @@
 - [WhiteLabelImage](#whitelabelimage)
 
 ## WhiteLabel
-**Physical table:** `OSUSR_2MP_WHITELABEL`  
+**Physical table:** `OSUSR_2mp_WhiteLabel`  
 **Description:** Contains the Full CSS for each customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -44,7 +44,7 @@
 | LOADINGANDHEADERBGCOLOR | nvarchar | 10 | YES | ('') |
 
 ## WhiteLabelImage
-**Physical table:** `OSUSR_2MP_WHITELABELIMAGE`  
+**Physical table:** `OSUSR_2mp_WhiteLabelImage`  
 **Description:** Contains all image types that can be uploaded for white labeling  
 
 | Column | Data Type | Max Length | Nullable | Default |

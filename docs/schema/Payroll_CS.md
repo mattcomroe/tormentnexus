@@ -28,7 +28,7 @@
 - [RequestType](#requesttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_G2S_ASYNCPROCESS`  
+**Physical table:** `OSUSR_g2s_AsyncProcess`  
 **Description:** Auxiliar entity that contains all asynchronous processes, which will run through the Waivers_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerSettingPayroll
-**Physical table:** `OSUSR_72O_TENANTSETTINGPAYROLL`  
+**Physical table:** `OSUSR_72o_TenantSettingPayroll`  
 **Description:** Contains information for customer payroll settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -55,7 +55,7 @@
 | MONTHLYPAYROLLDAYOFMONTHID | int |  | YES | (NULL) |
 
 ## PayRateProgramCoach
-**Physical table:** `OSUSR_G2S_PAYRATEPROGRAMCOACH`  
+**Physical table:** `OSUSR_g2s_PayRateProgramCoach`  
 **Description:** Set in the Coach's Client Profile (DefaultPayRateId), and when adding/editing a Program (PayRateId). Holds the Customer's Coach default and Program default PayRates per Coach and Program.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -71,7 +71,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PayRateServiceProvider
-**Physical table:** `OSUSR_G2S_PAYRATESERVICEPROVIDER`  
+**Physical table:** `OSUSR_g2s_PayRateServiceProvider`  
 **Description:** Set on Provider's Client Profile (DefaultPayRateId), and when adding/editing a Service Duration (PayRateId). Holds the Customer's default PayRates per Provider, Service Duration and Location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PayRateUserEmployee
-**Physical table:** `OSUSR_G2S_PAYRATEUSEREMPLOYEE`  
+**Physical table:** `OSUSR_g2s_PayRateUserEmployee`  
 **Description:** Set on Employee's Client Profile. Holds the Administrative and Fixed PayRates per Employee.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -110,7 +110,7 @@
 | FUTUREFIXEDPAYPERIODID | int |  | YES | (NULL) |
 
 ## PayRateUserEmployeeHistory
-**Physical table:** `OSUSR_G2S_PAYRATEUSEREMPLOYEEHISTORY1`  
+**Physical table:** `OSUSR_g2s_PayRateUserEmployeeHistory1`  
 **Description:** Holds the history for Administrative, Fixed and Program/Service default PayRates per Employee.   History examples:  Administrative Pay: "Added $20/hour as default administrative pay rate" "Updated default administrative pay rate from $20/hour to $25/hour"  Fixed Pay: "Added fixed pay $50,000 per year; effective date 03/03/2026" "Updated fixed pay from $50,000 per year to $60,000 per year; effective date 03/03/2026"  Program Coach: "Added Crossfit $25 as default pay rate for Crossfit Program" "Updated default pay rate for Crossfit Program from Crossfit $25 to Crossfit $35"  Service Provider: "Added $50 Flat as default pay rate for Yoga (60min) - New Yoga York" "Updated default pay rate for Yoga (60min) - New Yoga York from $50 Flat to $60 Flat"  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -123,7 +123,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PayrollInterval
-**Physical table:** `OSUSR_72O_PAYROLLINTERVAL`  
+**Physical table:** `OSUSR_72o_PayrollInterval`  
 **Description:** Default payroll intervals that customer can use  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -136,7 +136,7 @@
 | SHORTLABEL | nvarchar | 50 | YES | ('') |
 
 ## PayrollPayPeriod
-**Physical table:** `OSUSR_72O_PAYROLLPAYPERIOD`  
+**Physical table:** `OSUSR_72o_PayrollPayPeriod`  
 **Description:** Contains customer payroll pay period information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -161,7 +161,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPayPeriodNote
-**Physical table:** `OSUSR_72O_PAYROLLPAYPERIODNOTE`  
+**Physical table:** `OSUSR_72o_PayrollPayPeriodNote`  
 **Description:** Contains note related to payroll pay period  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -180,7 +180,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPayPeriodUser
-**Physical table:** `OSUSR_72O_PAYROLLPAYPERIODUSER`  
+**Physical table:** `OSUSR_72o_PayrollPayPeriodUser`  
 **Description:** Contain information of each pay period job (classes, hourly, extra,...) of employees by customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -210,7 +210,7 @@
 | ADMINISTRATIVEPAYRATEID | bigint |  | YES | (NULL) |
 
 ## PayrollPayPeriodUserType
-**Physical table:** `OSUSR_72O_PAYROLLPAYPERIODUSERTYPE`  
+**Physical table:** `OSUSR_72o_PayrollPayPeriodUserType`  
 **Description:** Contains type of PayrollPayPeriodUser, use to differentiate actions related to PayrollPayPeriodUser (e.g: employee sign-in, no show)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -221,7 +221,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PayrollPosition
-**Physical table:** `OSUSR_72O_PAYROLLPOSITION`  
+**Physical table:** `OSUSR_72o_PayrollPosition`  
 **Description:** Contains information of payroll positions by customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -239,7 +239,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionClass
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONCLASS`  
+**Physical table:** `OSUSR_72o_PayrollPositionClass`  
 **Description:** Contains info of payroll position associated with a class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -257,7 +257,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionClassUser
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONCLASSUSER`  
+**Physical table:** `OSUSR_72o_PayrollPositionClassUser`  
 **Description:** Contains info and status of on payroll user associated with a class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -285,7 +285,7 @@
 | PAYRATEID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionClassUserStatus
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONCLASSUSERSTATUS`  
+**Physical table:** `OSUSR_72o_PayrollPositionClassUserStatus`  
 **Description:** Status of payroll position user associated with a class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -297,7 +297,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PayrollPositionLocation
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONLOCATION`  
+**Physical table:** `OSUSR_72o_PayrollPositionLocation`  
 **Description:** Contain location and gym program that is related to payroll position by customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -325,7 +325,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionLocationUser
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONLOCATIONUSER`  
+**Physical table:** `OSUSR_72o_PayrollPositionLocationUser`  
 **Description:** Contains information of payroll position at location of user by customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -354,7 +354,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionPayType
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONPAYTYPE`  
+**Physical table:** `OSUSR_72o_PayrollPositionPayType`  
 **Description:** Pay types for a payroll position  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -366,7 +366,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PayrollPositionRecurringClass
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONRECURRINGCLASS`  
+**Physical table:** `OSUSR_72o_PayrollPositionRecurringClass`  
 **Description:** Contains info of payroll positions associated with recurring classes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -384,7 +384,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionRecurringClassUser
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONRECURRINGCLASSUSER`  
+**Physical table:** `OSUSR_72o_PayrollPositionRecurringClassUser`  
 **Description:** Contains info of on payroll user associated with recurring class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -405,7 +405,7 @@
 | PAYRATEID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionRole
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONROLE`  
+**Physical table:** `OSUSR_72o_PayrollPositionRole`  
 **Description:** Contain role that is associated to a payroll position  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -421,7 +421,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PayrollPositionType
-**Physical table:** `OSUSR_72O_PAYROLLPOSITIONTYPE`  
+**Physical table:** `OSUSR_72o_PayrollPositionType`  
 **Description:** Default payroll position type that all customers will have  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -432,7 +432,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_G2S_REQUEST`  
+**Physical table:** `OSUSR_g2s_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -452,7 +452,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestType
-**Physical table:** `OSUSR_G2S_REQUESTTYPE`  
+**Physical table:** `OSUSR_g2s_RequestType`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |

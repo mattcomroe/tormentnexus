@@ -37,7 +37,7 @@
 - [WordPressPostStatus](#wordpresspoststatus)
 
 ## Announcement
-**Physical table:** `OSUSR_3U1_ANNOUNCEMENT`  
+**Physical table:** `OSUSR_3u1_Announcement`  
 **Description:** Announcements to be used when a new workout is created  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -60,7 +60,7 @@
 | SENDNOTIFICATIONSDATETIME | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## AsyncProcess
-**Physical table:** `OSUSR_3U1_ASYNCPROCESS`  
+**Physical table:** `OSUSR_3u1_AsyncProcess`  
 **Description:** Auxiliar entity that contains all asynchronous processes, which will run through the AP module in BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -69,7 +69,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## BlogIntegration
-**Physical table:** `OSUSR_72O_BLOGINTEGRATION`  
+**Physical table:** `OSUSR_72o_BlogIntegration`  
 **Description:** Contains information about blogs using Wordpress  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -91,7 +91,7 @@
 | IANATIMEZONEID | bigint |  | YES | (NULL) |
 
 ## BlogType
-**Physical table:** `OSUSR_72O_BLOGTYPE`  
+**Physical table:** `OSUSR_72o_BlogType`  
 **Description:** Contains all type of blogs  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -101,7 +101,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## ClientCalendarDefaultSetting
-**Physical table:** `OSUSR_3U1_CLIENTCALENDARDEFAULTSETTING`  
+**Physical table:** `OSUSR_3u1_ClientCalendarDefaultSetting`  
 **Description:** It contains the default filters for workout calendar for each Client  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -112,7 +112,7 @@
 | PROGRAMIDS | nvarchar | 500 | YES | ('') |
 
 ## Component
-**Physical table:** `OSUSR_72O_COMPONENT`  
+**Physical table:** `OSUSR_72o_Component`  
 **Description:** Workout component.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -144,7 +144,7 @@
 | VARIABLESETSREPSCOMPONENTID | int |  | YES |  |
 
 ## ComponentCategory
-**Physical table:** `OSUSR_3U1_COMPONENTCATEGORY`  
+**Physical table:** `OSUSR_3u1_ComponentCategory`  
 **Description:** Component Categories  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -155,7 +155,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ComponentCopyHistory
-**Physical table:** `OSUSR_3U1_COMPONENTCOPYHISTORY`  
+**Physical table:** `OSUSR_3u1_ComponentCopyHistory`  
 **Description:** Contains the Id of a source component (and Customer Id) and target component.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -171,7 +171,7 @@
 | TARGETCUSTOMERID | bigint |  | YES | ((0)) |
 
 ## ComponentType
-**Physical table:** `OSUSR_72O_COMPONENTTYPE`  
+**Physical table:** `OSUSR_72o_ComponentType`  
 **Description:** Type of Components  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -183,7 +183,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ComponentVideo
-**Physical table:** `OSUSR_3U1_COMPONENTVIDEO`  
+**Physical table:** `OSUSR_3u1_ComponentVideo`  
 **Description:** Contains videos either by URL (youtube, vimeo, etc), or an identifier from an upload which is stored in Amazon S3  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -200,7 +200,7 @@
 | OWNERCUSTOMERID | bigint |  | YES | ((0)) |
 
 ## ComponentVideoBlackList
-**Physical table:** `OSUSR_3U1_COMPONENTVIDEOBLACKLIST`  
+**Physical table:** `OSUSR_3u1_ComponentVideoBlackList`  
 **Description:** Contains videos either by URL (youtube, vimeo, etc), or an identifier from an upload which is stored in Amazon S3  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -211,7 +211,7 @@
 | USERID | int |  | YES | (NULL) |
 
 ## CustomerHiddenComponentCategory
-**Physical table:** `OSUSR_3U1_CUSTOMERHIDDENCOMPONENTCATEGORY`  
+**Physical table:** `OSUSR_3u1_CustomerHiddenComponentCategory`  
 **Description:** Contains a list of hidden component categories  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -221,7 +221,7 @@
 | COMPONENTCATEGORYID | int |  | YES | (NULL) |
 
 ## EachRoundType
-**Physical table:** `OSUSR_72O_EACHROUNDTYPE`  
+**Physical table:** `OSUSR_72o_EachRoundType`  
 **Description:** Types of Each Rounds for components  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -232,7 +232,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## MergeComponentsFirestore
-**Physical table:** `OSUSR_3U1_MERGECOMPONENTSFIRESTORE`  
+**Physical table:** `OSUSR_3u1_MergeComponentsFirestore`  
 **Description:** Component IDs to be Merged in Firestore. Only used by a timer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -243,7 +243,7 @@
 | MERGESTATUSID | int |  | YES | (NULL) |
 
 ## MergeComponentsFirestoreStatus
-**Physical table:** `OSUSR_3U1_MERGECOMPONENTSFIRESTORESTATUS`  
+**Physical table:** `OSUSR_3u1_MergeComponentsFirestoreStatus`  
 **Description:** Table to track the status column of the MergeComponentsFirestore entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -254,7 +254,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## OwnershipLevel
-**Physical table:** `OSUSR_72O_OWNERSHIPLEVEL`  
+**Physical table:** `OSUSR_72o_OwnershipLevel`  
 **Description:** definitions of who owns each component  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -265,7 +265,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_3U1_REQUEST`  
+**Physical table:** `OSUSR_3u1_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -288,7 +288,7 @@
 | ATTRIBUTES | nvarchar | -1 | YES | ('') |
 
 ## RequestType
-**Physical table:** `OSUSR_3U1_REQUESTTYPE`  
+**Physical table:** `OSUSR_3u1_RequestType`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -297,7 +297,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## ResultType
-**Physical table:** `OSUSR_DDD_RESULTTYPE`  
+**Physical table:** `OSUSR_ddd_ResultType`  
 **Description:** Contains all result types for components  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -315,7 +315,7 @@
 | SUPPORTSCHILDRESULTS | bit |  | YES | ((0)) |
 
 ## Scaling
-**Physical table:** `OSUSR_3U1_SCALING`  
+**Physical table:** `OSUSR_3u1_Scaling`  
 **Description:** Contains all possible Scaling options  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -326,7 +326,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TotalComponent
-**Physical table:** `OSUSR_72O_TOTALCOMPONENT`  
+**Physical table:** `OSUSR_72o_TotalComponent`  
 **Description:** for components composed by more than one component. To group components  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -343,7 +343,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WODComponent
-**Physical table:** `OSUSR_72O_WODCOMPONENT`  
+**Physical table:** `OSUSR_72o_WODComponent`  
 **Description:** A Workout component  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -392,7 +392,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WODComponentMedia
-**Physical table:** `OSUSR_3U1_WODCOMPONENTMEDIA`  
+**Physical table:** `OSUSR_3u1_WODComponentMedia`  
 **Description:** Contains media or images either by URL, or an identifier from an upload which is stored in Amazon S3. For a specified Workout  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -411,7 +411,7 @@
 | COMMENT | nvarchar | 2000 | YES | ('') |
 
 ## WODComponentVariableReps
-**Physical table:** `OSUSR_3U1_WODCOMPONENTVARIABLEREPS`  
+**Physical table:** `OSUSR_3u1_WODComponentVariableReps`  
 **Description:** Holds the Rep Count for each Set of a WODComponent utilizing Variable Reps  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -427,7 +427,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WODComponentVideo
-**Physical table:** `OSUSR_3U1_WODCOMPONENTVIDEO`  
+**Physical table:** `OSUSR_3u1_WODComponentVideo`  
 **Description:** Contains videos either by URL (youtube, vimeo, etc), or an identifier from an upload which is stored in Amazon S3. For a specified Workout  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -443,7 +443,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WODComponentVideoBlackList
-**Physical table:** `OSUSR_3U1_WODCOMPONENTVIDEOBLACKLIST`  
+**Physical table:** `OSUSR_3u1_WODComponentVideoBlackList`  
 **Description:** Contains videos either by URL (youtube, vimeo, etc), or an identifier from an upload which is stored in Amazon S3, that are not supposed to show for a specified WODComponent  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -453,7 +453,7 @@
 | WODCOMPONENTID | int |  | YES | (NULL) |
 
 ## WODHeader
-**Physical table:** `OSUSR_72O_WODHEADER`  
+**Physical table:** `OSUSR_72o_WODHeader`  
 **Description:** Workouts of the day.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -497,7 +497,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WODHeaderLocation
-**Physical table:** `OSUSR_72O_WODHEADERLOCATION`  
+**Physical table:** `OSUSR_72o_WODHeaderLocation`  
 **Description:** Possible locations for each workout  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -513,7 +513,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WODHeaderUserStar
-**Physical table:** `OSUSR_DDD_WODHEADERUSERSTAR`  
+**Physical table:** `OSUSR_ddd_WODHeaderUserStar`  
 **Description:** Contains workouts that a client as Starred  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -526,7 +526,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WODImage
-**Physical table:** `OSUSR_DDD_WODIMAGE`  
+**Physical table:** `OSUSR_ddd_WODImage`  
 **Description:** WOD Image entity. Has the references to the Amazon S3 buckets  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -545,7 +545,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WODSection
-**Physical table:** `OSUSR_72O_WODSECTION`  
+**Physical table:** `OSUSR_72o_WODSection`  
 **Description:** Sections to group exercises  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -563,7 +563,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WODSectionCopyHistory
-**Physical table:** `OSUSR_3U1_WODSECTIONCOPYHISTORY`  
+**Physical table:** `OSUSR_3u1_WODSectionCopyHistory`  
 **Description:** Contains the Id of a source WOD Section (and Customer Id) and target WOD Section.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -577,7 +577,7 @@
 | TARGETCUSTOMERID | bigint |  | YES | ((0)) |
 
 ## WordPressPostStatus
-**Physical table:** `OSUSR_72O_WORDPRESSPOSTSTATUS`  
+**Physical table:** `OSUSR_72o_WordPressPostStatus`  
 **Description:** Status of a workout post in wordpress  
 
 | Column | Data Type | Max Length | Nullable | Default |

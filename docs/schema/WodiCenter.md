@@ -28,7 +28,7 @@
 - [Zone](#zone)
 
 ## DeletedUser
-**Physical table:** `OSUSR_82W_DELETEDUSER`  
+**Physical table:** `OSUSR_82w_DeletedUser`  
 **Description:** Contains Backed up OSSYS_USER data  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -99,7 +99,7 @@
 | PRODUCTID | int |  | YES | ((0)) |
 
 ## DeploymentCard
-**Physical table:** `OSUSR_82W_DEPLOYMENTCARD`  
+**Physical table:** `OSUSR_82w_DeploymentCard`  
 **Description:** Contains all Deployment card number for each Release  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -109,7 +109,7 @@
 | CARDNAME | nvarchar | 50 | YES | ('') |
 
 ## DeploymentRelease
-**Physical table:** `OSUSR_82W_DEPLOYMENTRELEASE`  
+**Physical table:** `OSUSR_82w_DeploymentRelease`  
 **Description:** Contains a record for each release number / product  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -125,7 +125,7 @@
 | RELEASEDATE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## DeploymentReleaseApplication
-**Physical table:** `OSUSR_82W_DEPLOYMENTRELEASEAPPLICATION`  
+**Physical table:** `OSUSR_82w_DeploymentReleaseApplication`  
 **Description:** Contains all the applications that are related with this product's release  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -141,7 +141,7 @@
 | TAGVERSIONINSTG | nvarchar | 50 | YES | ('') |
 
 ## DeploymentReleaseInstance
-**Physical table:** `OSUSR_82W_DEPLOYMENTRELEASEINSTANCE`  
+**Physical table:** `OSUSR_82w_DeploymentReleaseInstance`  
 **Description:** Contains Instances of running or runned Releases  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -160,7 +160,7 @@
 | UPDATEDAT | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## DeploymentTask
-**Physical table:** `OSUSR_82W_DEPLOYMENTTASK`  
+**Physical table:** `OSUSR_82w_DeploymentTask`  
 **Description:** Contains all Deployment tasks  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -193,7 +193,7 @@
 | TIMERNAME | nvarchar | 150 | YES | ('') |
 
 ## DeploymentTaskContent
-**Physical table:** `OSUSR_82W_DEPLOYMENTTASKCONTENT`  
+**Physical table:** `OSUSR_82w_DeploymentTaskContent`  
 **Description:** When its a script or its an "other" task type that requires an attachment, the binary will stay here. It also has the "Other" Text  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -204,7 +204,7 @@
 | OTHERDESCRIPTION | nvarchar | -1 | YES | ('') |
 
 ## DeploymentTaskInstance
-**Physical table:** `OSUSR_82W_DEPLOYMENTTASKINSTANCE`  
+**Physical table:** `OSUSR_82w_DeploymentTaskInstance`  
 **Description:** Contains Instances of running or runned tasks  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -215,7 +215,7 @@
 | ISDONE | bit |  | YES | ((0)) |
 
 ## DeploymentTaskType
-**Physical table:** `OSUSR_82W_DEPLOYMENTTASKTYPE`  
+**Physical table:** `OSUSR_82w_DeploymentTaskType`  
 **Description:** Contains all possible Task types to run as post or pre deployment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -226,7 +226,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## EntityScript
-**Physical table:** `OSUSR_82W_ENTITYSCRIPT`  
+**Physical table:** `OSUSR_82w_EntityScript`  
 **Description:** Contains the script to run to remove tables  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -236,7 +236,7 @@
 | SCRIPT | nvarchar | -1 | YES | ('') |
 
 ## Environment
-**Physical table:** `OSUSR_82W_ENVIRONMENT`  
+**Physical table:** `OSUSR_82w_Environment`  
 **Description:** Contains a record per needed environment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -249,7 +249,7 @@
 | NAMEINLIFETIME | nvarchar | 50 | YES | ('') |
 
 ## InvalidEmail
-**Physical table:** `OSUSR_82W_INVALIDEMAIL`  
+**Physical table:** `OSUSR_82w_InvalidEmail`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -261,7 +261,7 @@
 | EMAIL | nvarchar | 250 | YES | ('') |
 
 ## MenuItem
-**Physical table:** `OSUSR_48H_MENUITEM`  
+**Physical table:** `OSUSR_48h_MenuItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -271,7 +271,7 @@
 | URL | nvarchar | 50 | YES | ('') |
 
 ## MenuSubItem
-**Physical table:** `OSUSR_48H_MENUSUBITEM`  
+**Physical table:** `OSUSR_48h_MenuSubItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -282,7 +282,7 @@
 | MENUITEMID | int |  | YES | (NULL) |
 
 ## Report_Log_Error
-**Physical table:** `OSUSR_82W_REPORT_LOG_ERROR`  
+**Physical table:** `OSUSR_82w_Report_Log_Error`  
 **Description:** Contains the most common error logs reported  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -295,7 +295,7 @@
 | TOTALPLATFORMOCCURRENCES | int |  | YES | ((0)) |
 
 ## Report_Log_Error_Detail
-**Physical table:** `OSUSR_82W_REPORT_LOG_ERROR_DETAIL`  
+**Physical table:** `OSUSR_82w_Report_Log_Error_Detail`  
 **Description:** Contains the most common error logs reported  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -311,7 +311,7 @@
 | ISMOBILEERROR | bit |  | YES | ((0)) |
 
 ## Report_Log_Error_GroupedMessages
-**Physical table:** `OSUSR_82W_REPORT_LOG_ERROR_GROUPEDMESSAGES`  
+**Physical table:** `OSUSR_82w_Report_Log_Error_GroupedMessages`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -319,7 +319,7 @@
 | ISPLATFORM | bit |  | YES | ((0)) |
 
 ## ScrubBinary
-**Physical table:** `OSUSR_82W_SCRUBBINARY`  
+**Physical table:** `OSUSR_82w_ScrubBinary`  
 **Description:** Contains the binary file to be used for scrub scripts  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -329,7 +329,7 @@
 | MIMETYPE | nvarchar | 50 | YES | ('') |
 
 ## ScrubControl
-**Physical table:** `OSUSR_82W_SCRUBCONTROL`  
+**Physical table:** `OSUSR_82w_ScrubControl`  
 **Description:** Information about the scrub execution (Pre Scrub or Scrub)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -341,7 +341,7 @@
 | IGNOREERRORS | bit |  | YES | ((0)) |
 
 ## ScrubItemControl
-**Physical table:** `OSUSR_82W_SCRUBITEMCONTROL`  
+**Physical table:** `OSUSR_82w_ScrubItemControl`  
 **Description:** Information about the scrub's item execution (Pre Scrub or Scrub)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -356,7 +356,7 @@
 | ERRORMSG | nvarchar | 1000 | YES | ('') |
 
 ## ScrubItems
-**Physical table:** `OSUSR_82W_SCRUBITEMS`  
+**Physical table:** `OSUSR_82w_ScrubItems`  
 **Description:** Actions that will be executed in scrubbing executions  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -370,7 +370,7 @@
 | DOWNLOADFILE | bit |  | YES | ((0)) |
 
 ## ScrubItemStatus
-**Physical table:** `OSUSR_82W_SCRUBITEMSTATUS`  
+**Physical table:** `OSUSR_82w_ScrubItemStatus`  
 **Description:** Scrub Item's status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -379,7 +379,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## TenantDelete_Control
-**Physical table:** `OSUSR_82W_TENANTDELETE_CONTROL`  
+**Physical table:** `OSUSR_82w_TenantDelete_Control`  
 **Description:** list of Tenants to be deleted togheter with all tenant data  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -388,7 +388,7 @@
 | TENANTID | int |  | YES | (NULL) |
 
 ## Zone
-**Physical table:** `OSUSR_82W_ZONE`  
+**Physical table:** `OSUSR_82w_Zone`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

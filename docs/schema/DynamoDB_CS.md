@@ -5,7 +5,7 @@
 - [DynamoDB_Table](#dynamodb-table)
 
 ## DynamoDB_Table
-**Physical table:** `OSUSR_9ZK_DYNAMODB_TABLE`  
+**Physical table:** `OSUSR_9zk_DynamoDB_Table`  
 **Description:** Represents a table inside DynamoDB.  
 
 | Column | Data Type | Max Length | Nullable | Default |

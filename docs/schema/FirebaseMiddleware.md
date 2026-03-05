@@ -6,7 +6,7 @@
 - [DevicePlatform](#deviceplatform)
 
 ## Device
-**Physical table:** `OSUSR_VBW_DEVICE1`  
+**Physical table:** `OSUSR_vbw_Device1`  
 **Description:** Holds information about all registered devices that are capable of received notifications.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -19,7 +19,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## DevicePlatform
-**Physical table:** `OSUSR_VBW_DEVICEPLATFORM1`  
+**Physical table:** `OSUSR_vbw_DevicePlatform1`  
 **Description:** Device platform  
 
 | Column | Data Type | Max Length | Nullable | Default |

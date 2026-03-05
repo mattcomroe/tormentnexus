@@ -5,7 +5,7 @@
 - [StatusHistory](#statushistory)
 
 ## StatusHistory
-**Physical table:** `OSUSR_72O_LEADHISTORY`  
+**Physical table:** `OSUSR_72o_LeadHistory`  
 **Description:** User's status history  
 
 | Column | Data Type | Max Length | Nullable | Default |

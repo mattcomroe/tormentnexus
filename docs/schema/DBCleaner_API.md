@@ -5,7 +5,7 @@
 - [ModuleType](#moduletype)
 
 ## ModuleType
-**Physical table:** `OSUSR_JJ8_MODULETYPE`  
+**Physical table:** `OSUSR_jj8_ModuleType`  
 **Description:** Types of modules.  
 
 | Column | Data Type | Max Length | Nullable | Default |

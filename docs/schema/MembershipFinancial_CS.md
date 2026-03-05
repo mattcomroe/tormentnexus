@@ -7,7 +7,7 @@
 - [RequestType](#requesttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_MEC_ASYNCPROCESS`  
+**Physical table:** `OSUSR_mec_AsyncProcess`  
 **Description:** Auxiliar entity that contains all membership asynchronous processes, which will run through the Membership_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -16,7 +16,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Request
-**Physical table:** `OSUSR_MEC_REQUEST`  
+**Physical table:** `OSUSR_mec_Request`  
 **Description:** Async requests related to MembershipFinancial  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestType
-**Physical table:** `OSUSR_MEC_REQUESTTYPE`  
+**Physical table:** `OSUSR_mec_RequestType`  
 **Description:** Possible request types for the Request table  
 
 | Column | Data Type | Max Length | Nullable | Default |

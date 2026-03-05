@@ -6,7 +6,7 @@
 - [NoRequirementsTable](#norequirementstable)
 
 ## AllMandatoryTable
-**Physical table:** `OSUSR_QCR_ALLMANDATORYTABLE`  
+**Physical table:** `OSUSR_qcr_AllMandatoryTable`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -30,7 +30,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## NoRequirementsTable
-**Physical table:** `OSUSR_QCR_NOREQUIREMENTSTABLE`  
+**Physical table:** `OSUSR_qcr_NoRequirementsTable`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

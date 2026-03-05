@@ -28,21 +28,21 @@
 - [XmlValueType](#xmlvaluetype)
 
 ## AuditType
-**Physical table:** `OSUSR_6WD_AUDITTYPE`  
+**Physical table:** `OSUSR_6wd_AuditType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
 | LABEL | nvarchar | 50 | NO |  |
 
 ## AuditUserOperation
-**Physical table:** `OSUSR_6WD_AUDITUSEROPERATION`  
+**Physical table:** `OSUSR_6wd_AuditUserOperation`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
 | LABEL | nvarchar | 50 | NO |  |
 
 ## AuthenticationMethod
-**Physical table:** `OSUSR_6WD_AUTHENTICATIONMETHOD`  
+**Physical table:** `OSUSR_6wd_AuthenticationMethod`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -52,7 +52,7 @@
 | SUPPORTEDINJ2EE | bit |  | YES | ((0)) |
 
 ## Config_UserMappings
-**Physical table:** `OSUSR_6WD_CONFIG_USERMAPPINGS`  
+**Physical table:** `OSUSR_6wd_Config_UserMappings`  
 **Description:** Assertion Claims mapping  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -81,7 +81,7 @@
 | GROUPNAMESPLITCHR | nvarchar | 1 | YES | ('') |
 
 ## ConfigFile
-**Physical table:** `OSUSR_6WD_CFGFILE`  
+**Physical table:** `OSUSR_6wd_CfgFile`  
 **Description:** Holds the KeyStore and Certificates files  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -95,7 +95,7 @@
 | TYPE | nvarchar | 50 | YES | ('') |
 
 ## ConfigFileBinary
-**Physical table:** `OSUSR_6WD_CFGFBIN`  
+**Physical table:** `OSUSR_6wd_CfgFBin`  
 **Description:** Binary data of each Config_File entry  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -105,7 +105,7 @@
 | CONTENT | varbinary | -1 | YES | (NULL) |
 
 ## ConfigIdP
-**Physical table:** `OSUSR_6WD_CFGIDP`  
+**Physical table:** `OSUSR_6wd_CfgIdP`  
 **Description:** Holds the SSO server configuration  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -126,7 +126,7 @@
 | HMACVERSION | nvarchar | 150 | YES | ('') |
 
 ## ConfigInternal
-**Physical table:** `OSUSR_6WD_CFGINTRN`  
+**Physical table:** `OSUSR_6wd_CfgIntrn`  
 **Description:** Holds internal configurations of the IdP component  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -145,7 +145,7 @@
 | HMACVERSION | nvarchar | 150 | YES | ('') |
 
 ## ConfigSP
-**Physical table:** `OSUSR_6WD_CFGSP`  
+**Physical table:** `OSUSR_6wd_CfgSP`  
 **Description:** Holds the configuration of the SP connector  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -176,7 +176,7 @@
 | NAMEIDFORMATID | nvarchar | 150 | YES | (NULL) |
 
 ## HelpIdMapping
-**Physical table:** `OSUSR_6WD_HELPIDMAPPING1`  
+**Physical table:** `OSUSR_6wd_HelpIdMapping1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -185,7 +185,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## LdapAuthenticationType
-**Physical table:** `OSUSR_6WD_LDAPAUTHENTICATIONTYPE`  
+**Physical table:** `OSUSR_6wd_LdapAuthenticationType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -195,7 +195,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## LoginAttempt
-**Physical table:** `OSUSR_6WD_LOGINATTEMPT`  
+**Physical table:** `OSUSR_6wd_LoginAttempt`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -213,7 +213,7 @@
 | RESULT | nvarchar | 50 | YES | (NULL) |
 
 ## LoginAttemptResult
-**Physical table:** `OSUSR_6WD_LOGINATTEMPTRESULT`  
+**Physical table:** `OSUSR_6wd_LoginAttemptResult`  
 **Description:** The alternative values that may appear in the LoginAttempt record Result column.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -221,7 +221,7 @@
 | ID | nvarchar | 50 | NO |  |
 
 ## MenuItem
-**Physical table:** `OSUSR_6WD_MENUITEM`  
+**Physical table:** `OSUSR_6wd_MenuItem`  
 **Description:** Menu item to be used in menu web block parameters.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -231,7 +231,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## MobileToken
-**Physical table:** `OSUSR_6WD_MOBILETOKEN`  
+**Physical table:** `OSUSR_6wd_MobileToken`  
 **Description:** Tokens for Mobile Logins  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -247,7 +247,7 @@
 | SCREEN | nvarchar | 50 | YES | ('') |
 
 ## NameIdFormat
-**Physical table:** `OSUSR_6WD_NAMEIDFORMAT`  
+**Physical table:** `OSUSR_6wd_NameIdFormat`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -257,7 +257,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## SamlMessage_Log
-**Physical table:** `OSUSR_6WD_SAMLMESSAGE_LOG`  
+**Physical table:** `OSUSR_6wd_SamlMessage_Log`  
 **Description:** Holds all the messages sent from / to the IdP component  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -282,7 +282,7 @@
 | METADATA | nvarchar | 1500 | YES | ('') |
 
 ## SamlMessageBinding
-**Physical table:** `OSUSR_6WD_SAMLMESSAGEBINDING`  
+**Physical table:** `OSUSR_6wd_SamlMessageBinding`  
 **Description:** SAML bindings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -293,7 +293,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SamlMessageRawContent_Log
-**Physical table:** `OSUSR_6WD_SAMLMESSAGERAWCONTENT_LOG`  
+**Physical table:** `OSUSR_6wd_SamlMessageRawContent_Log`  
 **Description:** Holds the SAML xml message itself of each SamlMessage_Log  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -303,7 +303,7 @@
 | RAWMESSAGE | varbinary | -1 | YES | (NULL) |
 
 ## SamlMessageType
-**Physical table:** `OSUSR_6WD_SAMLMESSAGETYPE`  
+**Physical table:** `OSUSR_6wd_SamlMessageType`  
 **Description:** SAML message types  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -314,7 +314,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SamlUser
-**Physical table:** `OSUSR_6WD_SAMLUSER`  
+**Physical table:** `OSUSR_6wd_SamlUser`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -323,7 +323,7 @@
 | SAMLEXTERNALID | nvarchar | 250 | YES | ('') |
 
 ## UserSession
-**Physical table:** `OSUSR_6WD_USERSESSION`  
+**Physical table:** `OSUSR_6wd_UserSession`  
 **Description:** Holds the list SAML sessions, ie, timestamp of each login on the IdP component  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -342,7 +342,7 @@
 | HASHEDSESSIONKEY | nvarchar | 1000 | YES | ('') |
 
 ## UserSessionClaims
-**Physical table:** `OSUSR_6WD_USERSESSIONCLAIMS`  
+**Physical table:** `OSUSR_6wd_UserSessionClaims`  
 **Description:** List os claims present in the SAML assertion for each UserSession  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -352,7 +352,7 @@
 | CLAIMS | varbinary | -1 | YES | (NULL) |
 
 ## XmlValueType
-**Physical table:** `OSUSR_6WD_XMLVALUETYPE`  
+**Physical table:** `OSUSR_6wd_XmlValueType`  
 **Description:** List of XML types values  
 
 | Column | Data Type | Max Length | Nullable | Default |

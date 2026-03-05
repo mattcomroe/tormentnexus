@@ -5,7 +5,7 @@
 - [ClientTheme](#clienttheme)
 
 ## ClientTheme
-**Physical table:** `OSUSR_T66_CLIENTTHEME2`  
+**Physical table:** `OSUSR_t66_ClientTheme2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -9,26 +9,26 @@
 - [Type_Sandbox](#type-sandbox)
 
 ## AlterMeTable
-**Physical table:** `OSUSR_HVH_ALTERMETABLE`  
+**Physical table:** `OSUSR_hvh_AlterMeTable`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ClassPassExceptions_Sandbox
-**Physical table:** `OSUSR_HVH_CLASSPASSEXCEPTIONS_SANDBOX2`  
+**Physical table:** `OSUSR_hvh_ClassPassExceptions_Sandbox2`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ExternalIdentity_Sandbox
-**Physical table:** `OSUSR_HVH_EXTERNALIDENTITY_SANDBOX`  
+**Physical table:** `OSUSR_hvh_ExternalIdentity_Sandbox`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Provider_Sandbox
-**Physical table:** `OSUSR_HVH_PROVIDER_SANDBOX`  
+**Physical table:** `OSUSR_hvh_Provider_Sandbox`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Type_Sandbox
-**Physical table:** `OSUSR_HVH_TYPE_SANDBOX`  
+**Physical table:** `OSUSR_hvh_Type_Sandbox`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

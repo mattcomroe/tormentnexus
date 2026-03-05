@@ -10,33 +10,33 @@
 - [Reviews](#reviews)
 
 ## DiscountCodes
-**Physical table:** `OSUSR_MQX_DISCOUNTCODES`  
+**Physical table:** `OSUSR_mqx_DiscountCodes`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ExtendedUser
-**Physical table:** `OSUSR_MQX_EXTENDEDUSER`  
+**Physical table:** `OSUSR_mqx_ExtendedUser`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Firebase
-**Physical table:** `OSUSR_MQX_FIREBASE`  
+**Physical table:** `OSUSR_mqx_Firebase`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Order
-**Physical table:** `OSUSR_MQX_ORDER`  
+**Physical table:** `OSUSR_mqx_Order`  
 **Description:** Represents an order associated with a company, possibly originated from an opportunity.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## OrderItem
-**Physical table:** `OSUSR_MQX_ORDERITEM`  
+**Physical table:** `OSUSR_mqx_OrderItem`  
 **Description:** Each record represents one item (product) inside the order.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Reviews
-**Physical table:** `OSUSR_MQX_REVIEWS`  
+**Physical table:** `OSUSR_mqx_Reviews`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

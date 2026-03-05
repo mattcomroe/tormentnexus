@@ -6,7 +6,7 @@
 - [SampleEntity_Extension](#sampleentity-extension)
 
 ## SampleEntity
-**Physical table:** `OSUSR_BZE_SAMPLEENTITY`  
+**Physical table:** `OSUSR_bze_SampleEntity`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -22,7 +22,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## SampleEntity_Extension
-**Physical table:** `OSUSR_BZE_SAMPLEENTITY_EXTENSION`  
+**Physical table:** `OSUSR_bze_SampleEntity_Extension`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

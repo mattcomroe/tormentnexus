@@ -23,7 +23,7 @@
 - [WodifyIconSet](#wodifyiconset)
 
 ## Alert2
-**Physical table:** `OSUSR_CUH_ALERT2`  
+**Physical table:** `OSUSR_cuh_Alert2`  
 **Description:** Different types of alert messages  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | ALERT | nvarchar | 50 | NO |  |
 
 ## AvatarNotifications
-**Physical table:** `OSUSR_CUH_AVATARNOTIFICATIONS1`  
+**Physical table:** `OSUSR_cuh_AvatarNotifications1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -41,7 +41,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AvatarSize
-**Physical table:** `OSUSR_CUH_AVATARSIZE`  
+**Physical table:** `OSUSR_cuh_AvatarSize`  
 **Description:** Contains different type of sizes.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | SIZE | nvarchar | 50 | NO |  |
 
 ## AvatarSizes
-**Physical table:** `OSUSR_MTI_AVATARSIZES`  
+**Physical table:** `OSUSR_mti_AvatarSizes`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -59,7 +59,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ChipNotifications
-**Physical table:** `OSUSR_MTI_CHIPNOTIFICATIONS`  
+**Physical table:** `OSUSR_mti_ChipNotifications`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -69,7 +69,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DateFormat
-**Physical table:** `OSUSR_CUH_DATEFORMAT`  
+**Physical table:** `OSUSR_cuh_DateFormat`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -79,7 +79,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DOC_Position
-**Physical table:** `OSUSR_MTI_DOC_POSITION`  
+**Physical table:** `OSUSR_mti_DOC_Position`  
 **Description:** Used only for documentation, because can't fetch data from Library Modules  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -87,7 +87,7 @@
 | POSITION | nvarchar | 50 | NO |  |
 
 ## DummyDropdown
-**Physical table:** `OSUSR_CUH_DUMMYDROPDOWN`  
+**Physical table:** `OSUSR_cuh_DummyDropdown`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -97,7 +97,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## DummyList
-**Physical table:** `OSUSR_CUH_DUMMYLIST`  
+**Physical table:** `OSUSR_cuh_DummyList`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -106,7 +106,7 @@
 | SUBTITLE | nvarchar | 50 | YES | ('') |
 
 ## GutterSize2
-**Physical table:** `OSUSR_CUH_GUTTERSIZE2`  
+**Physical table:** `OSUSR_cuh_GutterSize2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -115,7 +115,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## MenuSubCategory
-**Physical table:** `OSUSR_MTI_MENUSUBCATEGORY`  
+**Physical table:** `OSUSR_mti_MenuSubCategory`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -126,7 +126,7 @@
 | IMAGEPATH | nvarchar | 500 | YES | ('') |
 
 ## RankSize2
-**Physical table:** `OSUSR_CUH_RANKSIZE2`  
+**Physical table:** `OSUSR_cuh_RankSize2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -136,7 +136,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Invoices
-**Physical table:** `OSUSR_CUH_SAMPLE_INVOICES`  
+**Physical table:** `OSUSR_cuh_Sample_Invoices`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -149,7 +149,7 @@
 | PAYMENTDUE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Sample_Membership
-**Physical table:** `OSUSR_CUH_SAMPLE_MEMBERSHIP`  
+**Physical table:** `OSUSR_cuh_Sample_Membership`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -163,7 +163,7 @@
 | AUTORENEW | bit |  | YES | ((0)) |
 
 ## Sample_Payment
-**Physical table:** `OSUSR_CUH_SAMPLE_PAYMENT`  
+**Physical table:** `OSUSR_cuh_Sample_Payment`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -175,7 +175,7 @@
 | SHARED | nvarchar | 255 | YES | ('') |
 
 ## Theme
-**Physical table:** `OSUSR_MTI_THEME`  
+**Physical table:** `OSUSR_mti_Theme`  
 **Description:** Application Themes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -185,7 +185,7 @@
 | ISDARK | bit |  | YES | ((0)) |
 
 ## Timer
-**Physical table:** `OSUSR_CUH_WORKOUTEXERCICE`  
+**Physical table:** `OSUSR_cuh_WorkoutExercice`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -202,7 +202,7 @@
 | RESTBETWEENINTERVALSCOLOR | nvarchar | 50 | YES | ('yellow') |
 
 ## TimerIntervals
-**Physical table:** `OSUSR_CUH_WORKOUTEXERCISETIMER`  
+**Physical table:** `OSUSR_cuh_WorkoutExerciseTimer`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -214,7 +214,7 @@
 | TIMERID | bigint |  | YES | (NULL) |
 
 ## WodifyIconSet
-**Physical table:** `OSUSR_CUH_WODIFYICONSET`  
+**Physical table:** `OSUSR_cuh_WodifyIconSet`  
 **Description:** Wodify Icon Set  
 
 | Column | Data Type | Max Length | Nullable | Default |

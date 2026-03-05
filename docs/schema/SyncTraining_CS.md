@@ -22,91 +22,91 @@
 - [Sample_WarehouseLocation](#sample-warehouselocation)
 
 ## Sample_Accounts
-**Physical table:** `OSUSR_49T_SAMPLE_ACCOUNTS`  
+**Physical table:** `OSUSR_49t_Sample_Accounts`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Budget
-**Physical table:** `OSUSR_49T_SAMPLE_BUDGET`  
+**Physical table:** `OSUSR_49t_Sample_Budget`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Department
-**Physical table:** `OSUSR_49T_SAMPLE_DEPARTMENT`  
+**Physical table:** `OSUSR_49t_Sample_Department`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Employee
-**Physical table:** `OSUSR_49T_SAMPLE_EMPLOYEE`  
+**Physical table:** `OSUSR_49t_Sample_Employee`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Notification
-**Physical table:** `OSUSR_49T_SAMPLE_NOTIFICATION`  
+**Physical table:** `OSUSR_49t_Sample_Notification`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Office
-**Physical table:** `OSUSR_49T_SAMPLE_OFFICE`  
+**Physical table:** `OSUSR_49t_Sample_Office`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Priority
-**Physical table:** `OSUSR_49T_SAMPLE_PRIORITY`  
+**Physical table:** `OSUSR_49t_Sample_Priority`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Product
-**Physical table:** `OSUSR_49T_SAMPLE_PRODUCT`  
+**Physical table:** `OSUSR_49t_Sample_Product`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_ProductCategory
-**Physical table:** `OSUSR_49T_SAMPLE_PRODUCTCATEGORY`  
+**Physical table:** `OSUSR_49t_Sample_ProductCategory`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_ProductImage
-**Physical table:** `OSUSR_49T_SAMPLE_PRODUCTIMAGE`  
+**Physical table:** `OSUSR_49t_Sample_ProductImage`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_ProductInventory
-**Physical table:** `OSUSR_49T_SAMPLE_PRODUCTINVENTORY`  
+**Physical table:** `OSUSR_49t_Sample_ProductInventory`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_ProductSales
-**Physical table:** `OSUSR_49T_SAMPLE_PRODUCTSALES`  
+**Physical table:** `OSUSR_49t_Sample_ProductSales`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Request
-**Physical table:** `OSUSR_49T_SAMPLE_REQUEST`  
+**Physical table:** `OSUSR_49t_Sample_Request`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_RequestFile
-**Physical table:** `OSUSR_49T_SAMPLE_REQUESTFILE`  
+**Physical table:** `OSUSR_49t_Sample_RequestFile`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_RequestStatus
-**Physical table:** `OSUSR_49T_SAMPLE_REQUESTSTATUS`  
+**Physical table:** `OSUSR_49t_Sample_RequestStatus`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_Transaction
-**Physical table:** `OSUSR_49T_SAMPLE_TRANSACTION`  
+**Physical table:** `OSUSR_49t_Sample_Transaction`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_TransactionType
-**Physical table:** `OSUSR_49T_SAMPLE_TRANSACTIONTYPE`  
+**Physical table:** `OSUSR_49t_Sample_TransactionType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Sample_WarehouseLocation
-**Physical table:** `OSUSR_49T_SAMPLE_WAREHOUSELOCATION`  
+**Physical table:** `OSUSR_49t_Sample_WarehouseLocation`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

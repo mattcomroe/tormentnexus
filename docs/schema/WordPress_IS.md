@@ -6,7 +6,7 @@
 - [WordpressOrg](#wordpressorg)
 
 ## WordpressCom
-**Physical table:** `OSUSR_M74_WORDPRESSCOM`  
+**Physical table:** `OSUSR_m74_WordpressCom`  
 **Description:** Table that contain the information of the blog connection throw the rest api and use the oauth 2  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -26,7 +26,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WordpressOrg
-**Physical table:** `OSUSR_M74_WORDPRESSORG`  
+**Physical table:** `OSUSR_m74_WordpressOrg`  
 **Description:** Table that contain the information of the blog connection throw the rest api and use the oauth 1.0a  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -5,7 +5,7 @@
 - [PendoTimerValues](#pendotimervalues)
 
 ## PendoTimerValues
-**Physical table:** `OSUSR_PDN_PENDOTIMERVALUES`  
+**Physical table:** `OSUSR_pdn_PendoTimerValues`  
 **Description:** This table will contain some values that will be used in pendo  
 
 | Column | Data Type | Max Length | Nullable | Default |

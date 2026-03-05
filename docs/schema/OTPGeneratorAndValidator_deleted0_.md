@@ -5,7 +5,7 @@
 - [Status](#status)
 
 ## Status
-**Physical table:** `OSUSR_RD0_STATUS`  
+**Physical table:** `OSUSR_rd0_Status`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

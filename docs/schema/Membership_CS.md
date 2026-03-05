@@ -41,7 +41,7 @@
 - [UserMembershipContractPersonalInfo](#usermembershipcontractpersonalinfo)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_JUW_ASYNCPROCESS`  
+**Physical table:** `OSUSR_juw_AsyncProcess`  
 **Description:** Auxiliar entity that contains all membership asynchronous processes, which will run through the Membership_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -50,7 +50,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## BillingDay
-**Physical table:** `OSUSR_72O_BILLINGDAY`  
+**Physical table:** `OSUSR_72o_BillingDay`  
 **Description:** Contains all possible days a Membership can be billed on  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -60,7 +60,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## BulkFile
-**Physical table:** `OSUSR_JUW_BULKFILE`  
+**Physical table:** `OSUSR_juw_BulkFile`  
 **Description:** Zip file containing several files to be sent to the user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | REQUESTID | bigint |  | YES | (NULL) |
 
 ## CommitmentTimeUnit
-**Physical table:** `OSUSR_72O_COMMITMENTTIMEUNIT`  
+**Physical table:** `OSUSR_72o_CommitmentTimeUnit`  
 **Description:** All possible commitment time units for a Membership  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -86,7 +86,7 @@
 | PAYMENTINTERVALLABEL | nvarchar | 50 | YES | ('') |
 
 ## ContractEnforcementType
-**Physical table:** `OSUSR_72O_CONTRACTENFORCEMENTTYPE`  
+**Physical table:** `OSUSR_72o_ContractEnforcementType`  
 **Description:** Contract enforcement configurations that can be applied to restrict or allow sign-ins/reservations.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -97,7 +97,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CustomerSettingMembership
-**Physical table:** `OSUSR_72O_TENANTSETTINGMEMBERSHIP`  
+**Physical table:** `OSUSR_72o_TenantSettingMembership`  
 **Description:** Customer settings regarding memberships (enforcement options, reservation restrictions, etc.)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -127,7 +127,7 @@
 | CUSTOMERID | bigint |  | NO | ((0)) |
 
 ## MemberPlan
-**Physical table:** `OSUSR_72O_MEMBERPLAN`  
+**Physical table:** `OSUSR_72o_MemberPlan`  
 **Description:** Member Plans associated to a user.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -180,7 +180,7 @@
 | MAXTOTALSESSIONS | int |  | YES | ((0)) |
 
 ## MemberPlanAttendanceType
-**Physical table:** `OSUSR_72O_MEMBERPLANATTENDANCETYPE`  
+**Physical table:** `OSUSR_72o_MemberPlanAttendanceType`  
 **Description:** The attendace type that a Membership can have. Used to indicate if the Membership is Limited or Unlimited  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -190,7 +190,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## MemberPlanDiscount
-**Physical table:** `OSUSR_72O_MEMBERPLANDISCOUNT`  
+**Physical table:** `OSUSR_72o_MemberPlanDiscount`  
 **Description:** Entity to map the relation between memberships and the discounts (including promo codes) applied to it.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -212,7 +212,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanHold
-**Physical table:** `OSUSR_72O_MEMBERPLANHOLD`  
+**Physical table:** `OSUSR_72o_MemberPlanHold`  
 **Description:** Data for when a Membership is put on hold  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -232,7 +232,7 @@
 | MEMBERPLANHOLDTYPEID | int |  | YES | (NULL) |
 
 ## MemberPlanHoldType
-**Physical table:** `OSUSR_5K0_MEMBERPLANHOLDTYPE`  
+**Physical table:** `OSUSR_5k0_MemberPlanHoldType`  
 **Description:** Defines the possible Values for a Picklist to be used in dropdowns  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -248,7 +248,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## MemberPlanInvoiceDetail
-**Physical table:** `OSUSR_JUW_MEMBERPLANINVOICEDETAIL`  
+**Physical table:** `OSUSR_juw_MemberPlanInvoiceDetail`  
 **Description:** Creates a relationship table between MemberPlan and Invoices.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -259,7 +259,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanLocation
-**Physical table:** `OSUSR_JUW_MEMBERPLANLOCATION`  
+**Physical table:** `OSUSR_juw_MemberPlanLocation`  
 **Description:** Determines which business locations a member plan applies to.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -271,7 +271,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanProgram
-**Physical table:** `OSUSR_72O_MEMBERPLANPROGRAM`  
+**Physical table:** `OSUSR_72o_MemberPlanProgram`  
 **Description:** Determines which programs a member plan applies to.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -288,7 +288,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanTemplate
-**Physical table:** `OSUSR_72O_MEMBERPLANTEMPLATE`  
+**Physical table:** `OSUSR_72o_MemberPlanTemplate`  
 **Description:** Determines which programs a member plan template applies to.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -327,7 +327,7 @@
 | MAXTOTALSESSIONS | int |  | YES | ((0)) |
 
 ## MemberPlanTemplateLocation
-**Physical table:** `OSUSR_JUW_MEMBERPLANTEMPLATELOCATION`  
+**Physical table:** `OSUSR_juw_MemberPlanTemplateLocation`  
 **Description:** Determines which business locations a member plan template applies to.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -339,7 +339,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanTemplatePaymentScheduleTemplate
-**Physical table:** `OSUSR_72O_MEMBERPLANTEMPLATEPAYMENTSCHEDULETEMPLATE`  
+**Physical table:** `OSUSR_72o_MemberPlanTemplatePaymentScheduleTemplate`  
 **Description:** Connects PaymentScheduleTemplates with MemberPlanTemplates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -356,7 +356,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanTemplateProgram
-**Physical table:** `OSUSR_72O_MEMBERPLANTEMPLATEPROGRAM`  
+**Physical table:** `OSUSR_72o_MemberPlanTemplateProgram`  
 **Description:** Connects a MemberPlanTemplate with a GymProgram  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -373,7 +373,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## MemberPlanType
-**Physical table:** `OSUSR_72O_MEMBERPLANTYPE`  
+**Physical table:** `OSUSR_72o_MemberPlanType`  
 **Description:** Static entity with the available member plan types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -383,7 +383,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## MembershipContractStatus
-**Physical table:** `OSUSR_JUW_MEMBERSHIPCONTRACTSTATUS`  
+**Physical table:** `OSUSR_juw_MembershipContractStatus`  
 **Description:** Possible statuses that a Membership Contract can have.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -394,7 +394,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## MembershipContractTemplate
-**Physical table:** `OSUSR_JUW_MEMBERSHIPCONTRACTTEMPLATE`  
+**Physical table:** `OSUSR_juw_MembershipContractTemplate`  
 **Description:** Data for a contract template to be used for Memberships  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -420,7 +420,7 @@
 | ISAPPLYTOFUTUREMEMBERSHIPS | bit |  | YES | ((0)) |
 
 ## PaymentOption
-**Physical table:** `OSUSR_72O_PAYMENTOPTION`  
+**Physical table:** `OSUSR_72o_PaymentOption`  
 **Description:** Data that defines the payment details for both Memberships and Membership Templates  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -469,7 +469,7 @@
 | PREDISCOUNTADMINFEES | decimal |  | YES | ((0)) |
 
 ## PaymentOptionType
-**Physical table:** `OSUSR_JUW_PAYMENTOPTIONTYPE`  
+**Physical table:** `OSUSR_juw_PaymentOptionType`  
 **Description:** The types of Payment Options. Indicates the interval in which the payment option is paid  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -479,7 +479,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## PaymentSchedule
-**Physical table:** `OSUSR_72O_PAYMENTSCHEDULE`  
+**Physical table:** `OSUSR_72o_PaymentSchedule`  
 **Description:** Data for the Memberships Payment Plan  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -521,7 +521,7 @@
 | ISSTOPAUTORENEW | bit |  | YES | ((0)) |
 
 ## PaymentScheduleTemplate
-**Physical table:** `OSUSR_72O_PAYMENTSCHEDULETEMPLATE`  
+**Physical table:** `OSUSR_72o_PaymentScheduleTemplate`  
 **Description:** Holds default payment information for a membership's payment schedule  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -551,7 +551,7 @@
 | ONLINESALESDISPLAYORDER | int |  | YES | ((0)) |
 
 ## PaymentScheduleTemplateLocationTaxRate
-**Physical table:** `OSUSR_72O_PAYMENTSCHEDULETEMPLATELOCATIONTAXRATE`  
+**Physical table:** `OSUSR_72o_PaymentScheduleTemplateLocationTaxRate`  
 **Description:** Holds the Location/Tax rate relationships on a Payment Schedule Template  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -570,7 +570,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PriceAdjustmentType
-**Physical table:** `OSUSR_5K0_PRICEADJUSTMENTTYPE`  
+**Physical table:** `OSUSR_5k0_PriceAdjustmentType`  
 **Description:** Contains types of price adjustments  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -580,7 +580,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_5K0_REQUEST2`  
+**Physical table:** `OSUSR_5k0_Request2`  
 **Description:** Async requests related to memberships  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -601,7 +601,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Request_MassUpdateMemberships
-**Physical table:** `OSUSR_5K0_REQUEST_MASSUPDATEMEMBERSHIPS`  
+**Physical table:** `OSUSR_5k0_Request_MassUpdateMemberships`  
 **Description:** Entity to keep evidences of mass update requests (memberships updated).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -631,7 +631,7 @@
 | NOTES | nvarchar | -1 | YES | ('') |
 
 ## Request_MassUpdateMemberships_File
-**Physical table:** `OSUSR_5K0_REQUEST_MASSUPDATEMEMBERSHIPS_FILE`  
+**Physical table:** `OSUSR_5k0_Request_MassUpdateMemberships_File`  
 **Description:** When the request type is MassUpdateMemberships, it saves a temporary excel file in this table, which will be extracted into Request_MassUpdateMemberships entity, and then it can be deleted  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -640,7 +640,7 @@
 | FILE | varbinary | -1 | YES | (NULL) |
 
 ## RequestType
-**Physical table:** `OSUSR_5K0_REQUESTTYPE2`  
+**Physical table:** `OSUSR_5k0_RequestType2`  
 **Description:** Possible request types for the Request table  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -651,7 +651,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SessionEnforcementType
-**Physical table:** `OSUSR_72O_SESSIONENFORCEMENTTYPE`  
+**Physical table:** `OSUSR_72o_SessionEnforcementType`  
 **Description:** The enforcement types for session plans  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -662,7 +662,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SignedContractToSend
-**Physical table:** `OSUSR_JUW_SIGNEDCONTRACTTOSEND`  
+**Physical table:** `OSUSR_juw_SignedContractToSend`  
 **Description:** Signed Contract to send  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -677,7 +677,7 @@
 | REQUESTID | bigint |  | YES | (NULL) |
 
 ## UserMembershipContract
-**Physical table:** `OSUSR_JUW_USERMEMBERSHIPCONTRACT`  
+**Physical table:** `OSUSR_juw_UserMembershipContract`  
 **Description:** The membership contract details.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -703,7 +703,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## UserMembershipContractLink
-**Physical table:** `OSUSR_5K0_USERMEMBERSHIPCONTRACTLINK`  
+**Physical table:** `OSUSR_5k0_UserMembershipContractLink`  
 **Description:** Entity to hold anonymous-accessible links to sign contract.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -724,7 +724,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## UserMembershipContractMembershipInfo
-**Physical table:** `OSUSR_JUW_USERMEMBERSHIPCONTRACTMEMBERSHIPINFO`  
+**Physical table:** `OSUSR_juw_UserMembershipContractMembershipInfo`  
 **Description:** Details of the membership for which the contract was signed. This is a static copy of the membership information to be shown on the contract. This has a one-to-one relationship to the UserMembershipContract record.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -766,7 +766,7 @@
 | SETUPADMINFEES | nvarchar | 50 | YES | ('') |
 
 ## UserMembershipContractPersonalInfo
-**Physical table:** `OSUSR_JUW_USERMEMBERSHIPCONTRACTPERSONALINFO`  
+**Physical table:** `OSUSR_juw_UserMembershipContractPersonalInfo`  
 **Description:** The user's personal details provided with the signed contract.  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -9,26 +9,26 @@
 - [SpotType](#spottype)
 
 ## Alignment
-**Physical table:** `OSUSR_2I3_ALIGNMENT`  
+**Physical table:** `OSUSR_2i3_Alignment`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ClassSpot
-**Physical table:** `OSUSR_2I3_CLASSSPOT`  
+**Physical table:** `OSUSR_2i3_ClassSpot`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Layout
-**Physical table:** `OSUSR_2I3_LAYOUT`  
+**Physical table:** `OSUSR_2i3_Layout`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Spot
-**Physical table:** `OSUSR_2I3_SPOT`  
+**Physical table:** `OSUSR_2i3_Spot`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## SpotType
-**Physical table:** `OSUSR_2I3_SPOTTYPE`  
+**Physical table:** `OSUSR_2i3_SpotType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

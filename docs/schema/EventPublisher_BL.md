@@ -5,7 +5,7 @@
 - [CUDAction_DeleteMe](#cudaction-deleteme)
 
 ## CUDAction_DeleteMe
-**Physical table:** `OSUSR_78F_CUDACTION`  
+**Physical table:** `OSUSR_78f_CUDAction`  
 **Description:** Create, Update, or Delete labels to be used when building Event JSON.  
 
 | Column | Data Type | Max Length | Nullable | Default |

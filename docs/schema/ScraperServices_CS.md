@@ -14,7 +14,7 @@
 - [ScrapeStateStatus](#scrapestatestatus)
 
 ## Certification
-**Physical table:** `OSUSR_B94_CERTIFICATIONS`  
+**Physical table:** `OSUSR_b94_Certifications`  
 **Description:** List of Certifications that can be filtered on in the CrossFit Trainer Directory  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -29,7 +29,7 @@
 | SOURCENAME | nvarchar | 50 | YES | ('') |
 
 ## Coach
-**Physical table:** `OSUSR_B94_COACHES`  
+**Physical table:** `OSUSR_b94_Coaches`  
 **Description:** List of Coaches retrieved from the CrossFit Trainer Directory  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | UPDATEDSCRAPEID | bigint |  | YES | (NULL) |
 
 ## CoachCertifications
-**Physical table:** `OSUSR_B94_COACHESCERTIFICATIONS`  
+**Physical table:** `OSUSR_b94_CoachesCertifications`  
 **Description:** Which certifications does each coach have  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -62,7 +62,7 @@
 | UPDATEDSCRAPEID | bigint |  | YES | (NULL) |
 
 ## CoachUsers
-**Physical table:** `OSUSR_B94_COACHESUSERS`  
+**Physical table:** `OSUSR_b94_CoachesUsers`  
 **Description:** Mapping between a Coach and a Wodify User  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -83,7 +83,7 @@
 | UPDATEDSCRAPEID | bigint |  | YES | (NULL) |
 
 ## NewCoachForHubspot
-**Physical table:** `OSUSR_B94_NEWCOACHFORHUBSPOT4`  
+**Physical table:** `OSUSR_b94_NewCoachForHubspot4`  
 **Description:** Holds Coach records that will be passed over to Hubspot  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -94,7 +94,7 @@
 | INHUBSPOT | bit |  | YES | ((0)) |
 
 ## RecordQueue
-**Physical table:** `OSUSR_B94_RECORDQUEUE`  
+**Physical table:** `OSUSR_b94_RecordQueue`  
 **Description:** Contains unprocessed HTML table row for the Trainer Directory Record  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -107,7 +107,7 @@
 | SCRAPEID | bigint |  | YES | (NULL) |
 
 ## RecordQueueStatus
-**Physical table:** `OSUSR_B94_RECORDQUEUESTATUS`  
+**Physical table:** `OSUSR_b94_RecordQueueStatus`  
 **Description:** Status of the record queue record  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -118,7 +118,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Scrape
-**Physical table:** `OSUSR_B94_SCRAPE`  
+**Physical table:** `OSUSR_b94_Scrape`  
 **Description:** Record of Scrapes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -127,7 +127,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ScrapeState
-**Physical table:** `OSUSR_B94_SCRAPESTATE`  
+**Physical table:** `OSUSR_b94_ScrapeState`  
 **Description:** Contains the states we want to scrape over along with the current status. Default status is Done, gets set to Waiting when a scrape starts.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -140,7 +140,7 @@
 | SCRAPEID | bigint |  | YES | (NULL) |
 
 ## ScrapeStateStatus
-**Physical table:** `OSUSR_B94_SCRAPESTATESTATUS`  
+**Physical table:** `OSUSR_b94_ScrapeStateStatus`  
 **Description:** Contains the status of the scrape state  
 
 | Column | Data Type | Max Length | Nullable | Default |

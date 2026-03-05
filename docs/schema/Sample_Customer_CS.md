@@ -14,7 +14,7 @@
 - [Title](#title)
 
 ## Company
-**Physical table:** `OSUSR_AZO_COMPANY`  
+**Physical table:** `OSUSR_azo_Company`  
 **Description:** Entity that holds the records of Companies.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -33,7 +33,7 @@
 | NUMBEROFEMPLOYEES | int |  | YES | ((0)) |
 
 ## CompanyContact
-**Physical table:** `OSUSR_AZO_COMPANYCONTACT`  
+**Physical table:** `OSUSR_azo_CompanyContact`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -57,7 +57,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CompanyContactThumbnail
-**Physical table:** `OSUSR_AZO_COMPANYCONTACTTHUMBNAIL`  
+**Physical table:** `OSUSR_azo_CompanyContactThumbnail`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -71,7 +71,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CompanyPosition
-**Physical table:** `OSUSR_AZO_COMPANYPOSITION`  
+**Physical table:** `OSUSR_azo_CompanyPosition`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -80,7 +80,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Customer
-**Physical table:** `OSUSR_AZO_CUSTOMER`  
+**Physical table:** `OSUSR_azo_Customer`  
 **Description:** Entity that holds the records of Customers.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -110,7 +110,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## CustomerIdentificationDocument
-**Physical table:** `OSUSR_AZO_CUSTOMERIDENTIFICATIONDOCUMENT`  
+**Physical table:** `OSUSR_azo_CustomerIdentificationDocument`  
 **Description:** Entity that holds the records of customers identification document.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -127,7 +127,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerIdentificationSelfie
-**Physical table:** `OSUSR_AZO_CUSTOMERIDENTIFICATIONSELFIE`  
+**Physical table:** `OSUSR_azo_CustomerIdentificationSelfie`  
 **Description:** Entity that holds the records of customers identification selfie.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -142,7 +142,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerThumbnail
-**Physical table:** `OSUSR_AZO_CUSTOMERTHUMBNAIL`  
+**Physical table:** `OSUSR_azo_CustomerThumbnail`  
 **Description:** Entity that holds the records of Customers thumbnails.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -157,7 +157,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Gender
-**Physical table:** `OSUSR_AZO_GENDER`  
+**Physical table:** `OSUSR_azo_Gender`  
 **Description:** Entity that holds the options for a customer's gender  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -168,7 +168,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Title
-**Physical table:** `OSUSR_AZO_TITLE`  
+**Physical table:** `OSUSR_azo_Title`  
 **Description:** Entity that holds the options for a customer's title.  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -7,7 +7,7 @@
 - [WelcomeEmailQueue](#welcomeemailqueue)
 
 ## EmailConfirmation
-**Physical table:** `OSUSR_BG5_EMAILCONFIRMATION`  
+**Physical table:** `OSUSR_bg5_EmailConfirmation`  
 **Description:** Auxiliary information for an email confirmation process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | EPAPPLICATIONSOURCEID | bigint |  | YES | ((0)) |
 
 ## EmailConfirmationStatus
-**Physical table:** `OSUSR_BG5_EMAILCONFIRMATIONSTATUS`  
+**Physical table:** `OSUSR_bg5_EmailConfirmationStatus`  
 **Description:** Status of an email confirmation  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -40,7 +40,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## WelcomeEmailQueue
-**Physical table:** `OSUSR_BG5_WELCOMEEMAILQUEUE`  
+**Physical table:** `OSUSR_bg5_WelcomeEmailQueue`  
 **Description:** Creating a record on this table will launch a BPT that sends a welcome email. The only reason the mail isn't send directly from this eSpace is because it would cause circular references.  We do this in the (very uncommon) situation where a welcome email for a Customer is sent while the confirmation process for a different Customer is still running. This allows us to send a differnet Welcome Email contianing the existing ConfirmationToken.  
 
 | Column | Data Type | Max Length | Nullable | Default |

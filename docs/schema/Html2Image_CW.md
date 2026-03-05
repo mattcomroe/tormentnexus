@@ -5,7 +5,7 @@
 - [ImageType](#imagetype)
 
 ## ImageType
-**Physical table:** `OSUSR_MM5_IMAGETYPE1`  
+**Physical table:** `OSUSR_mm5_ImageType1`  
 **Description:** Extension to generate an image  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

@@ -15,7 +15,7 @@
 - [Speaker](#speaker)
 
 ## Event
-**Physical table:** `OSUSR_WU5_EVENT`  
+**Physical table:** `OSUSR_wu5_Event`  
 **Description:** Entity to hold all information regarding the Events  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -34,7 +34,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## EventAttendee
-**Physical table:** `OSUSR_WU5_EVENTATTENDEE`  
+**Physical table:** `OSUSR_wu5_EventAttendee`  
 **Description:** Table to hold a relation of an attendee for a certain Session  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## EventColor
-**Physical table:** `OSUSR_WU5_COLOR`  
+**Physical table:** `OSUSR_wu5_Color`  
 **Description:** Collection of curated colors which match with the respective CSS classes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -57,7 +57,7 @@
 | COLOR | nvarchar | 50 | NO |  |
 
 ## EventSession
-**Physical table:** `OSUSR_WU5_EVENTSESSION`  
+**Physical table:** `OSUSR_wu5_EventSession`  
 **Description:** Table to hold a definition of an Session.Note: Must use name as "EventSession" to avoid troubleshooting related with Session systems variable.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -82,7 +82,7 @@
 | REMOTESESSIONURL | nvarchar | 250 | YES | ('') |
 
 ## EventSessionSpeaker
-**Physical table:** `OSUSR_WU5_EVENTSESSIONSPEAKER`  
+**Physical table:** `OSUSR_wu5_EventSessionSpeaker`  
 **Description:** Table to hold a relation of an speakers for a certain Session  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -93,7 +93,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Hours
-**Physical table:** `OSUSR_WU5_HOURS`  
+**Physical table:** `OSUSR_wu5_Hours`  
 **Description:** Collection of Hours  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -105,7 +105,7 @@
 | VALUE | int |  | YES | ((0)) |
 
 ## Image
-**Physical table:** `OSUSR_WU5_IMAGE`  
+**Physical table:** `OSUSR_wu5_Image`  
 **Description:** Entity to store images on the database  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -120,7 +120,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Minutes
-**Physical table:** `OSUSR_WU5_MINUTES`  
+**Physical table:** `OSUSR_wu5_Minutes`  
 **Description:** Collection of Minutes  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -132,7 +132,7 @@
 | VALUE | int |  | YES | ((0)) |
 
 ## Rating
-**Physical table:** `OSUSR_WU5_RATING`  
+**Physical table:** `OSUSR_wu5_Rating`  
 **Description:** Entity to hold all information regarding ratings by a user for a certain session  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -150,7 +150,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## SessionCategory
-**Physical table:** `OSUSR_WU5_SESSIONCATEGORY`  
+**Physical table:** `OSUSR_wu5_SessionCategory`  
 **Description:** Collection of Session Category  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -162,7 +162,7 @@
 | COLORID | nvarchar | 50 | YES | (NULL) |
 
 ## Speaker
-**Physical table:** `OSUSR_WU5_SPEAKER`  
+**Physical table:** `OSUSR_wu5_Speaker`  
 **Description:** Entity to hold all information regarding the Speaker  
 
 | Column | Data Type | Max Length | Nullable | Default |

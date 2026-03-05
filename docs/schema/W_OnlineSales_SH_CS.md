@@ -24,7 +24,7 @@
 - [RequestType](#requesttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_2O0_ASYNCPROCESS`  
+**Physical table:** `OSUSR_2o0_AsyncProcess`  
 **Description:** Auxiliar entity that contains all membership asynchronous processes, which will run through the Membership_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -33,7 +33,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## IllegalWodifySubdomain
-**Physical table:** `OSUSR_72O_ILLEGALWODIFYSUBDOMAIN`  
+**Physical table:** `OSUSR_72o_IllegalWodifySubdomain`  
 **Description:** Entity holding reserved words that can't be used for an OSP subdomain  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -43,7 +43,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## OnlineMembership
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIP`  
+**Physical table:** `OSUSR_72o_OnlineMembership`  
 **Description:** Holds details for an online membership  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## OnlineMembershipExpirationType
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPEXPIRATIONTYPE`  
+**Physical table:** `OSUSR_72o_OnlineMembershipExpirationType`  
 **Description:** Lookup table of the expiration types of OnlineMemberships  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -85,7 +85,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## OnlineMembershipLocation
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPLOCATION`  
+**Physical table:** `OSUSR_72o_OnlineMembershipLocation`  
 **Description:** Records that hold information about online memberships per location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -109,7 +109,7 @@
 | LATESTSTARTDATE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## OnlineMembershipPaymentOption
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPPAYMENTOPTION`  
+**Physical table:** `OSUSR_72o_OnlineMembershipPaymentOption`  
 **Description:** Records that hold information about online membership payment options  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -131,7 +131,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## OnlineMembershipPaymentOptionKey
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPPAYMENTOPTIONKEY`  
+**Physical table:** `OSUSR_72o_OnlineMembershipPaymentOptionKey`  
 **Description:** Records that hold information about online membership payment option keys  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -148,7 +148,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## OnlineMembershipProgram
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPPROGRAM`  
+**Physical table:** `OSUSR_72o_OnlineMembershipProgram`  
 **Description:** Records that hold information about online membership programs  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -164,7 +164,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## OnlineMembershipSale
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPSALE`  
+**Physical table:** `OSUSR_72o_OnlineMembershipSale`  
 **Description:** Record for a sale made through the Online Sales portal.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -202,7 +202,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## OnlineMembershipSaleFailedPaymentMessage
-**Physical table:** `OSUSR_2O0_ONLINEMEMBERSHIPSALEFAILEDPAYMENTMESSAGE`  
+**Physical table:** `OSUSR_2o0_OnlineMembershipSaleFailedPaymentMessage`  
 **Description:** Record for an error message that occurs when a membership was created but the payment failed in sale from Online Sales Portal.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -218,7 +218,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## OnlineMembershipType
-**Physical table:** `OSUSR_72O_ONLINEMEMBERSHIPTYPE`  
+**Physical table:** `OSUSR_72o_OnlineMembershipType`  
 **Description:** Lookup table of online membership types  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -230,7 +230,7 @@
 | PLURALLABEL | nvarchar | 50 | YES | ('') |
 
 ## Order
-**Physical table:** `OSUSR_2O0_ORDER`  
+**Physical table:** `OSUSR_2o0_Order`  
 **Description:** used to track an order as it moves from creation to payment to fulfillment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -264,7 +264,7 @@
 | STRIPERECEIPTURL | nvarchar | 255 | YES | ('') |
 
 ## OrderFulfillmentJob
-**Physical table:** `OSUSR_2O0_ORDERFULFILLMENTJOB4`  
+**Physical table:** `OSUSR_2o0_OrderFulfillmentJob4`  
 **Description:** the BPT “work item” for an order.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -283,7 +283,7 @@
 | CURRENTSTEPLABEL | nvarchar | 255 | YES | ('') |
 
 ## OrderFulfillmentJobStatus
-**Physical table:** `OSUSR_2O0_ORDERFULFILLMENTSTATUS`  
+**Physical table:** `OSUSR_2o0_OrderFulfillmentStatus`  
 **Description:** the possible statuses of order fulfillment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -294,7 +294,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## OrderFulfillmentLog
-**Physical table:** `OSUSR_2O0_ORDERFULFILLMENTLOG`  
+**Physical table:** `OSUSR_2o0_OrderFulfillmentLog`  
 **Description:** log of fulfillment attempts for an order  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -313,7 +313,7 @@
 | MESSAGE | nvarchar | 255 | YES | ('') |
 
 ## OrderStatus
-**Physical table:** `OSUSR_2O0_ORDERSTATUS`  
+**Physical table:** `OSUSR_2o0_OrderStatus`  
 **Description:** static lookup of possible order statuses  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -324,7 +324,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## OrderType
-**Physical table:** `OSUSR_2O0_ORDERTYPE`  
+**Physical table:** `OSUSR_2o0_OrderType`  
 **Description:** Enumerates the types of orders to process (membership, free, POS)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -335,7 +335,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## OrderUserMessage
-**Physical table:** `OSUSR_2O0_ORDERUSERMESSAGE`  
+**Physical table:** `OSUSR_2o0_OrderUserMessage`  
 **Description:** Holds user-facing messages encountered during the purchase process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -348,7 +348,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Request
-**Physical table:** `OSUSR_2O0_ONLINESALEREQUEST`  
+**Physical table:** `OSUSR_2o0_OnlineSaleRequest`  
 **Description:** Async requests related to online membership sales  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -370,7 +370,7 @@
 | REQUESTTYPEID | int |  | YES | (NULL) |
 
 ## RequestType
-**Physical table:** `OSUSR_2O0_ONLINESALEREQUESTTYPE`  
+**Physical table:** `OSUSR_2o0_OnlineSaleRequestType`  
 **Description:** Possible request types for the Request table  
 
 | Column | Data Type | Max Length | Nullable | Default |

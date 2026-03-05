@@ -10,7 +10,7 @@
 - [ReportUserStar](#reportuserstar)
 
 ## CustomerDashboardFilter
-**Physical table:** `OSUSR_VTI_CUSTOMERDASHBOARDFILTER`  
+**Physical table:** `OSUSR_vti_CustomerDashboardFilter`  
 **Description:** Holds a set of filters for a dashboard specific to a customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -25,7 +25,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## DateWeekMap
-**Physical table:** `OSUSR_VTI_DATEWEEKMAP`  
+**Physical table:** `OSUSR_vti_DateWeekMap`  
 **Description:** Maps dates to what week they would be in the year  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -41,7 +41,7 @@
 | FOLLOWINGDATE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Report
-**Physical table:** `OSUSR_72O_REPORT`  
+**Physical table:** `OSUSR_72o_Report`  
 **Description:** Our pre-configured reports to be viewed/ran.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -65,7 +65,7 @@
 | SITEPROPERTYNAME | nvarchar | 50 | YES | ('') |
 
 ## ReportMetabaseId
-**Physical table:** `OSUSR_VTI_REPORTMETABASEID`  
+**Physical table:** `OSUSR_vti_ReportMetabaseId`  
 **Description:** Metabase ID of the dashboard corresponding to a report. These are decoupled from the static entity to allow us to have different values in each environment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | METABASEDASHBOARDID | bigint |  | YES | ((0)) |
 
 ## ReportType
-**Physical table:** `OSUSR_72O_REPORTTYPE`  
+**Physical table:** `OSUSR_72o_ReportType`  
 **Description:** The categories for our canned reports  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -85,7 +85,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ReportUserStar
-**Physical table:** `OSUSR_VTI_REPORTUSERSTAR`  
+**Physical table:** `OSUSR_vti_ReportUserStar`  
 **Description:** Table to hold records of reports which users have favorited.  
 
 | Column | Data Type | Max Length | Nullable | Default |

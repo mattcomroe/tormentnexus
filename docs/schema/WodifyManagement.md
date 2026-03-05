@@ -6,7 +6,7 @@
 - [CloudsearchTertiaryMenuItems](#cloudsearchtertiarymenuitems)
 
 ## BusinessType
-**Physical table:** `OSUSR_L8G_BUSINESSTYPE`  
+**Physical table:** `OSUSR_l8g_BusinessType`  
 **Description:** Contains all business types.  If a Customer has multiple locations, it is possible to have a different business type for each location, otherwise the customer will have one business type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -18,7 +18,7 @@
 | EXTERNALVALUE | nvarchar | 50 | YES | ('') |
 
 ## CloudsearchTertiaryMenuItems
-**Physical table:** `OSUSR_L8G_CLOUDSEARCHTERTIARYMENUITEMS`  
+**Physical table:** `OSUSR_l8g_CloudsearchTertiaryMenuItems`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

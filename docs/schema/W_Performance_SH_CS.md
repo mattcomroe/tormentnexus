@@ -14,7 +14,7 @@
 - [WorkoutTrackingLocationSettings](#workouttrackinglocationsettings)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_LGW_ASYNCPROCESS`  
+**Physical table:** `OSUSR_lgw_AsyncProcess`  
 **Description:** Auxiliar entity that contains all asynchronous processes, which will run through the AP module in BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -23,7 +23,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PerformanceResultSource
-**Physical table:** `OSUSR_LGW_PERFORMANCERESULTSOURCE`  
+**Physical table:** `OSUSR_lgw_PerformanceResultSource`  
 **Description:** Entity to hold the PerformanceResultSource. For Performance Results, this replaces the LoginSource entity (WCS-15700). The first 3 records (Web Mobile NewMobile) are brought over here as inactive to not break the FK relationship for existing records  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -34,7 +34,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PerformanceSettings
-**Physical table:** `OSUSR_LGW_PERFORMANCESETTINGS`  
+**Physical table:** `OSUSR_lgw_PerformanceSettings`  
 **Description:** Contains all the settings of a Customer regarding Performance. One record per Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -54,7 +54,7 @@
 | CUSTOMERID | bigint |  | NO | ((0)) |
 
 ## PRType
-**Physical table:** `OSUSR_72O_PRTYPE`  
+**Physical table:** `OSUSR_72o_PRType`  
 **Description:** types of PRs  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -65,7 +65,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_LGW_PRRECALCULATIONREQUEST`  
+**Physical table:** `OSUSR_lgw_PRRecalculationRequest`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | RETRIEDBY | int |  | YES | (NULL) |
 
 ## RequestType
-**Physical table:** `OSUSR_LGW_REQUESTTYPE`  
+**Physical table:** `OSUSR_lgw_RequestType`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -97,7 +97,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## ResultsSharingOption
-**Physical table:** `OSUSR_LGW_RESULTSSHARINGOPTION`  
+**Physical table:** `OSUSR_lgw_ResultsSharingOption`  
 **Description:** Whether result sharing is on or off; if on, how results are ordered.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -108,7 +108,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## UserClassLogin
-**Physical table:** `OSUSR_72O_USERCLASSLOGIN`  
+**Physical table:** `OSUSR_72o_UserClassLogin`  
 **Description:** Contains information for when a user, a lead or dropin has signed into a class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -142,7 +142,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## UserComponent
-**Physical table:** `OSUSR_72O_USERCOMPONENT`  
+**Physical table:** `OSUSR_72o_UserComponent`  
 **Description:** An exercise that was added by a client, outside a WOD.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -169,7 +169,7 @@
 | WODCOMPONENTID | int |  | YES | (NULL) |
 
 ## WorkoutTrackingLocationSettings
-**Physical table:** `OSUSR_LGW_WORKOUTTRACKINGLOCATIONSETTINGS`  
+**Physical table:** `OSUSR_lgw_WorkoutTrackingLocationSettings`  
 **Description:** Contains the Workout Tracking feature settings for a given location.  
 
 | Column | Data Type | Max Length | Nullable | Default |

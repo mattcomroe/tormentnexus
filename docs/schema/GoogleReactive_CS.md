@@ -6,13 +6,13 @@
 - [OauthService](#oauthservice)
 
 ## AuthenticationDetail
-**Physical table:** `OSUSR_1C6_AUTHENTICATIONDETAIL1`  
+**Physical table:** `OSUSR_1c6_AuthenticationDetail1`  
 **Description:** Saves the authentication details that can be saved client side  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## OauthService
-**Physical table:** `OSUSR_1C6_OAUTHSERVICE`  
+**Physical table:** `OSUSR_1c6_OauthService`  
 **Description:** OAuth providers available to use  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

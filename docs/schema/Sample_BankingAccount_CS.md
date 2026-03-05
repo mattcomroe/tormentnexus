@@ -10,7 +10,7 @@
 - [TransactionType](#transactiontype)
 
 ## Account
-**Physical table:** `OSUSR_57H_ACCOUNT`  
+**Physical table:** `OSUSR_57h_Account`  
 **Description:** Entity that holds the records of accounts.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -34,7 +34,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## AccountType
-**Physical table:** `OSUSR_57H_ACCOUNTTYPE`  
+**Physical table:** `OSUSR_57h_AccountType`  
 **Description:** The different types of accounts.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -45,7 +45,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AccountTypeThumbnail
-**Physical table:** `OSUSR_57H_ACCOUNTTYPETHUMBNAIL`  
+**Physical table:** `OSUSR_57h_AccountTypeThumbnail`  
 **Description:** Entity that holds the records of thumbnails of account types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -60,7 +60,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Transaction
-**Physical table:** `OSUSR_57H_TRANSACTION`  
+**Physical table:** `OSUSR_57h_Transaction`  
 **Description:** Entity that holds the records of transactions of accounts.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -82,7 +82,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## TransactionSchedule
-**Physical table:** `OSUSR_57H_TRANSACTIONSCHEDULE`  
+**Physical table:** `OSUSR_57h_TransactionSchedule`  
 **Description:** The different options when scheduling a transaction.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -93,7 +93,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TransactionType
-**Physical table:** `OSUSR_57H_TRANSACTIONTYPE`  
+**Physical table:** `OSUSR_57h_TransactionType`  
 **Description:** The different types of transactions.  
 
 | Column | Data Type | Max Length | Nullable | Default |

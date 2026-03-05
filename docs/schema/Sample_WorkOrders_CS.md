@@ -13,7 +13,7 @@
 - [WorkTaskType](#worktasktype)
 
 ## CustomerFeedback
-**Physical table:** `OSUSR_2M7_CUSTOMERFEEDBACK`  
+**Physical table:** `OSUSR_2m7_CustomerFeedback`  
 **Description:** Entity that holds the records of Customer Feedbacks.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -27,7 +27,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerNote
-**Physical table:** `OSUSR_2M7_CUSTOMERNOTE`  
+**Physical table:** `OSUSR_2m7_CustomerNote`  
 **Description:** Entity that holds the records of Customer Notes.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -41,7 +41,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WorkOrder
-**Physical table:** `OSUSR_2M7_WORKORDER`  
+**Physical table:** `OSUSR_2m7_WorkOrder`  
 **Description:** Entity that holds the records of Work Orders.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -64,7 +64,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## WorkOrderStatus
-**Physical table:** `OSUSR_2M7_WORKORDERSTATUS`  
+**Physical table:** `OSUSR_2m7_WorkOrderStatus`  
 **Description:** Status of the Work Order  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -77,7 +77,7 @@
 | TEXTCOLOR | nvarchar | 50 | YES | ('') |
 
 ## WorkOrderTask
-**Physical table:** `OSUSR_2M7_WORKORDERTASK`  
+**Physical table:** `OSUSR_2m7_WorkOrderTask`  
 **Description:** Entity that holds the records of Work Order Tasks.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | ISDONE | bit |  | YES | ((0)) |
 
 ## WorkOrderType
-**Physical table:** `OSUSR_2M7_WORKORDERTYPE`  
+**Physical table:** `OSUSR_2m7_WorkOrderType`  
 **Description:** Type of Work Order  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -100,7 +100,7 @@
 | DURATION | int |  | YES | ((0)) |
 
 ## WorkTask
-**Physical table:** `OSUSR_2M7_WORKTASK`  
+**Physical table:** `OSUSR_2m7_WorkTask`  
 **Description:** Entity that holds the records of Work Tasks.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -117,7 +117,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## WorkTaskServiceType
-**Physical table:** `OSUSR_2M7_WORKTASKSERVICETYPE`  
+**Physical table:** `OSUSR_2m7_WorkTaskServiceType`  
 **Description:** Type of Service  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -128,7 +128,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## WorkTaskType
-**Physical table:** `OSUSR_2M7_WORKTASKTYPE`  
+**Physical table:** `OSUSR_2m7_WorkTaskType`  
 **Description:** Type of Task  
 
 | Column | Data Type | Max Length | Nullable | Default |

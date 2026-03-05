@@ -5,7 +5,7 @@
 - [BPT_Log](#bpt-log)
 
 ## BPT_Log
-**Physical table:** `OSUSR_F7R_BPT_LOG`  
+**Physical table:** `OSUSR_f7r_BPT_Log`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

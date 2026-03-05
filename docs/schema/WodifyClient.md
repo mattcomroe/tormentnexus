@@ -7,19 +7,19 @@
 - [Session](#session)
 
 ## BiometricAuthentication
-**Physical table:** `OSUSR_LIV_BIOMETRICAUTHENTICATION`  
+**Physical table:** `OSUSR_liv_BiometricAuthentication`  
 **Description:** Contains user account to log into when Face/Touch Id is used to login on this device  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## PersistentSetting
-**Physical table:** `OSUSR_E2R_PERSISTENTSETTING`  
+**Physical table:** `OSUSR_e2r_PersistentSetting`  
 **Description:** Settings that will not be deleted on logout.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Session
-**Physical table:** `OSUSR_LIV_SESSION2`  
+**Physical table:** `OSUSR_liv_Session2`  
 **Description:** Contains session data to have persistent login  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

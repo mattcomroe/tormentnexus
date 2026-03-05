@@ -11,7 +11,7 @@
 - [RatePlan](#rateplan)
 
 ## EnergyDailyConsumption
-**Physical table:** `OSUSR_GON_ENERGYDAILYCONSUMPTION`  
+**Physical table:** `OSUSR_gon_EnergyDailyConsumption`  
 **Description:** Daily consumption for a contracted service  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -29,7 +29,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## EnergyHourlyConsumption
-**Physical table:** `OSUSR_GON_ENERGYHOURLYCONSUMPTION`  
+**Physical table:** `OSUSR_gon_EnergyHourlyConsumption`  
 **Description:** Hourly consumption for a contracted service  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -48,7 +48,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## EnergyInvoice
-**Physical table:** `OSUSR_GON_ENERGYINVOICE`  
+**Physical table:** `OSUSR_gon_EnergyInvoice`  
 **Description:** Invoice for a specific period in a service provision.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -72,7 +72,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## EnergyMonthlyConsumption
-**Physical table:** `OSUSR_GON_ENERGYMONTHLYCONSUMPTION`  
+**Physical table:** `OSUSR_gon_EnergyMonthlyConsumption`  
 **Description:** Monthly consumption for a contracted service  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -91,7 +91,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## EnergyService
-**Physical table:** `OSUSR_GON_ENERGYSERVICE`  
+**Physical table:** `OSUSR_gon_EnergyService`  
 **Description:** Contracted service.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -115,7 +115,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## InvoiceStatus
-**Physical table:** `OSUSR_GON_INVOICESTATUS`  
+**Physical table:** `OSUSR_gon_InvoiceStatus`  
 **Description:** Status of the invoice.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -128,7 +128,7 @@
 | TEXTCLASS | nvarchar | 50 | YES | ('') |
 
 ## RatePlan
-**Physical table:** `OSUSR_GON_RATEPLAN`  
+**Physical table:** `OSUSR_gon_RatePlan`  
 **Description:** Package name of the service.  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -6,7 +6,7 @@
 - [RequestData](#requestdata)
 
 ## Purpose
-**Physical table:** `OSUSR_QIV_PURPOSE`  
+**Physical table:** `OSUSR_qiv_Purpose`  
 **Description:** Contains all the environment purposes defined in licenses.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -15,7 +15,7 @@
 | DISPLAYLABEL | nvarchar | 50 | YES | ('') |
 
 ## RequestData
-**Physical table:** `OSUSR_QIV_REQUESTDATA`  
+**Physical table:** `OSUSR_qiv_RequestData`  
 **Description:** RawData collected from the end-user experience, such as web screen load time and end-user IP.  
 
 | Column | Data Type | Max Length | Nullable | Default |

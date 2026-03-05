@@ -15,7 +15,7 @@
 - [SmartButtonRequestStatus](#smartbuttonrequeststatus)
 
 ## Button
-**Physical table:** `OSUSR_QDM_CUSTOMACTION`  
+**Physical table:** `OSUSR_qdm_CustomAction`  
 **Description:** Smart button data.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## ButtonInput
-**Physical table:** `OSUSR_QDM_ACTIONINPUT`  
+**Physical table:** `OSUSR_qdm_ActionInput`  
 **Description:** Button input data.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | DROPDOWNTYPEID | int |  | YES | (NULL) |
 
 ## ButtonInputOption
-**Physical table:** `OSUSR_QDM_ACTIONINPUTMULTIOPTION`  
+**Physical table:** `OSUSR_qdm_ActionInputMultiOption`  
 **Description:** Options for an Button input if type is Multiple Choice or Multi-select.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -58,25 +58,25 @@
 | CUSTOMACTIONINPUTID | bigint |  | YES | (NULL) |
 
 ## DeviceEvent
-**Physical table:** `OSUSR_QDM_DEVICELOG`  
+**Physical table:** `OSUSR_qdm_DeviceLog`  
 **Description:** Logs Smart Device events from Seam and Workflows  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## DeviceEventSource
-**Physical table:** `OSUSR_QDM_DEVICEEVENTSOURCE`  
+**Physical table:** `OSUSR_qdm_DeviceEventSource`  
 **Description:** Source of Device event, Seam or Workflows  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## DeviceEventType
-**Physical table:** `OSUSR_QDM_DEVICEEVENTTYPE`  
+**Physical table:** `OSUSR_qdm_DeviceEventType`  
 **Description:** Type of Device event  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## InputType
-**Physical table:** `OSUSR_QDM_INPUTTYPE`  
+**Physical table:** `OSUSR_qdm_InputType`  
 **Description:** Input types for ButtonInputs.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -87,19 +87,19 @@ _Column definitions not found in schema export._
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PageButton
-**Physical table:** `OSUSR_QDM_PAGEBUTTON`  
+**Physical table:** `OSUSR_qdm_PageButton`  
 **Description:** Entity to associate a Workflow Button Page with Workflow Buttons, i.e. shows which Buttons is on a Page.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## PersonAccessCode
-**Physical table:** `OSUSR_QDM_PERSONACCESSCODE`  
+**Physical table:** `OSUSR_qdm_PersonAccessCode`  
 **Description:** joining table that maps Access Code to a person and/or Reservation  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## SmartButtonPage
-**Physical table:** `OSUSR_QDM_CUSTOMMENUITEM`  
+**Physical table:** `OSUSR_qdm_CustomMenuItem`  
 **Description:** Smart button page data.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -116,7 +116,7 @@ _Column definitions not found in schema export._
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## SmartButtonRequestStatus
-**Physical table:** `OSUSR_QDM_CUSTOMAUTOMATIONREQUESTSTATUS`  
+**Physical table:** `OSUSR_qdm_CustomAutomationRequestStatus`  
 **Description:** Statuses for smart button requests.  
 
 | Column | Data Type | Max Length | Nullable | Default |

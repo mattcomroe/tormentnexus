@@ -6,7 +6,7 @@
 - [HTTPStatus](#httpstatus)
 
 ## AuthenticationToken
-**Physical table:** `OSUSR_4N4_AUTHENTICATIONTOKEN`  
+**Physical table:** `OSUSR_4n4_AuthenticationToken`  
 **Description:** The AuthenticationToken is a small temporary key that will identify an user. See the action GenerateToken for more information about the process of creating a new token.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -20,7 +20,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## HTTPStatus
-**Physical table:** `OSUSR_4N4_HTTPSTATUS`  
+**Physical table:** `OSUSR_4n4_HTTPStatus`  
 **Description:** Contains all HTTP Status (from wikipedia)  
 
 | Column | Data Type | Max Length | Nullable | Default |

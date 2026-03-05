@@ -6,11 +6,11 @@
 - [StartExample](#startexample)
 
 ## InsertExample
-**Physical table:** `OSUSR_FSZ_INSERTEXAMPLE`  
+**Physical table:** `OSUSR_fsz_InsertExample`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## StartExample
-**Physical table:** `OSUSR_FSZ_STARTEXAMPLE`  
+**Physical table:** `OSUSR_fsz_StartExample`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

@@ -7,7 +7,7 @@
 - [FirebaseServiceAccount_Extension](#firebaseserviceaccount-extension)
 
 ## BinaryType
-**Physical table:** `OSUSR_9WL_PROJECTTYPE`  
+**Physical table:** `OSUSR_9wl_ProjectType`  
 **Description:** Type of the binary, service account for example is used for the firebase service account  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -18,7 +18,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## FirebaseServiceAccount
-**Physical table:** `OSUSR_9WL_FIREBASESERVICEACCOUNT`  
+**Physical table:** `OSUSR_9wl_FirebaseServiceAccount`  
 **Description:** This holds the firebase project/binaryfk and sender id which is used to connect with firebase  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -35,7 +35,7 @@
 | SENDERID | nvarchar | 50 | YES | ('') |
 
 ## FirebaseServiceAccount_Extension
-**Physical table:** `OSUSR_9WL_FIREBASESERVICEACCOUNT_EXTENSION`  
+**Physical table:** `OSUSR_9wl_FirebaseServiceAccount_Extension`  
 **Description:** Extension meant to hold the binary separate from the main query table  
 
 | Column | Data Type | Max Length | Nullable | Default |

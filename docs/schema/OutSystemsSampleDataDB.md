@@ -36,7 +36,7 @@
 - [Sample_TransactionType](#sample-transactiontype)
 
 ## Sample_Accounts
-**Physical table:** `OSUSR_MLE_SAMPLE_ACCOUNTS1`  
+**Physical table:** `OSUSR_mle_Sample_Accounts1`  
 **Description:** Entity that holds the records of accounts.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -54,7 +54,7 @@
 | ISPERSONAL | bit |  | YES | ((0)) |
 
 ## Sample_Budget
-**Physical table:** `OSUSR_MLE_SAMPLE_BUDGET1`  
+**Physical table:** `OSUSR_mle_Sample_Budget1`  
 **Description:** Entity that holds the records of budgets.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -66,7 +66,7 @@
 | TYPE | int |  | YES | (NULL) |
 
 ## Sample_Color
-**Physical table:** `OSUSR_MLE_SAMPLE_COLOR`  
+**Physical table:** `OSUSR_mle_Sample_Color`  
 **Description:** Static Entity with the available colors for a product.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -75,7 +75,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## Sample_DeliveryType
-**Physical table:** `OSUSR_MLE_SAMPLE_DELIVERYTYPE`  
+**Physical table:** `OSUSR_mle_Sample_DeliveryType`  
 **Description:** Static Entity with the available delivery types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -85,7 +85,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Department
-**Physical table:** `OSUSR_MLE_SAMPLE_DEPARTMENT1`  
+**Physical table:** `OSUSR_mle_Sample_Department1`  
 **Description:** Entity that holds the records of departments.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -94,7 +94,7 @@
 | NAME | nvarchar | 100 | YES | ('') |
 
 ## Sample_Employee
-**Physical table:** `OSUSR_MLE_SAMPLE_EMPLOYEE1`  
+**Physical table:** `OSUSR_mle_Sample_Employee1`  
 **Description:** Entity that holds the records of employees.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -119,7 +119,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Location
-**Physical table:** `OSUSR_MLE_SAMPLE_LOCATION`  
+**Physical table:** `OSUSR_mle_Sample_Location`  
 **Description:** Entity that holds the records of locations.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -142,7 +142,7 @@
 | HOLIDAYSBUSINESSHOURS | nvarchar | 50 | YES | ('') |
 
 ## Sample_LocationMainPicture
-**Physical table:** `OSUSR_MLE_SAMPLE_LOCATIONMAINPICTURE`  
+**Physical table:** `OSUSR_mle_Sample_LocationMainPicture`  
 **Description:** Entity that holds the records of location main pictures.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -154,7 +154,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Sample_LocationPictures
-**Physical table:** `OSUSR_MLE_SAMPLE_LOCATIONPICTURES`  
+**Physical table:** `OSUSR_mle_Sample_LocationPictures`  
 **Description:** Entity that holds the records of location pictures.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -168,7 +168,7 @@
 | ISCOVERIMAGE | bit |  | YES | ((0)) |
 
 ## Sample_LocationReviews
-**Physical table:** `OSUSR_MLE_SAMPLE_LOCATIONREVIEWS`  
+**Physical table:** `OSUSR_mle_Sample_LocationReviews`  
 **Description:** Entity that holds the records of location reviews.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -178,7 +178,7 @@
 | REVIEWID | bigint |  | YES | (NULL) |
 
 ## Sample_LocationType
-**Physical table:** `OSUSR_MLE_SAMPLE_LOCATIONTYPE`  
+**Physical table:** `OSUSR_mle_Sample_LocationType`  
 **Description:** Static Entity with the available location types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -189,7 +189,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Notification
-**Physical table:** `OSUSR_MLE_SAMPLE_NOTIFICATION1`  
+**Physical table:** `OSUSR_mle_Sample_Notification1`  
 **Description:** Entity that holds the records of notifications.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -200,7 +200,7 @@
 | CREATEDBY | int |  | YES | (NULL) |
 
 ## Sample_Office
-**Physical table:** `OSUSR_MLE_SAMPLE_OFFICE1`  
+**Physical table:** `OSUSR_mle_Sample_Office1`  
 **Description:** Entity that holds the records of offices.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -212,7 +212,7 @@
 | LONGITUDE | nvarchar | 50 | YES | ('') |
 
 ## Sample_OfficePictures
-**Physical table:** `OSUSR_MLE_SAMPLE_OFFICEPICTURES`  
+**Physical table:** `OSUSR_mle_Sample_OfficePictures`  
 **Description:** Entity that holds the records of office pictures.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -225,7 +225,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Sample_OfficeReviews
-**Physical table:** `OSUSR_MLE_SAMPLE_OFFICEREVIEWS`  
+**Physical table:** `OSUSR_mle_Sample_OfficeReviews`  
 **Description:** Entity that holds the records of office reviews.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -235,7 +235,7 @@
 | REVIEWID | bigint |  | YES | (NULL) |
 
 ## Sample_Priority
-**Physical table:** `OSUSR_MLE_SAMPLE_PRIORITY1`  
+**Physical table:** `OSUSR_mle_Sample_Priority1`  
 **Description:** Static Entity with the available priorities.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -245,7 +245,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Sample_Product
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCT2`  
+**Physical table:** `OSUSR_mle_Sample_Product2`  
 **Description:** Entity that holds the records of products.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -272,7 +272,7 @@
 | SAMPLE_SIZE | int |  | YES | (NULL) |
 
 ## Sample_ProductCategory
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTCATEGORY1`  
+**Physical table:** `OSUSR_mle_Sample_ProductCategory1`  
 **Description:** Static Entity with the available product categories.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -284,7 +284,7 @@
 | PRODUCTTYPE | int |  | YES | (NULL) |
 
 ## Sample_ProductImage
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTIMAGE1`  
+**Physical table:** `OSUSR_mle_Sample_ProductImage1`  
 **Description:** Entity that holds the records of product images.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -298,7 +298,7 @@
 | ISCOVERIMAGE | bit |  | YES | ((0)) |
 
 ## Sample_ProductInventory
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTINVENTORY2`  
+**Physical table:** `OSUSR_mle_Sample_ProductInventory2`  
 **Description:** Entity that holds the records of product inventories.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -310,7 +310,7 @@
 | WAREHOUSELOCATION | int |  | YES | (NULL) |
 
 ## Sample_ProductMainImage
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTMAINIMAGE`  
+**Physical table:** `OSUSR_mle_Sample_ProductMainImage`  
 **Description:** Entity that holds the records of product main images.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -322,7 +322,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Sample_ProductReviews
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTREVIEWS1`  
+**Physical table:** `OSUSR_mle_Sample_ProductReviews1`  
 **Description:** Entity that holds the records of product reviews.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -332,7 +332,7 @@
 | REVIEWID | bigint |  | YES | (NULL) |
 
 ## Sample_ProductSales
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTSALES2`  
+**Physical table:** `OSUSR_mle_Sample_ProductSales2`  
 **Description:** Entity that holds the records of product sales.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -344,7 +344,7 @@
 | PRODUCT | int |  | YES | (NULL) |
 
 ## Sample_ProductType
-**Physical table:** `OSUSR_MLE_SAMPLE_PRODUCTTYPE`  
+**Physical table:** `OSUSR_mle_Sample_ProductType`  
 **Description:** Static Entity with the available product types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -355,7 +355,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Sample_Request
-**Physical table:** `OSUSR_MLE_SAMPLE_REQUEST1`  
+**Physical table:** `OSUSR_mle_Sample_Request1`  
 **Description:** Entity that holds the records of requests.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -373,7 +373,7 @@
 | REQUESTEDBY | int |  | YES | (NULL) |
 
 ## Sample_RequestFile
-**Physical table:** `OSUSR_MLE_SAMPLE_REQUESTFILE1`  
+**Physical table:** `OSUSR_mle_Sample_RequestFile1`  
 **Description:** Entity that holds the records of request files.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -385,7 +385,7 @@
 | FILETYPE | nvarchar | 150 | YES | ('') |
 
 ## Sample_RequestStatus
-**Physical table:** `OSUSR_MLE_SAMPLE_REQUESTSTATUS1`  
+**Physical table:** `OSUSR_mle_Sample_RequestStatus1`  
 **Description:** Static Entity with the available request statuses.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -395,7 +395,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Sample_Reviews
-**Physical table:** `OSUSR_MLE_SAMPLE_REVIEWS`  
+**Physical table:** `OSUSR_mle_Sample_Reviews`  
 **Description:** Entity that holds the records of reviews.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -407,7 +407,7 @@
 | REVIEWEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Sample_Shipping
-**Physical table:** `OSUSR_MLE_SAMPLE_SHIPPING`  
+**Physical table:** `OSUSR_mle_Sample_Shipping`  
 **Description:** Entity that holds the records of shipping options.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -419,7 +419,7 @@
 | TIMETODELIVER | nvarchar | 50 | YES | ('') |
 
 ## Sample_Size
-**Physical table:** `OSUSR_MLE_SAMPLE_SIZE`  
+**Physical table:** `OSUSR_mle_Sample_Size`  
 **Description:** Static Entity with the available sizes for a product.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -428,7 +428,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## Sample_Transaction
-**Physical table:** `OSUSR_MLE_SAMPLE_TRANSACTION1`  
+**Physical table:** `OSUSR_mle_Sample_Transaction1`  
 **Description:** Entity that holds the records of transactions.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -443,7 +443,7 @@
 | TYPE | int |  | YES | (NULL) |
 
 ## Sample_TransactionType
-**Physical table:** `OSUSR_MLE_SAMPLE_TRANSACTIONTYPE1`  
+**Physical table:** `OSUSR_mle_Sample_TransactionType1`  
 **Description:** Static Entity with the available transaction types.  
 
 | Column | Data Type | Max Length | Nullable | Default |

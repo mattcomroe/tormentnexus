@@ -23,7 +23,7 @@
 - [JobPosition](#jobposition)
 
 ## Department
-**Physical table:** `OSUSR_IJE_DEPARTMENT`  
+**Physical table:** `OSUSR_ije_Department`  
 **Description:** Entity that holds the records of departments.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Document
-**Physical table:** `OSUSR_IJE_DOCUMENT`  
+**Physical table:** `OSUSR_ije_Document`  
 **Description:** Entity that holds the records of Documents  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -53,7 +53,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## DocumentBinary
-**Physical table:** `OSUSR_IJE_DOCUMENTBINARY`  
+**Physical table:** `OSUSR_ije_DocumentBinary`  
 **Description:** Entity that holds the records of Document binary  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -68,7 +68,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ELearningCourse
-**Physical table:** `OSUSR_IJE_ELEARNINGCOURSE`  
+**Physical table:** `OSUSR_ije_ELearningCourse`  
 **Description:** Entity that holds the records of E-Learning Courses  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -85,7 +85,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## ELearningCourseImage
-**Physical table:** `OSUSR_IJE_ELEARNINGCOURSEIMAGE`  
+**Physical table:** `OSUSR_ije_ELearningCourseImage`  
 **Description:** Entity that holds the records of E-Learning Courses Images  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -100,7 +100,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ELearningCourseStatus
-**Physical table:** `OSUSR_IJE_ELEARNINGCOURSESTATUS`  
+**Physical table:** `OSUSR_ije_ELearningCourseStatus`  
 **Description:** Entity that holds the records of E-Learning Courses Status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -111,7 +111,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ELearningCourseVideo
-**Physical table:** `OSUSR_IJE_ELEARNINGCOURSEVIDEO`  
+**Physical table:** `OSUSR_ije_ELearningCourseVideo`  
 **Description:** Entity that holds the records of E-Learning Courses Binary video  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -128,7 +128,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Employee
-**Physical table:** `OSUSR_IJE_EMPLOYEE`  
+**Physical table:** `OSUSR_ije_Employee`  
 **Description:** Entity that holds the records of employees.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -157,7 +157,7 @@
 | EMPLOYEENUMBER | nvarchar | 50 | YES | ('') |
 
 ## EmployeeDocument
-**Physical table:** `OSUSR_IJE_EMPLOYEEDOCUMENT`  
+**Physical table:** `OSUSR_ije_EmployeeDocument`  
 **Description:** Entity that holds the Employees Documents  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -173,7 +173,7 @@
 | SIGNATURE | varbinary | -1 | YES | (NULL) |
 
 ## EmployeeDocumentSignatureStatus
-**Physical table:** `OSUSR_IJE_EMPLOYEEDOCUMENTSIGNATURESTATUS`  
+**Physical table:** `OSUSR_ije_EmployeeDocumentSignatureStatus`  
 **Description:** Entity that holds the Employees Signature status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -184,7 +184,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## EmployeeELearningCourse
-**Physical table:** `OSUSR_IJE_EMPLOYEEELEARNINGCOURSE`  
+**Physical table:** `OSUSR_ije_EmployeeELearningCourse`  
 **Description:** Entity that holds the records of E-Learning Courses of an Employee  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -197,7 +197,7 @@
 | STATUSPERCENTAGE | int |  | YES | ((0)) |
 
 ## EmployeeELearningCourseVideo
-**Physical table:** `OSUSR_IJE_EMPLOYEEELEARNINGCOURSEVIDEO`  
+**Physical table:** `OSUSR_ije_EmployeeELearningCourseVideo`  
 **Description:** Entity that holds the records of E-Learning Courses videos of an Employee  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -208,7 +208,7 @@
 | ISWATCHED | bit |  | YES | ((0)) |
 
 ## EmployeeEquipment
-**Physical table:** `OSUSR_IJE_EMPLOYEEEQUIPMENT`  
+**Physical table:** `OSUSR_ije_EmployeeEquipment`  
 **Description:** Entity that holds the records of Equipments of an Employee  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -218,7 +218,7 @@
 | EQUIPMENTID | bigint |  | YES | (NULL) |
 
 ## EmployeeOnboarding
-**Physical table:** `OSUSR_IJE_EMPLOYEEONBOARDING`  
+**Physical table:** `OSUSR_ije_EmployeeOnboarding`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -242,7 +242,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## EmployeeOnboardingStatus
-**Physical table:** `OSUSR_IJE_EMPLOYEEONBOARDINGSTATUS`  
+**Physical table:** `OSUSR_ije_EmployeeOnboardingStatus`  
 **Description:** Employee Onboarding Status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -253,7 +253,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## EmployeeThumbnail
-**Physical table:** `OSUSR_IJE_EMPLOYEETHUMBNAIL`  
+**Physical table:** `OSUSR_ije_EmployeeThumbnail`  
 **Description:** Entity that holds the records of Employees thumbnails.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -268,7 +268,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Equipment
-**Physical table:** `OSUSR_IJE_EQUIPMENT`  
+**Physical table:** `OSUSR_ije_Equipment`  
 **Description:** Equipment available to onboard the employee  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -283,7 +283,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## EquipmentImage
-**Physical table:** `OSUSR_IJE_EQUIPMENTIMAGE`  
+**Physical table:** `OSUSR_ije_EquipmentImage`  
 **Description:** Entity that holds the images of equipments.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -298,7 +298,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## JobPosition
-**Physical table:** `OSUSR_IJE_JOBPOSITION`  
+**Physical table:** `OSUSR_ije_JobPosition`  
 **Description:** Entity that holds the records of job positions.  
 
 | Column | Data Type | Max Length | Nullable | Default |

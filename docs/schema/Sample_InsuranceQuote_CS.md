@@ -12,7 +12,7 @@
 - [Vehicle](#vehicle)
 
 ## Coverage
-**Physical table:** `OSUSR_AG5_COVERAGE`  
+**Physical table:** `OSUSR_ag5_Coverage`  
 **Description:** Entity that holds the records of diferent coverages of the insurance plans.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -28,7 +28,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Driver
-**Physical table:** `OSUSR_AG5_DRIVER`  
+**Physical table:** `OSUSR_ag5_Driver`  
 **Description:** Entity that holds the records of type Driver.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## InsuranceType
-**Physical table:** `OSUSR_AG5_INSURANCETYPE`  
+**Physical table:** `OSUSR_ag5_InsuranceType`  
 **Description:** Static entity that holds the differente types of insurances.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -58,7 +58,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## Plan
-**Physical table:** `OSUSR_AG5_PLAN`  
+**Physical table:** `OSUSR_ag5_Plan`  
 **Description:** Entity that holds the records of insurance plans.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -77,7 +77,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PlanCoverage
-**Physical table:** `OSUSR_AG5_PLANCOVERAGE`  
+**Physical table:** `OSUSR_ag5_PlanCoverage`  
 **Description:** Entity that holds the records that relate the insurance plans and its coverages.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -87,7 +87,7 @@
 | COVERAGEID | int |  | YES | (NULL) |
 
 ## Quote
-**Physical table:** `OSUSR_AG5_QUOTE`  
+**Physical table:** `OSUSR_ag5_Quote`  
 **Description:** Entity that holds the records of type Quote.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -102,7 +102,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## QuoteCar
-**Physical table:** `OSUSR_AG5_QUOTECAR`  
+**Physical table:** `OSUSR_ag5_QuoteCar`  
 **Description:** Entity that holds the records of type QuoteCar.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -113,7 +113,7 @@
 | PLANID | int |  | YES | (NULL) |
 
 ## Vehicle
-**Physical table:** `OSUSR_AG5_VEHICLE`  
+**Physical table:** `OSUSR_ag5_Vehicle`  
 **Description:** Entity that holds the records of type Vehicle.  
 
 | Column | Data Type | Max Length | Nullable | Default |

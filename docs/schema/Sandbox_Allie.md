@@ -12,41 +12,41 @@
 - [WorkatoSessionAudit](#workatosessionaudit)
 
 ## CKEditorContent
-**Physical table:** `OSUSR_DS1_CKEDITORCONTENT`  
+**Physical table:** `OSUSR_ds1_CKEditorContent`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## CustomerSettingSignIn
-**Physical table:** `OSUSR_DS1_CUSTOMERSETTINGSIGNIN`  
+**Physical table:** `OSUSR_ds1_CustomerSettingSignIn`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## FolderType
-**Physical table:** `OSUSR_DS1_FOLDERTYPE`  
+**Physical table:** `OSUSR_ds1_FolderType`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## GlobalUserMFA
-**Physical table:** `OSUSR_DS1_GLOBALUSERMFA`  
+**Physical table:** `OSUSR_ds1_GlobalUserMFA`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## GlobalUserTrustedDevice
-**Physical table:** `OSUSR_DS1_GLOBALUSERTRUSTEDDEVICE`  
+**Physical table:** `OSUSR_ds1_GlobalUserTrustedDevice`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## TributeContent
-**Physical table:** `OSUSR_DS1_TRIBUTECONTENT`  
+**Physical table:** `OSUSR_ds1_TributeContent`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## WorkatoSession
-**Physical table:** `OSUSR_DS1_WORKATOSESSION`  
+**Physical table:** `OSUSR_ds1_WorkatoSession`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## WorkatoSessionAudit
-**Physical table:** `OSUSR_DS1_WORKATOSESSIONAUDIT`  
+**Physical table:** `OSUSR_ds1_WorkatoSessionAudit`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

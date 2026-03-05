@@ -25,7 +25,7 @@
 - [WhoSignsWaiver](#whosignswaiver)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_G9L_ASYNCPROCESS`  
+**Physical table:** `OSUSR_g9l_AsyncProcess`  
 **Description:** Auxiliar entity that contains all waivers asynchronous processes, which will run through the Waivers_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -34,7 +34,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## BulkFile
-**Physical table:** `OSUSR_G9L_BULKFILE`  
+**Physical table:** `OSUSR_g9l_BulkFile`  
 **Description:** Zip file containing several files to be sent to the user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -46,7 +46,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Request
-**Physical table:** `OSUSR_6AO_REQUEST`  
+**Physical table:** `OSUSR_6ao_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -79,7 +79,7 @@
 | ATTRIBUTES | nvarchar | 2000 | YES | ('') |
 
 ## RequestType
-**Physical table:** `OSUSR_6AO_REQUESTTYPE`  
+**Physical table:** `OSUSR_6ao_RequestType`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## SendByEmailBulkRequest
-**Physical table:** `OSUSR_G9L_SENDBYEMAILBULKREQUEST`  
+**Physical table:** `OSUSR_g9l_SendByEmailBulkRequest`  
 **Description:** Stores the exports to be sent to the user as a zip file  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -101,7 +101,7 @@
 | ISFINISHED | bit |  | YES | ((0)) |
 
 ## SignedWaiverToSend
-**Physical table:** `OSUSR_G9L_SIGNEDWAIVERTOSEND`  
+**Physical table:** `OSUSR_g9l_SignedWaiverToSend`  
 **Description:** Signed Waiver to send  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -114,7 +114,7 @@
 | ISERROR | bit |  | YES | ((0)) |
 
 ## UserMissingWaiver
-**Physical table:** `OSUSR_72O_USERMISSINGWAIVER`  
+**Physical table:** `OSUSR_72o_UserMissingWaiver`  
 **Description:** Contain user or lead that misses any waivers that they need to sign  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -139,7 +139,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## UserSignedWaiver
-**Physical table:** `OSUSR_72O_USERSIGNEDWAIVER`  
+**Physical table:** `OSUSR_72o_UserSignedWaiver`  
 **Description:** Signed Waivers  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -190,7 +190,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## UserSignedWaiverAnswer
-**Physical table:** `OSUSR_72O_USERSIGNEDWAIVERANSWER`  
+**Physical table:** `OSUSR_72o_UserSignedWaiverAnswer`  
 **Description:** Answers  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -210,7 +210,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## UserSignedWaiverSource
-**Physical table:** `OSUSR_72O_USERSIGNEDWAIVERSOURCE`  
+**Physical table:** `OSUSR_72o_UserSignedWaiverSource`  
 **Description:** Where the waiver was signed  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -221,7 +221,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Waiver
-**Physical table:** `OSUSR_72O_WAIVER`  
+**Physical table:** `OSUSR_72o_Waiver`  
 **Description:** Contains information of a waiver  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -255,7 +255,7 @@
 | DROPINSUPPORTQUESTIONS | bit |  | YES | ((1)) |
 
 ## WaiverBasicDetail
-**Physical table:** `OSUSR_72O_WAIVERBASICDETAIL`  
+**Physical table:** `OSUSR_72o_WaiverBasicDetail`  
 **Description:** Waiver Basic Detail  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -268,7 +268,7 @@
 | CUSTOMERID | nvarchar | 50 | YES | ('') |
 
 ## WaiverBasicDetailType
-**Physical table:** `OSUSR_72O_WAIVERBASICDETAILTYPE`  
+**Physical table:** `OSUSR_72o_WaiverBasicDetailType`  
 **Description:** The basic detail type of a waiver  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -280,7 +280,7 @@
 | IS_REQUIRED | bit |  | YES | ((0)) |
 
 ## WaiverLink
-**Physical table:** `OSUSR_72O_WAIVERLINK`  
+**Physical table:** `OSUSR_72o_WaiverLink`  
 **Description:** WaiverLink  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -300,7 +300,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## WaiverMultipleChoiceAnswer
-**Physical table:** `OSUSR_72O_WAIVERMULTIPLECHOICEANSWER`  
+**Physical table:** `OSUSR_72o_WaiverMultipleChoiceAnswer`  
 **Description:** Answers to a multiple choice question  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -315,7 +315,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WaiverPersonalInfo
-**Physical table:** `OSUSR_72O_WAIVERPERSONALINFO`  
+**Physical table:** `OSUSR_72o_WaiverPersonalInfo`  
 **Description:** Personal information for a user or lead  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -349,7 +349,7 @@
 | DROPINID | bigint |  | YES | (NULL) |
 
 ## WaiverProgram
-**Physical table:** `OSUSR_72O_WAIVERPROGRAM`  
+**Physical table:** `OSUSR_72o_WaiverProgram`  
 **Description:** Contains reference between waivers and gym program by customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -364,7 +364,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## WaiverQuestion
-**Physical table:** `OSUSR_72O_WAIVERQUESTION`  
+**Physical table:** `OSUSR_72o_WaiverQuestion`  
 **Description:** Waiver question and answers  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -387,7 +387,7 @@
 | NORESPONSEFOLLOWUPQUESTION | nvarchar | 150 | YES | ('') |
 
 ## WaiverQuestionType
-**Physical table:** `OSUSR_72O_WAIVERQUESTIONTYPE`  
+**Physical table:** `OSUSR_72o_WaiverQuestionType`  
 **Description:** The type of question  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -398,7 +398,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## WaiverStatus
-**Physical table:** `OSUSR_72O_WAIVERSTATUS`  
+**Physical table:** `OSUSR_72o_WaiverStatus`  
 **Description:** The status type of the waiver  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -409,7 +409,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## WhoSignsWaiver
-**Physical table:** `OSUSR_6AO_WHOSIGNSWAIVER`  
+**Physical table:** `OSUSR_6ao_WhoSignsWaiver`  
 **Description:** Contains all the needed records to select who needs to sign a specific waiver  
 
 | Column | Data Type | Max Length | Nullable | Default |

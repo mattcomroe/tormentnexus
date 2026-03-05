@@ -7,7 +7,7 @@
 - [Plugin](#plugin)
 
 ## AutomatedCleanup
-**Physical table:** `OSUSR_00B_AUTOMATEDCLEANUP`  
+**Physical table:** `OSUSR_00b_AutomatedCleanup`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -18,7 +18,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## LogTableType
-**Physical table:** `OSUSR_00B_LOGTABLETYPE`  
+**Physical table:** `OSUSR_00b_LogTableType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -31,7 +31,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Plugin
-**Physical table:** `OSUSR_00B_PLUGIN`  
+**Physical table:** `OSUSR_00b_Plugin`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

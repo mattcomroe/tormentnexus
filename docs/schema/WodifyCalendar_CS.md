@@ -5,7 +5,7 @@
 - [CalendarEventType](#calendareventtype)
 
 ## CalendarEventType
-**Physical table:** `OSUSR_F1B_CALENDAREVENTTYPE`  
+**Physical table:** `OSUSR_f1b_CalendarEventType`  
 **Description:** Calendar event type  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

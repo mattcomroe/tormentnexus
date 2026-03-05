@@ -10,7 +10,7 @@
 - [Provider](#provider)
 
 ## AppleUserInfo
-**Physical table:** `OSUSR_NJS_APPLEUSERINFO2`  
+**Physical table:** `OSUSR_njs_AppleUserInfo2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -20,7 +20,7 @@
 | EMAIL | nvarchar | 250 | YES | ('') |
 
 ## ApplicationConfiguration
-**Physical table:** `OSUSR_NJS_APPLICATIONCONFIGURATION2`  
+**Physical table:** `OSUSR_njs_ApplicationConfiguration2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -33,7 +33,7 @@
 | HASLINKEDIN | bit |  | YES | ((0)) |
 
 ## ApplicationType
-**Physical table:** `OSUSR_NJS_APPLICATIONTYPE2`  
+**Physical table:** `OSUSR_njs_ApplicationType2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -43,7 +43,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AuthenticationConfiguration
-**Physical table:** `OSUSR_NJS_AUTHENTICATIONCONFIGURATION2`  
+**Physical table:** `OSUSR_njs_AuthenticationConfiguration2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -63,7 +63,7 @@
 | ISENABLED | bit |  | YES | ((0)) |
 
 ## AuthenticationDetail
-**Physical table:** `OSUSR_NJS_AUTHENTICATIONDETAIL2`  
+**Physical table:** `OSUSR_njs_AuthenticationDetail2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -75,7 +75,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Provider
-**Physical table:** `OSUSR_NJS_PROVIDER2`  
+**Physical table:** `OSUSR_njs_Provider2`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -8,7 +8,7 @@
 - [TemplateModule](#templatemodule)
 
 ## ApplicationTemplateIcon
-**Physical table:** `OSUSR_RTV_APPLICATIONTEMPLATEICON`  
+**Physical table:** `OSUSR_rtv_ApplicationTemplateIcon`  
 **Description:** Application template button icon binary. Internal use only, until we define a proper API.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -17,7 +17,7 @@
 | CONTENT | varbinary | -1 | YES | (NULL) |
 
 ## Lock
-**Physical table:** `OSUSR_RTV_LOCK`  
+**Physical table:** `OSUSR_rtv_Lock`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -25,7 +25,7 @@
 | LOCK | nvarchar | 50 | YES | ('') |
 
 ## TemplateKind
-**Physical table:** `OSUSR_RTV_TEMPLATEKIND`  
+**Physical table:** `OSUSR_rtv_TemplateKind`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -35,7 +35,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TemplateModule
-**Physical table:** `OSUSR_RTV_TEMPLATEMODULE`  
+**Physical table:** `OSUSR_rtv_TemplateModule`  
 **Description:** Custom application templates for ServiceStudio. Internal use only, until we define a proper API.  
 
 | Column | Data Type | Max Length | Nullable | Default |

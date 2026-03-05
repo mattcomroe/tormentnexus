@@ -5,7 +5,7 @@
 - [DeviceDatabaseBinary](#devicedatabasebinary)
 
 ## DeviceDatabaseBinary
-**Physical table:** `OSUSR_J4V_DEVICEDATABASEBINARY`  
+**Physical table:** `OSUSR_j4v_DeviceDatabaseBinary`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -5,7 +5,7 @@
 - [AndroidPermission](#androidpermission)
 
 ## AndroidPermission
-**Physical table:** `OSUSR_IAY_ANDROIDPERMISSION`  
+**Physical table:** `OSUSR_iay_AndroidPermission`  
 **Description:** Contains the different types of android permissions.  
 
 | Column | Data Type | Max Length | Nullable | Default |

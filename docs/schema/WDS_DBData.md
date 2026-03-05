@@ -12,7 +12,7 @@
 - [RUI_Versions_Status](#rui-versions-status)
 
 ## RUI_ComponentLibrary
-**Physical table:** `OSUSR_3R8_RUI_COMPONENTLIBRARY`  
+**Physical table:** `OSUSR_3r8_RUI_ComponentLibrary`  
 **Description:** Records that represents the source of the components.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -21,7 +21,7 @@
 | LIBRARYNAME | nvarchar | 50 | YES | ('') |
 
 ## RUI_Components
-**Physical table:** `OSUSR_3R8_RUI_COMPONENTS`  
+**Physical table:** `OSUSR_3r8_RUI_Components`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -52,7 +52,7 @@
 | ISINUSE | bit |  | YES | ((0)) |
 
 ## RUI_Components_Categories
-**Physical table:** `OSUSR_3R8_RUI_COMPONENTS_CATEGORIES`  
+**Physical table:** `OSUSR_3r8_RUI_Components_Categories`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -62,7 +62,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## RUI_Components_Device
-**Physical table:** `OSUSR_3R8_RUI_COMPONENTS_DEVICE`  
+**Physical table:** `OSUSR_3r8_RUI_Components_Device`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -71,7 +71,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## RUI_Components_Status
-**Physical table:** `OSUSR_3R8_RUI_COMPONENTS_STATUS`  
+**Physical table:** `OSUSR_3r8_RUI_Components_Status`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -81,7 +81,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## RUI_Components_Tags
-**Physical table:** `OSUSR_3R8_RUI_COMPONENTS_TAGS`  
+**Physical table:** `OSUSR_3r8_RUI_Components_Tags`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -89,7 +89,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## RUI_Versions
-**Physical table:** `OSUSR_3R8_RUI_VERSIONS`  
+**Physical table:** `OSUSR_3r8_RUI_Versions`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -103,7 +103,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RUI_Versions_Status
-**Physical table:** `OSUSR_3R8_RUI_VERSIONS_STATUS`  
+**Physical table:** `OSUSR_3r8_RUI_Versions_Status`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

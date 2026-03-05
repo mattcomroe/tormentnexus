@@ -5,7 +5,7 @@
 - [SankeyBreakDown](#sankeybreakdown)
 
 ## SankeyBreakDown
-**Physical table:** `OSUSR_ZWU_SANKEYBREAKDOWN`  
+**Physical table:** `OSUSR_zwu_SankeyBreakDown`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

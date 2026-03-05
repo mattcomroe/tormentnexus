@@ -11,7 +11,7 @@
 - [RequestType](#requesttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_XST_ASYNCPROCESS`  
+**Physical table:** `OSUSR_xst_AsyncProcess`  
 **Description:** Auxiliar entity that contains all waivers asynchronous processes, which will run through the GDPR_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -20,7 +20,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## DataExtractionType
-**Physical table:** `OSUSR_4KT_DATAEXTRACTIONTYPE`  
+**Physical table:** `OSUSR_4kt_DataExtractionType`  
 **Description:** Entity to reprsent all the type of data (files) we'll generate to be extracted.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -29,7 +29,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## DataScrubType
-**Physical table:** `OSUSR_4KT_DATASCRUBTYPE`  
+**Physical table:** `OSUSR_4kt_DataScrubType`  
 **Description:** Entity to represent all the type of scrub types.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -38,7 +38,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## Request
-**Physical table:** `OSUSR_XST_REQUEST1`  
+**Physical table:** `OSUSR_xst_Request1`  
 **Description:** Contains all consent requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -59,7 +59,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestFile
-**Physical table:** `OSUSR_XST_REQUESTFILE`  
+**Physical table:** `OSUSR_xst_RequestFile`  
 **Description:** Entity to store temporarily the generated files to be extracted.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -80,7 +80,7 @@
 | NUMBEROFTRIES | int |  | YES | ((0)) |
 
 ## RequestScrubInfo
-**Physical table:** `OSUSR_XST_REQUESTSCRUBINFO`  
+**Physical table:** `OSUSR_xst_RequestScrubInfo`  
 **Description:** Entity to store temporarily the scrub information.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -95,7 +95,7 @@
 | ERRORMESSAGE | nvarchar | -1 | YES | ('') |
 
 ## RequestType
-**Physical table:** `OSUSR_XST_REQUESTTYPE1`  
+**Physical table:** `OSUSR_xst_RequestType1`  
 **Description:** Contains all request types that are possible to be made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |

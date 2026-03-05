@@ -43,7 +43,7 @@
 - [WaitlistType](#waitlisttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_TR2_ASYNCPROCESS`  
+**Physical table:** `OSUSR_tr2_AsyncProcess`  
 **Description:** Asynchronous process data  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -52,7 +52,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Class
-**Physical table:** `OSUSR_72O_CLASS`  
+**Physical table:** `OSUSR_72o_Class`  
 **Description:** Table that will store Class relative information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -127,7 +127,7 @@
 | ISCLASSPASSENABLED | bit |  | YES |  |
 
 ## Class_CancelDeleted
-**Physical table:** `OSUSR_OC9_CLASS_CANCELDELETED`  
+**Physical table:** `OSUSR_oc9_Class_CancelDeleted`  
 **Description:** table that will handle the records when we delete or cancel a class via calendar. Each record is for a admin or coach for each class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -152,7 +152,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ClassCountDisplayType
-**Physical table:** `OSUSR_TR2_CLASSCOUNTDISPLAYTYPE`  
+**Physical table:** `OSUSR_tr2_ClassCountDisplayType`  
 **Description:** Determines the behavior when displaying class reservation counts to clients.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -162,7 +162,7 @@
 | DESCRIPTION | nvarchar | 100 | YES | ('') |
 
 ## ClassDropInPricing
-**Physical table:** `OSUSR_TR2_CLASSDROPINPRICING`  
+**Physical table:** `OSUSR_tr2_ClassDropInPricing`  
 **Description:** Table that will store Class DropIn Pricing information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -176,7 +176,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ClassEmailStatus
-**Physical table:** `OSUSR_72O_CLASSEMAILSTATUS`  
+**Physical table:** `OSUSR_72o_ClassEmailStatus`  
 **Description:** Static Entity that will store Class Email Status values  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -187,7 +187,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ClassGoogleCalendar
-**Physical table:** `OSUSR_6SR_CLASSGOOGLECALENDAR`  
+**Physical table:** `OSUSR_6sr_ClassGoogleCalendar`  
 **Description:** Keeps records of the Google Calendars a class has been exported to  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -199,7 +199,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## ClassIntegrationAvailability
-**Physical table:** `OSUSR_TR2_CLASSINTEGRATIONAVAILABILITY2`  
+**Physical table:** `OSUSR_tr2_ClassIntegrationAvailability2`  
 **Description:** Table that will store the class integration availability for a given class. The primary key is a Class Id  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -209,7 +209,7 @@
 | ISWELLHUBENABLED | bit |  | YES | ((0)) |
 
 ## ClassLateCancellationSetting
-**Physical table:** `OSUSR_TR2_CLASSLATECANCELLATIONSETTING`  
+**Physical table:** `OSUSR_tr2_ClassLateCancellationSetting`  
 **Description:** Table that will store Class late cancellation settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -221,7 +221,7 @@
 | LATECANCELLATIONFEETAXRATEID | int |  | YES | (NULL) |
 
 ## ClassNoShowSetting
-**Physical table:** `OSUSR_TR2_CLASSNOSHOWSETTING1`  
+**Physical table:** `OSUSR_tr2_ClassNoShowSetting1`  
 **Description:** Table that will store Class No Show settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -233,7 +233,7 @@
 | NOSHOWFEETAXRATEID | int |  | YES | (NULL) |
 
 ## ClassOnlineSalesSetting
-**Physical table:** `OSUSR_TR2_CLASSONLINESALESSETTING`  
+**Physical table:** `OSUSR_tr2_ClassOnlineSalesSetting`  
 **Description:** Table that will store Class online sales settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -244,7 +244,7 @@
 | ISDROPINFULL | bit |  | YES | ((0)) |
 
 ## ClassRepeatType
-**Physical table:** `OSUSR_OC9_CLASSREPEATTYPE`  
+**Physical table:** `OSUSR_oc9_ClassRepeatType`  
 **Description:** Static with the values of the Class repeat type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -255,7 +255,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ClassReservation
-**Physical table:** `OSUSR_72O_CLASSRESERVATION`  
+**Physical table:** `OSUSR_72o_ClassReservation`  
 **Description:** Table that will store Class Reservation relative information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -297,7 +297,7 @@
 | RECURRINGCLASSRESERVATIONID | bigint |  | YES | (NULL) |
 
 ## ClassReservationPenalty
-**Physical table:** `OSUSR_TR2_CLASSRESERVATIONPENALTY`  
+**Physical table:** `OSUSR_tr2_ClassReservationPenalty`  
 **Description:** Class Revervation Penalty record, which will give the state that the penalties are in for a Class reservation and the date/time if they were updated (fee waived/session forgiven/refunded).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -321,7 +321,7 @@
 | PENALTYFEEREFUNDEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ClassReservationSetting
-**Physical table:** `OSUSR_TR2_CLASSRESERVATIONSETTING3`  
+**Physical table:** `OSUSR_tr2_ClassReservationSetting3`  
 **Description:** Table that will store Class reservation settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -330,7 +330,7 @@
 | WASAUTOCANCELCHECKED | bit |  | YES | ((0)) |
 
 ## ClassReservationSource
-**Physical table:** `OSUSR_6SR_CLASSRESERVATIONSOURCE`  
+**Physical table:** `OSUSR_6sr_ClassReservationSource`  
 **Description:** Defines where the user makes a class reservation.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -341,7 +341,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ClassReservationStatus
-**Physical table:** `OSUSR_72O_CLASSRESERVATIONSTATUS`  
+**Physical table:** `OSUSR_72o_ClassReservationStatus`  
 **Description:** Static Entity that will store Class Reservation Status values  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -353,7 +353,7 @@
 | ISWAITLIST | bit |  | YES | ((0)) |
 
 ## ClassSignInSetting
-**Physical table:** `OSUSR_TR2_CLASSSIGNINSETTING`  
+**Physical table:** `OSUSR_tr2_ClassSignInSetting`  
 **Description:** Table that will store Class sign in settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -374,7 +374,7 @@
 | EMPLOYEESIGNSTARTTIMEFORMAT | int |  | YES | (NULL) |
 
 ## ClassStat
-**Physical table:** `OSUSR_72O_CLASSSTAT`  
+**Physical table:** `OSUSR_72o_ClassStat`  
 **Description:** Table that will store Class Stat relative information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -386,7 +386,7 @@
 | DATETIMEVALUE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ClassStatType
-**Physical table:** `OSUSR_72O_CLASSSTATTYPE`  
+**Physical table:** `OSUSR_72o_ClassStatType`  
 **Description:** Static Entity that will store Class Stat Type values  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -397,7 +397,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ClassWarningStatus
-**Physical table:** `OSUSR_72O_CLASSWARNINGSTATUS`  
+**Physical table:** `OSUSR_72o_ClassWarningStatus`  
 **Description:** Static Entity that will store Class Warning Status values  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -408,7 +408,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## CustomerSettingClassPolicy
-**Physical table:** `OSUSR_72O_TENANTSETTINGCLASSPOLICY`  
+**Physical table:** `OSUSR_72o_TenantSettingClassPolicy`  
 **Description:** Table that will store Customer Setting Class Policy relative information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -462,7 +462,7 @@
 | ATTENDANCECOUNTDISPLAYTYPEID | int |  | YES | (NULL) |
 
 ## RecurringClass
-**Physical table:** `OSUSR_72O_RECURRINGCLASS`  
+**Physical table:** `OSUSR_72o_RecurringClass`  
 **Description:** Table that will store Recurring Class relative information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -602,7 +602,7 @@
 | ISCLASSPASSENABLED | bit |  | YES |  |
 
 ## RecurringClassDropInPricing
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSDROPINPRICING`  
+**Physical table:** `OSUSR_tr2_RecurringClassDropInPricing`  
 **Description:** Table that will store the RecurringClass DropIn Pricing information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -628,7 +628,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RecurringClassEndType
-**Physical table:** `OSUSR_72O_RECURRINGCLASSENDTYPE`  
+**Physical table:** `OSUSR_72o_RecurringClassEndType`  
 **Description:** Contains the end type for the recurring class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -638,7 +638,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## RecurringClassIntegrationAvailability
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSINTEGRATIONAVAILABILITY6`  
+**Physical table:** `OSUSR_tr2_RecurringClassIntegrationAvailability6`  
 **Description:** Table that will store Class Integration Availability  Should be unique to RecurringClassId/DayOfWeekId  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -650,7 +650,7 @@
 | ISWELLHUBENABLED | bit |  | YES | ((0)) |
 
 ## RecurringClassLateCancellationSetting
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSLATECANCELLATIONSETTING6`  
+**Physical table:** `OSUSR_tr2_RecurringClassLateCancellationSetting6`  
 **Description:** Table that will store Recurring Class late cancellation settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -662,7 +662,7 @@
 | LATECANCELLATIONFEETAXRATEID | int |  | YES | (NULL) |
 
 ## RecurringClassNoShowSetting
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSNOSHOWSETTING6`  
+**Physical table:** `OSUSR_tr2_RecurringClassNoShowSetting6`  
 **Description:** Table that will store Recurring Class No Show settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -674,7 +674,7 @@
 | NOSHOWFEETAXRATEID | int |  | YES | (NULL) |
 
 ## RecurringClassOnlineSalesSetting
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSONLINESALESSETTING`  
+**Physical table:** `OSUSR_tr2_RecurringClassOnlineSalesSetting`  
 **Description:** Table that will store Class online sales settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -686,7 +686,7 @@
 | HASDROPINLIMIT | bit |  | YES | ((0)) |
 
 ## RecurringClassRepeatType
-**Physical table:** `OSUSR_OC9_RECURRINGCLASSREPEATTYPE`  
+**Physical table:** `OSUSR_oc9_RecurringClassRepeatType`  
 **Description:** The repeat type when a recurring class will occur for instance every 2 weeks in Sundays  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -697,7 +697,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## RecurringClassReservation
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSRESERVATION6`  
+**Physical table:** `OSUSR_tr2_RecurringClassReservation6`  
 **Description:** Represents a class reservation that repeats across instances of a recurring class  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -728,7 +728,7 @@
 | RECURRINGCLASSID | int |  | YES | (NULL) |
 
 ## RecurringClassReservationEmailItem
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSRESERVATIONEMAILITEM1`  
+**Physical table:** `OSUSR_tr2_RecurringClassReservationEmailItem1`  
 **Description:** Represents a line item to be sent with a recurring class reservation email  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -741,7 +741,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RecurringClassReservationStatus
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSRESERVATIONSTATUS6`  
+**Physical table:** `OSUSR_tr2_RecurringClassReservationStatus6`  
 **Description:** Contains the statuses of a recurring class reservation  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -751,7 +751,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## RecurringClassSignInSetting
-**Physical table:** `OSUSR_TR2_RECURRINGCLASSSIGNINSETTING`  
+**Physical table:** `OSUSR_tr2_RecurringClassSignInSetting`  
 **Description:** Table that will store Class sign in settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -772,7 +772,7 @@
 | EMPLOYEESIGNSTARTTIMEFORMAT | int |  | YES | (NULL) |
 
 ## RejectedSignInLog
-**Physical table:** `OSUSR_6SR_REJECTEDSIGNINLOG`  
+**Physical table:** `OSUSR_6sr_RejectedSignInLog`  
 **Description:** Table that will store Rejected Sign In Log relative information  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -790,7 +790,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## Request
-**Physical table:** `OSUSR_TR2_REQUEST`  
+**Physical table:** `OSUSR_tr2_Request`  
 **Description:** Request data to be used in an Asynchronous Process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -818,7 +818,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestType
-**Physical table:** `OSUSR_TR2_REQUESTTYPE`  
+**Physical table:** `OSUSR_tr2_RequestType`  
 **Description:** The type of request  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -829,7 +829,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TimerMissingAthleteEmailControl
-**Physical table:** `OSUSR_TR2_TIMERMISSINGATHLETEEMAILCONTROL`  
+**Physical table:** `OSUSR_tr2_TimerMissingAthleteEmailControl`  
 **Description:** Entity used to control which emails were already sent to a specific Customer. This entity was cretaed in order to be able to abort the cycle that where the process of sending emails is being done, and after restart doesn't send an email to a client that already sent  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -840,7 +840,7 @@
 | EXECUTIONDATE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WaitlistType
-**Physical table:** `OSUSR_6SR_WAITLISTTYPE`  
+**Physical table:** `OSUSR_6sr_WaitlistType`  
 **Description:** Waitlist behavior type FirstReply - All clients emailed, first to reply gets added to class. PriorityWaitlist_FirstSignUp - Client automatically added to the class in the order they signed up.  
 
 | Column | Data Type | Max Length | Nullable | Default |

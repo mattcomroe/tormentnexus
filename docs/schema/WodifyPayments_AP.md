@@ -7,7 +7,7 @@
 - [TransactionAdjustmentsTemp](#transactionadjustmentstemp)
 
 ## InvoiceHeaderForAdjustmentTemp
-**Physical table:** `OSUSR_LFL_INVOICEHEADERFORADJUSTMENTTEMP`  
+**Physical table:** `OSUSR_lfl_InvoiceHeaderForAdjustmentTemp`  
 **Description:** Table to hold the InvoiceHeaderIds that we want to update  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -16,7 +16,7 @@
 | INVOICEHEADERID | int |  | YES | (NULL) |
 
 ## StripeTransactionAdjustmentsTemp
-**Physical table:** `OSUSR_LFL_STRIPETRANSACTIONADJUSTMENTSTEMP`  
+**Physical table:** `OSUSR_lfl_StripeTransactionAdjustmentsTemp`  
 **Description:** Temp table to hold stripe transaction entity adjustment records  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -32,7 +32,7 @@
 | CURRENCYCODE | nvarchar | 3 | YES | ('') |
 
 ## TransactionAdjustmentsTemp
-**Physical table:** `OSUSR_LFL_TRANSACTIONADJUSTMENTSTEMP`  
+**Physical table:** `OSUSR_lfl_TransactionAdjustmentsTemp`  
 **Description:** Temp table to hold transaction entity adjustment records  
 
 | Column | Data Type | Max Length | Nullable | Default |

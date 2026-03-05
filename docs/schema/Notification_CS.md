@@ -5,7 +5,7 @@
 - [ClientNotificationSettings](#clientnotificationsettings)
 
 ## ClientNotificationSettings
-**Physical table:** `OSUSR_X9O_CLIENTNOTIFICATIONSETTINGS`  
+**Physical table:** `OSUSR_x9o_ClientNotificationSettings`  
 **Description:** Contains all notification settings for the specified client  
 
 | Column | Data Type | Max Length | Nullable | Default |

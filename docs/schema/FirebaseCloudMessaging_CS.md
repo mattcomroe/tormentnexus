@@ -5,7 +5,7 @@
 - [FirebaseUserTokens](#firebaseusertokens)
 
 ## FirebaseUserTokens
-**Physical table:** `OSUSR_5C8_FIREBASEUSERTOKENS`  
+**Physical table:** `OSUSR_5c8_FirebaseUserTokens`  
 **Description:** The FirebaseUserTokens table is specifically designed to manage Firebase Cloud Messaging (FCM) registration tokens, which are crucial for sending notifications to user devices efficiently. This table not only stores the FCM tokens but also tracks their validity and relevance over time, aligning with best practices for token management to ensure effective communication and resource utilization.  
 
 | Column | Data Type | Max Length | Nullable | Default |

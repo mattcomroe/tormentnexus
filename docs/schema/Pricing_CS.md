@@ -15,7 +15,7 @@
 - [PackageFeature](#packagefeature)
 
 ## BillingCustomerCache
-**Physical table:** `OSUSR_B84_BILLINGTENANTCACHE`  
+**Physical table:** `OSUSR_b84_BillingTenantCache`  
 **Description:** Stores last update on Customer billing (Package configuration).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -25,7 +25,7 @@
 | CUSTOMERID | bigint |  | YES |  |
 
 ## BillingGlobalCache
-**Physical table:** `OSUSR_B84_BILLINGGLOBALCACHE`  
+**Physical table:** `OSUSR_b84_BillingGlobalCache`  
 **Description:** Stores last update on global billing (Package configuration).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -34,7 +34,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerFeature
-**Physical table:** `OSUSR_B84_TENANTFEATURE`  
+**Physical table:** `OSUSR_b84_TenantFeature`  
 **Description:** Associates a Customer with a feature.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | CUSTOMERID | bigint |  | YES |  |
 
 ## CustomerFeatureBillingLog
-**Physical table:** `OSUSR_B84_CUSTOMERFEATUREBILLINGLOG`  
+**Physical table:** `OSUSR_b84_CustomerFeatureBillingLog`  
 **Description:** Log for timer when billing customer for certain feature individually  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -64,7 +64,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerFeatureLog
-**Physical table:** `OSUSR_B84_TENANTFEATURELOG`  
+**Physical table:** `OSUSR_b84_TenantFeatureLog`  
 **Description:** Log that holds information about a Customer associated to a FeatureLog that needs to be processed  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -79,7 +79,7 @@
 | CUSTOMERID | bigint |  | YES |  |
 
 ## CustomerPackage
-**Physical table:** `OSUSR_B84_TENANTPACKAGE`  
+**Physical table:** `OSUSR_b84_TenantPackage`  
 **Description:** Associates a Customer with a package.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -94,7 +94,7 @@
 | CUSTOMERID | bigint |  | YES |  |
 
 ## Feature
-**Physical table:** `OSUSR_B84_FEATURE`  
+**Physical table:** `OSUSR_b84_Feature`  
 **Description:** Pricing feature.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -104,7 +104,7 @@
 | FEATUREORDER | int |  | YES | ((0)) |
 
 ## FeatureLog
-**Physical table:** `OSUSR_B84_FEATURELOG`  
+**Physical table:** `OSUSR_b84_FeatureLog`  
 **Description:** Log that holds information about a feature that is being added or removed from a package, a Customer or multiple Customers  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -125,7 +125,7 @@
 | CUSTOMERID | bigint |  | YES |  |
 
 ## LogStatus
-**Physical table:** `OSUSR_B84_FEATURELOGSTATUS`  
+**Physical table:** `OSUSR_b84_FeatureLogStatus`  
 **Description:** Log status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -135,7 +135,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Package
-**Physical table:** `OSUSR_B84_PACKAGE`  
+**Physical table:** `OSUSR_b84_Package`  
 **Description:** Pricing package.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -151,7 +151,7 @@
 | ISLEGACYPACKAGE | bit |  | YES | ((0)) |
 
 ## PackageFeature
-**Physical table:** `OSUSR_B84_PACKAGEFEATURE`  
+**Physical table:** `OSUSR_b84_PackageFeature`  
 **Description:** Associates a feature with a package.  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -7,7 +7,7 @@
 - [StripeDefaultCountryRate](#stripedefaultcountryrate)
 
 ## StripeConfigurationCustomer
-**Physical table:** `OSUSR_RT6_STRIPECONFIGURATIONTENANT`  
+**Physical table:** `OSUSR_rt6_StripeConfigurationTenant`  
 **Description:** Represents a Wodify Payments configuration for a Customer.  These are the configurable settings on the Stripe configuration screen and drive the behavior of how Stripe is used in the given Customer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -22,7 +22,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## StripeConfigurationLocation
-**Physical table:** `OSUSR_RT6_STRIPECONFIGURATIONLOCATION`  
+**Physical table:** `OSUSR_rt6_StripeConfigurationLocation`  
 **Description:** Relates a Location to a Stripe Configuration. When a Location uses a given Stripe Configuration, a record will exist in this table. Only one record may exist per Location.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -36,7 +36,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeDefaultCountryRate
-**Physical table:** `OSUSR_RT6_STRIPEDEFAULTCOUNTRYRATE`  
+**Physical table:** `OSUSR_rt6_StripeDefaultCountryRate`  
 **Description:** Represents the default rates that a business that uses Wodify Payments will pay, when using Wodify Core.  
 
 | Column | Data Type | Max Length | Nullable | Default |

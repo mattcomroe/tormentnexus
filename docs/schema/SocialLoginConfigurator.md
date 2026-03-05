@@ -10,7 +10,7 @@
 - [Provider](#provider)
 
 ## AppleUserInfo
-**Physical table:** `OSUSR_QGT_APPLEUSERINFO`  
+**Physical table:** `OSUSR_qgt_AppleUserInfo`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -20,7 +20,7 @@
 | EMAIL | nvarchar | 250 | YES | ('') |
 
 ## ApplicationConfiguration
-**Physical table:** `OSUSR_QGT_APPLICATIONCONFIGURATION`  
+**Physical table:** `OSUSR_qgt_ApplicationConfiguration`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -33,7 +33,7 @@
 | HASLINKEDIN | bit |  | YES | ((0)) |
 
 ## ApplicationType
-**Physical table:** `OSUSR_QGT_APPLICATIONTYPE`  
+**Physical table:** `OSUSR_qgt_ApplicationType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -43,7 +43,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AuthenticationConfiguration
-**Physical table:** `OSUSR_QGT_AUTHENTICATIONCONFIGURATION`  
+**Physical table:** `OSUSR_qgt_AuthenticationConfiguration`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -63,7 +63,7 @@
 | ISENABLED | bit |  | YES | ((0)) |
 
 ## AuthenticationDetail
-**Physical table:** `OSUSR_QGT_AUTHENTICATIONDETAIL`  
+**Physical table:** `OSUSR_qgt_AuthenticationDetail`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -75,7 +75,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Provider
-**Physical table:** `OSUSR_QGT_PROVIDER`  
+**Physical table:** `OSUSR_qgt_Provider`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -5,7 +5,7 @@
 - [QuickbooksDesktopExport](#quickbooksdesktopexport)
 
 ## QuickbooksDesktopExport
-**Physical table:** `OSUSR_1KZ_QUICKBOOKSDESKTOPEXPORT`  
+**Physical table:** `OSUSR_1kz_QuickbooksDesktopExport`  
 **Description:** Contains all information needed to export Payments configurations to Quickbooks  
 
 | Column | Data Type | Max Length | Nullable | Default |

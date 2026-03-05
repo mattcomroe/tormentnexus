@@ -7,7 +7,7 @@
 - [Entity1](#entity1)
 
 ## ActivityFeedPOCOld
-**Physical table:** `OSUSR_9D7_ACTIVITYFEED`  
+**Physical table:** `OSUSR_9d7_ActivityFeed`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -20,7 +20,7 @@
 | ISUSERACTION | bit |  | YES | ((0)) |
 
 ## DummyTest
-**Physical table:** `OSUSR_9D7_DUMMYTEST`  
+**Physical table:** `OSUSR_9d7_DummyTest`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -29,7 +29,7 @@
 | LASTNAME | nvarchar | 50 | YES | ('') |
 
 ## Entity1
-**Physical table:** `OSUSR_9D7_ENTITY1`  
+**Physical table:** `OSUSR_9d7_Entity1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

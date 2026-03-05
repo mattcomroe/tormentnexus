@@ -6,12 +6,12 @@
 - [UserApple](#userapple)
 
 ## LocalUserApple
-**Physical table:** `OSUSR_D90_LOCALUSERAPPLE`  
+**Physical table:** `OSUSR_d90_LocalUserApple`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## UserApple
-**Physical table:** `OSUSR_D90_USERAPPLE`  
+**Physical table:** `OSUSR_d90_UserApple`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

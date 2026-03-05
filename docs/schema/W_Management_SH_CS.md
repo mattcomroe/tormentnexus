@@ -6,7 +6,7 @@
 - [DefaultCustomerValues](#defaultcustomervalues)
 
 ## CustomerUserCount
-**Physical table:** `OSUSR_72O_TENANTUSERCOUNT`  
+**Physical table:** `OSUSR_72o_TenantUserCount`  
 **Description:** Contains total active users at a customer location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -29,7 +29,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## DefaultCustomerValues
-**Physical table:** `OSUSR_72O_DEFAULTTENANTVALUES`  
+**Physical table:** `OSUSR_72o_DefaultTenantValues`  
 **Description:** contains the default welcome email used for a customer  
 
 | Column | Data Type | Max Length | Nullable | Default |

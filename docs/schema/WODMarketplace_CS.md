@@ -12,7 +12,7 @@
 - [SubscriptionProgramLocation](#subscriptionprogramlocation)
 
 ## Partner
-**Physical table:** `OSUSR_27V_PARTNER`  
+**Physical table:** `OSUSR_27v_Partner`  
 **Description:** A partner represents a Customer that is responsible for creating WODs that will be copied into Subscriber's Gyms.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -30,7 +30,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## PartnerProgram
-**Physical table:** `OSUSR_27V_PARTNERPROGRAM`  
+**Physical table:** `OSUSR_27v_PartnerProgram`  
 **Description:** A program map that will determine where are partner is creating the WODs that will be copied.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -42,7 +42,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## ProcessCopyWODS
-**Physical table:** `OSUSR_27V_PROCESSCOPYWODS`  
+**Physical table:** `OSUSR_27v_ProcessCopyWODS`  
 **Description:** Contains logs regarding the asynchronous Copy WODs process based on subscriptions.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -64,7 +64,7 @@
 | NOTIFICATIONID | nvarchar | 50 | YES | ('') |
 
 ## ProcessCopyWODSSubscription
-**Physical table:** `OSUSR_27V_PROCESSCOPYWODSSUBSCRIBER`  
+**Physical table:** `OSUSR_27v_ProcessCopyWODSSubscriber`  
 **Description:** Contains logs regarding the asynchronous Copy WODs process for each subscription.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -82,7 +82,7 @@
 | SUBSCRIPTIONID | bigint |  | YES | (NULL) |
 
 ## Subscription
-**Physical table:** `OSUSR_27V_SUBSCRIBER`  
+**Physical table:** `OSUSR_27v_Subscriber`  
 **Description:** A Subscription represents a Customer that is able to receive WODs from a Partner.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -104,7 +104,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## SubscriptionError
-**Physical table:** `OSUSR_27V_SUBSCRIBERERROR`  
+**Physical table:** `OSUSR_27v_SubscriberError`  
 **Description:** Errors that were reported during the CopyWODs migration.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -118,7 +118,7 @@
 | PROCESSCOPYWODSID | bigint |  | YES | (NULL) |
 
 ## SubscriptionProgram
-**Physical table:** `OSUSR_27V_SUBSCRIBERPROGRAM`  
+**Physical table:** `OSUSR_27v_SubscriberProgram`  
 **Description:** A Subscription program that allows a Gym receive WODs(Copied) from a Partner's program.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -130,7 +130,7 @@
 | SUBSCRIPTIONID | bigint |  | YES | (NULL) |
 
 ## SubscriptionProgramLocation
-**Physical table:** `OSUSR_27V_SUBSCRIBERPROGRAMLOCATION`  
+**Physical table:** `OSUSR_27v_SubscriberProgramLocation`  
 **Description:** The locations mapped to a Subscription program.  
 
 | Column | Data Type | Max Length | Nullable | Default |

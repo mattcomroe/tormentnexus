@@ -51,7 +51,7 @@
 - [WodifyPaymentsBeneficialOwner](#wodifypaymentsbeneficialowner)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_SDL_ASYNCPROCESS4`  
+**Physical table:** `OSUSR_sdl_AsyncProcess4`  
 **Description:** Auxiliar entity that contains all Wodify Payments asynchronous processes, which will run through the WodifyPayments_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -62,7 +62,7 @@
 | REQUESTID | bigint |  | YES | (NULL) |
 
 ## BeneficialOwnerBusinessRole
-**Physical table:** `OSUSR_SDL_BENEFICIALOWNERBUSINESSROLE`  
+**Physical table:** `OSUSR_sdl_BeneficialOwnerBusinessRole`  
 **Description:** Types of individuals associated with a business for a Stripe account.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -72,7 +72,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ChargebackStatus
-**Physical table:** `OSUSR_SDL_CHARGEBACKSTATUS`  
+**Physical table:** `OSUSR_sdl_ChargebackStatus`  
 **Description:** Represents the possible chargeback statuses.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -82,7 +82,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## DisputeEvidence
-**Physical table:** `OSUSR_SDL_DISPUTEEVIDENCE`  
+**Physical table:** `OSUSR_sdl_DisputeEvidence`  
 **Description:** Evidence submitted as response to a dispute.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -107,7 +107,7 @@
 | CREATEDBY | int |  | YES | (NULL) |
 
 ## Request
-**Physical table:** `OSUSR_SDL_REQUEST`  
+**Physical table:** `OSUSR_sdl_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -130,7 +130,7 @@
 | ATTRIBUTES | nvarchar | -1 | YES | ('') |
 
 ## RequestType
-**Physical table:** `OSUSR_SDL_REQUESTTYPEID`  
+**Physical table:** `OSUSR_sdl_RequestTypeId`  
 **Description:** Type of request record  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -141,7 +141,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## StripeChargebackFee
-**Physical table:** `OSUSR_SDL_STRIPECHARGEBACKFEE`  
+**Physical table:** `OSUSR_sdl_StripeChargebackFee`  
 **Description:** Chargeback Fees  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -156,7 +156,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeConfiguration
-**Physical table:** `OSUSR_KSL_STRIPECONFIGURATION`  
+**Physical table:** `OSUSR_ksl_StripeConfiguration`  
 **Description:** Represents a Stripe or "Wodify Payments" configuration. These are the configurable settings on the Stripe configuration screen and drive the behavior of how Stripe is used.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -215,7 +215,7 @@
 | INSTANTPAYOUTREMAINDER | decimal |  | YES | ((0)) |
 
 ## StripeConfigurationAccess
-**Physical table:** `OSUSR_SDL_STRIPECONFIGURATIONACCESS`  
+**Physical table:** `OSUSR_sdl_StripeConfigurationAccess`  
 **Description:** Entity to keep track of the users who have access to a StripeConfiguration, which means, admins and managers for Core and organizers for Arena.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -230,7 +230,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeConfigurationBusinessType
-**Physical table:** `OSUSR_KSL_STRIPECONFIGURATIONBUSINESSTYPE`  
+**Physical table:** `OSUSR_ksl_StripeConfigurationBusinessType`  
 **Description:** Represents the possible business types applied to a configuration.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -240,7 +240,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## StripeConfigurationDisabledReason
-**Physical table:** `OSUSR_KSL_STRIPECONFIGURATIONDISABLEDREASON`  
+**Physical table:** `OSUSR_ksl_StripeConfigurationDisabledReason`  
 **Description:** The possible reasons a Stripe Configuration can be disabled.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -249,7 +249,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## StripeConfigurationPaymentAccountType
-**Physical table:** `OSUSR_KSL_STRIPECONFIGURATIONPAYMENTACCOUNTTYPE`  
+**Physical table:** `OSUSR_ksl_StripeConfigurationPaymentAccountType`  
 **Description:** The payment account types for a given Stripe Configuration.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -266,7 +266,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeConfigurationRate
-**Physical table:** `OSUSR_KSL_STRIPECONFIGURATIONRATE`  
+**Physical table:** `OSUSR_ksl_StripeConfigurationRate`  
 **Description:** Represents the rates for a Stripe or "Wodify Payments" configuration. These are configurable from the Customer Edit screen in Management and apply for all Locations at the Customer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -286,7 +286,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## StripeConfigurationStatus
-**Physical table:** `OSUSR_KSL_STRIPECONFIGURATIONSTATUS`  
+**Physical table:** `OSUSR_ksl_StripeConfigurationStatus`  
 **Description:** Represents the status of a Stripe Configuration.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -295,7 +295,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## StripeCustomer
-**Physical table:** `OSUSR_KSL_STRIPECUSTOMER`  
+**Physical table:** `OSUSR_ksl_StripeCustomer`  
 **Description:** Represents a Customer inside Stripe.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -310,7 +310,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## StripeCustomerGlobaUser
-**Physical table:** `OSUSR_KSL_STRIPECUSTOMERGLOBAUSER`  
+**Physical table:** `OSUSR_ksl_StripeCustomerGlobaUser`  
 **Description:** Represents a Global User's Stripe Customer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -319,7 +319,7 @@
 | GLOBALUSERID | int |  | YES | (NULL) |
 
 ## StripeDispute
-**Physical table:** `OSUSR_KSL_STRIPEDISPUTE`  
+**Physical table:** `OSUSR_ksl_StripeDispute`  
 **Description:** Represents a dispute created in Stripe. A dispute occurs when a customer questions a charge with their bank or credit card company made via Stripe.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -336,7 +336,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeDisputeReason
-**Physical table:** `OSUSR_KSL_STRIPEDISPUTEREASON1`  
+**Physical table:** `OSUSR_ksl_StripeDisputeReason1`  
 **Description:** Represents the possible reasons a Stripe Dispute can have.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -346,7 +346,7 @@
 | DESCRIPTION | nvarchar | 500 | YES | ('') |
 
 ## StripeDisputeStatus
-**Physical table:** `OSUSR_KSL_STRIPEDISPUTESTATUS1`  
+**Physical table:** `OSUSR_ksl_StripeDisputeStatus1`  
 **Description:** Represents the possible statuses a Stripe Dispute can have.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -356,7 +356,7 @@
 | ISFINALSTATUS | bit |  | YES | ((0)) |
 
 ## StripeDisputeTransaction
-**Physical table:** `OSUSR_SDL_STRIPEDISPUTETRANSACTION`  
+**Physical table:** `OSUSR_sdl_StripeDisputeTransaction`  
 **Description:** Relates a Transaction to a Stripe Dispute (chargeback). Whenever a dispute is created in Stripe and we are notified, a record is created here referencing the StripeDispute record.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -376,7 +376,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## StripeFailedTransfersTemp
-**Physical table:** `OSUSR_SDL_STRIPEFAILEDTRANSFERSTEMP`  
+**Physical table:** `OSUSR_sdl_StripeFailedTransfersTemp`  
 **Description:** holds transaction info for failed transfers that need to be re-run. table will be deleted when transfers are re-run.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -398,7 +398,7 @@
 | ERRORMESSAGE | nvarchar | 2000 | YES | ('') |
 
 ## StripeNegativePayoutsPending
-**Physical table:** `OSUSR_SDL_STRIPENEGATIVEPAYOUTSPENDING`  
+**Physical table:** `OSUSR_sdl_StripeNegativePayoutsPending`  
 **Description:** Table containing negative Stripe Payouts that were not yet processed by Stripe. When Stripe confirms the payout (either with success or not) the record is deleted from this table.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -410,7 +410,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## StripePaymentMethod
-**Physical table:** `OSUSR_KSL_STRIPEPAYMENTMETHOD`  
+**Physical table:** `OSUSR_ksl_StripePaymentMethod`  
 **Description:** Represents a payment method used for purchases against a Stripe Configuration. This is tied to the global user and can be used against any Stripe Configurations associated with any account (Customer).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -435,7 +435,7 @@
 | STRIPEMANDATEID | nvarchar | 200 | YES | ('') |
 
 ## StripePaymentMethodCustomerDefault
-**Physical table:** `OSUSR_KSL_STRIPEPAYMENTMETHODTENANTDEFAULT`  
+**Physical table:** `OSUSR_ksl_StripePaymentMethodTenantDefault`  
 **Description:** Represents the default payment method for a Global User at a given customer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -451,7 +451,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## StripePaymentMethodStatus
-**Physical table:** `OSUSR_KSL_STRIPEPAYMENTMETHODSTATUS`  
+**Physical table:** `OSUSR_ksl_StripePaymentMethodStatus`  
 **Description:** The possible statuses a Stripe payment method can have.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -460,7 +460,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## StripePayout
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUT`  
+**Physical table:** `OSUSR_sdl_StripePayout`  
 **Description:** A payout is a transfer of funds from the payment processor to the client's bank account. It usually occurs daily and has an amount that matches the sum of all transactions the client executed since the last payout. If a configuration is deleted, all payouts tied to that configuration will be deleted as well.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -488,7 +488,7 @@
 | UNATTRIBUTEDREMAINDER | decimal |  | YES | ((0)) |
 
 ## StripePayoutNotificationContact
-**Physical table:** `OSUSR_KSL_STRIPEPAYOUTNOTIFICATION`  
+**Physical table:** `OSUSR_ksl_StripePayoutNotification`  
 **Description:** Users and email addresses that should be emailed when a Stripe Payout occurs.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -499,7 +499,7 @@
 | PAYOUTNOTIFICATIONEMAIL | nvarchar | 300 | YES | ('') |
 
 ## StripePayoutQueue
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUTQUEUE`  
+**Physical table:** `OSUSR_sdl_StripePayoutQueue`  
 **Description:** Represents a payout that needs to be processed. This involves matching the balance transactions in the payment processor's system with ours and updating the payout status.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -511,7 +511,7 @@
 | LASTATTEMPTED | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripePayoutRecalculateQueue
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUTRECALCULATEQUEUE`  
+**Physical table:** `OSUSR_sdl_StripePayoutRecalculateQueue`  
 **Description:** Represents a payout that needs to have its totals updated.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -520,7 +520,7 @@
 | STRIPEPAYOUTID | bigint |  | YES | (NULL) |
 
 ## StripePayoutStatus
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUTSTATUS`  
+**Physical table:** `OSUSR_sdl_StripePayoutStatus`  
 **Description:** Possible statuses a payout can have.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -530,7 +530,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## StripePayoutTransaction
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUTTRANSACTION`  
+**Physical table:** `OSUSR_sdl_StripePayoutTransaction`  
 **Description:** Indicates in which payout a transaction is included, which is to say, it points to the date the transaction's money will be transfered to the client's bank account.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -544,7 +544,7 @@
 | INFERREDBYPAYOUTID | bigint |  | YES | (NULL) |
 
 ## StripePayoutTransactionQueue
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUTTRANSACTIONQUEUE`  
+**Physical table:** `OSUSR_sdl_StripePayoutTransactionQueue`  
 **Description:** Represents a transaction that needs to be processed and assigned to a payout. When a transaction occurs, we insert a record here to be queried from the payment processor's system and then added a payout on our side.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -558,7 +558,7 @@
 | ISREMOVED | bit |  | YES | ((0)) |
 
 ## StripePayoutTransactionType
-**Physical table:** `OSUSR_SDL_STRIPEPAYOUTTRANSACTIONTYPE`  
+**Physical table:** `OSUSR_sdl_StripePayoutTransactionType`  
 **Description:** Represents the type of transactions available in a payout.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -568,7 +568,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## StripePendingTransfer
-**Physical table:** `OSUSR_SDL_STRIPEPENDINGTRANSFER`  
+**Physical table:** `OSUSR_sdl_StripePendingTransfer`  
 **Description:** Entity that stores the data for failed transfers due to insufficient funds.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -592,7 +592,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## StripeRefundReason
-**Physical table:** `OSUSR_KSL_STRIPEREFUNDREASON`  
+**Physical table:** `OSUSR_ksl_StripeRefundReason`  
 **Description:** The possible refund reasons.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -602,7 +602,7 @@
 | CODE | nvarchar | 50 | YES | ('') |
 
 ## StripeSEPAMandateRequest
-**Physical table:** `OSUSR_SDL_STRIPESEPAMANDATEREQUEST`  
+**Physical table:** `OSUSR_sdl_StripeSEPAMandateRequest`  
 **Description:** Entity with information related with mandates for direct debits. Only used for Wodify Payments accounts that uses SEPA.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -623,7 +623,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeSharedPaymentMethod
-**Physical table:** `OSUSR_KSL_STRIPESHAREDPAYMENTMETHOD`  
+**Physical table:** `OSUSR_ksl_StripeSharedPaymentMethod`  
 **Description:** Entity that will have the information for the shared payment methods.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -642,7 +642,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## StripeSupportedCurrency
-**Physical table:** `OSUSR_KSL_STRIPESUPPORTEDCURRENCY`  
+**Physical table:** `OSUSR_ksl_StripeSupportedCurrency`  
 **Description:** The supported currencies by Stripe.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -652,7 +652,7 @@
 | CURRENCYCODE | nvarchar | 50 | YES | ('') |
 
 ## StripeTransaction
-**Physical table:** `OSUSR_SDL_STRIPETRANSACTION`  
+**Physical table:** `OSUSR_sdl_StripeTransaction`  
 **Description:** Record of a money transaction.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -680,7 +680,7 @@
 | CAPITALPAYDOWNAMOUNT | decimal |  | YES | ((0)) |
 
 ## StripeTransactionType
-**Physical table:** `OSUSR_SDL_STRIPETRANSACTIONTYPE`  
+**Physical table:** `OSUSR_sdl_StripeTransactionType`  
 **Description:** Type of operation that generated the transaction.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -695,7 +695,7 @@
 | SHOWINPAYOUT | bit |  | YES | ((0)) |
 
 ## StripeTransfer
-**Physical table:** `OSUSR_KSL_STRIPETRANSFER`  
+**Physical table:** `OSUSR_ksl_StripeTransfer`  
 **Description:** Represents a transfer created in Stripe. A transfer can be created manually to move funds from one account to another, or automatically via Stripe.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -719,7 +719,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## StripeTransferStatus
-**Physical table:** `OSUSR_KSL_STRIPETRANSFERSTATUS`  
+**Physical table:** `OSUSR_ksl_StripeTransferStatus`  
 **Description:** The possible transfer statuses.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -729,7 +729,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## StripeTransferTransaction
-**Physical table:** `OSUSR_SDL_STRIPETRANSFERTRANSACTION`  
+**Physical table:** `OSUSR_sdl_StripeTransferTransaction`  
 **Description:** Transactions that were generated as a result of executing a Stripe Transfer.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -739,7 +739,7 @@
 | STRIPETRANSACTIONID | bigint |  | YES | (NULL) |
 
 ## StripeWebhookEvent
-**Physical table:** `OSUSR_SDL_STRIPEWEBHOOKEVENT`  
+**Physical table:** `OSUSR_sdl_StripeWebhookEvent`  
 **Description:** Represents a webhook event that was delivered to our Stripe API from Stripe.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -752,7 +752,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## StripeWebhookEventType
-**Physical table:** `OSUSR_SDL_STRIPEWEBHOOKEVENTTYPE`  
+**Physical table:** `OSUSR_sdl_StripeWebhookEventType`  
 **Description:** Represents the types of webhook events we store in the database.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -762,7 +762,7 @@
 | EVENTTYPE | nvarchar | 50 | YES | ('') |
 
 ## WodifyPaymentsAccountDetail
-**Physical table:** `OSUSR_SDL_WODIFYPAYMENTSACCOUNTDETAIL`  
+**Physical table:** `OSUSR_sdl_WodifyPaymentsAccountDetail`  
 **Description:** Entity that coutains information related with a Wodify Payments Account.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -793,7 +793,7 @@
 | COMPANYVATNUMBER | nvarchar | 50 | YES | ('') |
 
 ## WodifyPaymentsBeneficialOwner
-**Physical table:** `OSUSR_SDL_WODIFYPAYMENTSBENEFICIALOWNER`  
+**Physical table:** `OSUSR_sdl_WodifyPaymentsBeneficialOwner`  
 **Description:** Information related with the owners of a Wodify Payments Account.  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -5,7 +5,7 @@
 - [FirebaseProject](#firebaseproject)
 
 ## FirebaseProject
-**Physical table:** `OSUSR_2HK_FIREBASEPROJECT`  
+**Physical table:** `OSUSR_2hk_FirebaseProject`  
 **Description:** The available Firebase projects.  
 
 | Column | Data Type | Max Length | Nullable | Default |

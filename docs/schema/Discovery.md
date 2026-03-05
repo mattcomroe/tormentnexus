@@ -8,14 +8,14 @@
 - [MenuSubItem](#menusubitem)
 
 ## Category
-**Physical table:** `OSUSR_MND_CATEGORY`  
+**Physical table:** `OSUSR_mnd_Category`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
 | CAPTION | nvarchar | 50 | NO |  |
 
 ## Comparator
-**Physical table:** `OSUSR_MND_COMPARATOR`  
+**Physical table:** `OSUSR_mnd_Comparator`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -24,7 +24,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## MenuItem
-**Physical table:** `OSUSR_MND_MENUITEM`  
+**Physical table:** `OSUSR_mnd_MenuItem`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -33,7 +33,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## MenuSubItem
-**Physical table:** `OSUSR_MND_MENUSUBITEM`  
+**Physical table:** `OSUSR_mnd_MenuSubItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |

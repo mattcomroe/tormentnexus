@@ -7,7 +7,7 @@
 - [GoogleCalendarEventExclusion](#googlecalendareventexclusion)
 
 ## GoogleCalendar
-**Physical table:** `OSUSR_C69_GOOGLECALENDAR`  
+**Physical table:** `OSUSR_c69_GoogleCalendar`  
 **Description:** A Google Calendar  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -25,7 +25,7 @@
 | ISPRIMARY | bit |  | YES | ((0)) |
 
 ## GoogleCalendarEvent
-**Physical table:** `OSUSR_C69_GOOGLECALENDAREVENT`  
+**Physical table:** `OSUSR_c69_GoogleCalendarEvent`  
 **Description:** A Google Calendar event  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -41,7 +41,7 @@
 | ISBUSY | bit |  | YES | ((0)) |
 
 ## GoogleCalendarEventExclusion
-**Physical table:** `OSUSR_C69_GOOGLECALENDAREVENTEXCLUSION`  
+**Physical table:** `OSUSR_c69_GoogleCalendarEventExclusion`  
 **Description:** IDs of Google Calendar events that should be excluded from the import process. These are usually events that were exported from the app, so we don't want to import them  
 
 | Column | Data Type | Max Length | Nullable | Default |

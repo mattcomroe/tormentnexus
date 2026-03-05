@@ -15,7 +15,7 @@
 - [ReferenceEntity](#referenceentity)
 
 ## IntegrationAction
-**Physical table:** `OSUSR_VG7_INTEGRATIONACTION1`  
+**Physical table:** `OSUSR_vg7_IntegrationAction1`  
 **Description:** Used to filter logs by Integration Action.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -26,7 +26,7 @@
 | INTEGRATIONPARTNERID | int |  | YES | (NULL) |
 
 ## IntegrationActionPartner
-**Physical table:** `OSUSR_DL3_INTEGRATIONACTIONPARTNER1`  
+**Physical table:** `OSUSR_dl3_IntegrationActionPartner1`  
 **Description:** Indicates which integration partners use integration actions.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## IntegrationIndexStatus
-**Physical table:** `OSUSR_VG7_INTEGRATIONINDEXSTATUS1`  
+**Physical table:** `OSUSR_vg7_IntegrationIndexStatus1`  
 **Description:** Status to show wether or not this records has been send to a provider to be indexed for fast full text searching.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -48,7 +48,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## IntegrationLogIntKey
-**Physical table:** `OSUSR_VG7_INTEGRATIONLOGINTKEY`  
+**Physical table:** `OSUSR_vg7_IntegrationLogIntKey`  
 **Description:** Entity that support inserts via the CreateAsynchLog Action.  Records are placed in message queue and inserted in batch.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -83,7 +83,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## IntegrationPartner
-**Physical table:** `OSUSR_VG7_INTEGRATIONPARTNER1`  
+**Physical table:** `OSUSR_vg7_IntegrationPartner1`  
 **Description:** Used to filter Logs by Partner  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -93,7 +93,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## IntegrationStatus
-**Physical table:** `OSUSR_VG7_INTEGRATIONSTATUS1`  
+**Physical table:** `OSUSR_vg7_IntegrationStatus1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -103,7 +103,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## IntegrationStatusRecordIntKey
-**Physical table:** `OSUSR_VG7_INTEGRATIONSTATUSRECORDINTKEY`  
+**Physical table:** `OSUSR_vg7_IntegrationStatusRecordIntKey`  
 **Description:** Many to Many table to get Integration Status of Record.  WARNING: RecordId is set as an Integer to support tracking many entitites inside of one table. When building a query, it is critically important to create a join that uses the function EntityRefIntegerToInteger().   It is also important to filter on the RequestReferenceEntityId. Failure to do so could result in reading records from another entity.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -121,7 +121,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## IntegrationUserType
-**Physical table:** `OSUSR_DL3_INTEGRATIONUSERTYPE`  
+**Physical table:** `OSUSR_dl3_IntegrationUserType`  
 **Description:** Type of user associated to the integration lol record.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -132,7 +132,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## LogRetention
-**Physical table:** `OSUSR_VG7_REFERNCEENTITYLOGRETENTION1`  
+**Physical table:** `OSUSR_vg7_RefernceEntityLogRetention1`  
 **Description:** Number of days integration logs are kept. The default number is set in a site property. Inserting records here will override that default value.  If you override the default value for a specific action or entity, be sure to specify values for every possible entity or integration action for that integratyion partner, otherwise those will be retained forever.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -147,7 +147,7 @@
 | INTEGRATIONACTIONID | int |  | YES | (NULL) |
 
 ## ParentReferenceEntity
-**Physical table:** `OSUSR_VG7_PARENTREFERENCEENTITY1`  
+**Physical table:** `OSUSR_vg7_ParentReferenceEntity1`  
 **Description:** Optional Parent Entity Input to model parent child relationships like (Invoice and Transcation).  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -158,7 +158,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ReferenceEntity
-**Physical table:** `OSUSR_VG7_REFERENCEENTITY1`  
+**Physical table:** `OSUSR_vg7_ReferenceEntity1`  
 **Description:** Used to fitler Logs by Entity  
 
 | Column | Data Type | Max Length | Nullable | Default |

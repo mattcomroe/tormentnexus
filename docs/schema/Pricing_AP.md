@@ -5,7 +5,7 @@
 - [Temp_SMSUsage_Feb2024](#temp-smsusage-feb2024)
 
 ## Temp_SMSUsage_Feb2024
-**Physical table:** `OSUSR_I64_TEMP_SMSUSAGE_FEB2024`  
+**Physical table:** `OSUSR_i64_Temp_SMSUsage_Feb2024`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

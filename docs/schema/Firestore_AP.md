@@ -7,7 +7,7 @@
 - [FirestoreIsDeletedGlobalUserIdLastProcessed_DEV](#firestoreisdeletedglobaluseridlastprocessed-dev)
 
 ## ComponentsUpdateCompleteInFirestore
-**Physical table:** `OSUSR_CHM_GLOBALUSERCOMPONENTSUPDATED_INFIRESTORE`  
+**Physical table:** `OSUSR_chm_GlobalUserComponentsUpdated_InFirestore`  
 **Description:** Temp table used during the Component Update timer, used to update Component details for all GlobalUsers for a Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -19,7 +19,7 @@
 | CREATEDBYSYSTEM | nvarchar | 50 | YES | ('') |
 
 ## DeltaComponentsUpdateCompleteInFirestore
-**Physical table:** `OSUSR_CHM_DELTACOMPONENTSUPDATECOMPLETEINFIRESTORE`  
+**Physical table:** `OSUSR_chm_DeltaComponentsUpdateCompleteInFirestore`  
 **Description:** Temp table used during the Component Update timer, used to update Component details for all GlobalUsers for a Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -32,7 +32,7 @@
 | CREATEDBYSYSTEM | nvarchar | 50 | YES | ('') |
 
 ## FirestoreIsDeletedGlobalUserIdLastProcessed_DEV
-**Physical table:** `OSUSR_CHM_FIRESTOREPERFORMANCERESULTISDELETED_DEV`  
+**Physical table:** `OSUSR_chm_FirestorePerformanceResultIsDeleted_DEV`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

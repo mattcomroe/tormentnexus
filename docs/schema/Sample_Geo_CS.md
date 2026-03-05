@@ -6,7 +6,7 @@
 - [CountryState](#countrystate)
 
 ## Country
-**Physical table:** `OSUSR_HPT_COUNTRY`  
+**Physical table:** `OSUSR_hpt_Country`  
 **Description:** Entity that holds the records of type Country.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -22,7 +22,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CountryState
-**Physical table:** `OSUSR_HPT_COUNTRYSTATE`  
+**Physical table:** `OSUSR_hpt_CountryState`  
 **Description:** Entity that holds the records of type CountryState.  
 
 | Column | Data Type | Max Length | Nullable | Default |

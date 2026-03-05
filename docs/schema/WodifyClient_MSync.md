@@ -10,7 +10,7 @@
 - [SyncUnits](#syncunits)
 
 ## CommonClientVariableSyncSteps
-**Physical table:** `OSUSR_UU0_COMMONCLIENTVARIABLESYNCSTEPS`  
+**Physical table:** `OSUSR_uu0_CommonClientVariableSyncSteps`  
 **Description:** Add a data step here, then update the common client variable helper to mapp the attribute to this data step  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -21,7 +21,7 @@
 | TTL | int |  | YES | ((0)) |
 
 ## FeatureSpecificClientVariables
-**Physical table:** `OSUSR_UU0_FEATURESPECIFICCLIENTVARIABLES1`  
+**Physical table:** `OSUSR_uu0_FeatureSpecificClientVariables1`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -31,24 +31,24 @@
 | TTL_MINUTES | int |  | YES | ((0)) |
 
 ## LocalClientVariable
-**Physical table:** `OSUSR_UU0_LOCALCLIENTVARIABLE`  
+**Physical table:** `OSUSR_uu0_LocalClientVariable`  
 **Description:** Store single attribute configuration settings. These will persist past a lost session.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## LocalFeatureSpecificClientVariable
-**Physical table:** `OSUSR_UU0_LOCALFEATURESPECIFICCLIENTVARIABLE`  
+**Physical table:** `OSUSR_uu0_LocalFeatureSpecificClientVariable`  
 **Description:** Store single attribute configuration settings. These will persist past a lost session.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## LocalSyncAtom_TimeStamps
-**Physical table:** `OSUSR_UU0_LOCALSYNCATOM_TIMESTAMPS`  
+**Physical table:** `OSUSR_uu0_LocalSyncAtom_TimeStamps`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## SyncUnits
-**Physical table:** `OSUSR_UU0_SYNCUNITS`  
+**Physical table:** `OSUSR_uu0_SyncUnits`  
 **Description:** SyncUnits used for offline syncronization  
 
 | Column | Data Type | Max Length | Nullable | Default |

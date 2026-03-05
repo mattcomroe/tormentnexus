@@ -6,7 +6,7 @@
 - [PasteType](#pastetype)
 
 ## CKFileType
-**Physical table:** `OSUSR_A21_CKFILETYPE`  
+**Physical table:** `OSUSR_a21_CKFileType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -16,7 +16,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PasteType
-**Physical table:** `OSUSR_A21_PASTETYPE`  
+**Physical table:** `OSUSR_a21_PasteType`  
 **Description:** Defines the pasting type  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -56,7 +56,7 @@
 - [WorkatoCustomerAccountUser](#workatocustomeraccountuser)
 
 ## ApiKeyType
-**Physical table:** `OSUSR_5UI_APIKEYTYPE`  
+**Physical table:** `OSUSR_5ui_ApiKeyType`  
 **Description:** Contains all type of API keys that a customer can use to integrate between Wodify and third-party tools  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -67,7 +67,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## AsyncProcess
-**Physical table:** `OSUSR_5UI_ASYNCPROCESS1`  
+**Physical table:** `OSUSR_5ui_AsyncProcess1`  
 **Description:** Auxiliar entity that contains all asynchronous processes, which will run through the AP module in BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -76,7 +76,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## BusinessType
-**Physical table:** `OSUSR_5UI_BUSINESSTYPE`  
+**Physical table:** `OSUSR_5ui_BusinessType`  
 **Description:** Contains all business types.  If a Customer has multiple locations, it is possible to have a different business type for each location, otherwise the customer will have one business type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -88,7 +88,7 @@
 | EXTERNALVALUE | nvarchar | 50 | YES | ('') |
 
 ## Customer
-**Physical table:** `OSUSR_5UI_CUSTOMER`  
+**Physical table:** `OSUSR_5ui_Customer`  
 **Description:** Contains the main data of the customer, namely it's private name and if is active or not  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -100,7 +100,7 @@
 | APPLYBTYPEALLLOCATIONS | bit |  | YES | ((0)) |
 
 ## CustomerApiKey
-**Physical table:** `OSUSR_5UI_TENANTAPIKEY`  
+**Physical table:** `OSUSR_5ui_TenantApiKey`  
 **Description:** API keys that can be used to authorize a request to Wodify's external APIs.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -113,7 +113,7 @@
 | APIKEYTYPEID | int |  | YES | (NULL) |
 
 ## CustomerAvatarRingSetting
-**Physical table:** `OSUSR_5UI_CUSTOMERAVATARRINGSETTING`  
+**Physical table:** `OSUSR_5ui_CustomerAvatarRingSetting`  
 **Description:** Defines Customer overwrites for Avatar Rings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -130,7 +130,7 @@
 | COLORHEXCODE | nvarchar | 10 | YES | ('') |
 
 ## CustomerDeletedTwilioPhoneNumber
-**Physical table:** `OSUSR_5UI_CUSTOMERDELETEDTWILIOPHONENUMBER`  
+**Physical table:** `OSUSR_5ui_CustomerDeletedTwilioPhoneNumber`  
 **Description:** When a customer deletes one of their Twilio provisioned numbers for SMS, the last usage details for that number on deletion (used for billing)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -146,7 +146,7 @@
 | LOCATIONID | int |  | YES | (NULL) |
 
 ## CustomerImage
-**Physical table:** `OSUSR_3BU_TENANTIMAGE`  
+**Physical table:** `OSUSR_3bu_TenantImage`  
 **Description:** DO NOT DELETE THIS without checking with Clay first. This entity contains old customer pictures that Clay mentioned he would like to migrate somewhere. Make sure that work is done or don't need to be done before deleting this entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -166,7 +166,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## CustomerMFARequiredRole
-**Physical table:** `OSUSR_5UI_CUSTOMERMFAREQUIREDROLE3`  
+**Physical table:** `OSUSR_5ui_CustomerMFARequiredRole3`  
 **Description:** Contains customer settings for which roles need to perform MFA when signing in  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -181,7 +181,7 @@
 | ISLOCKEDFORCUSTOMER | bit |  | YES | ((0)) |
 
 ## CustomerSettingContactInformation
-**Physical table:** `OSUSR_72O_TENANTSETTINGCONTACTINFORMATION`  
+**Physical table:** `OSUSR_72o_TenantSettingContactInformation`  
 **Description:** contains customer settings related to contacts  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -215,7 +215,7 @@
 | DEFAULTSERVICEEMAIL | nvarchar | 250 | YES | ('') |
 
 ## CustomerSettingEmail
-**Physical table:** `OSUSR_5UI_TENANTSETTINGEMAIL`  
+**Physical table:** `OSUSR_5ui_TenantSettingEmail`  
 **Description:** Entity that has extended properties for a Customer, this specific one related to email settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -233,7 +233,7 @@
 | EMAILSERVICECONFIGURATIONSET | int |  | YES | (NULL) |
 
 ## CustomerSettingGeneral
-**Physical table:** `OSUSR_72O_TENANTSETTINGGENERAL`  
+**Physical table:** `OSUSR_72o_TenantSettingGeneral`  
 **Description:** Entity that extends properties of customer's general settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -304,7 +304,7 @@
 | MINIMUMCARTVALUEFILTER | int |  | YES | ((0)) |
 
 ## CustomerSettingRetain
-**Physical table:** `OSUSR_5UI_CUSTOMERSETTINGRETAIN`  
+**Physical table:** `OSUSR_5ui_CustomerSettingRetain`  
 **Description:** Entity that has extended properties for a Customer, this specific one related to retain settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -320,7 +320,7 @@
 | RISKLEVEL | nvarchar | 50 | YES | ('') |
 
 ## CustomerStripeReaderOrder
-**Physical table:** `OSUSR_5UI_CUSTOMERSTRIPEREADERORDER`  
+**Physical table:** `OSUSR_5ui_CustomerStripeReaderOrder`  
 **Description:** Holds the most recent successful Stripe cc reader terminal order date  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -330,7 +330,7 @@
 | LASTORDERDATE | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## CustomerTwilioAuthentication
-**Physical table:** `OSUSR_5UI_CUSTOMERTWILIOAUTHENTICATION`  
+**Physical table:** `OSUSR_5ui_CustomerTwilioAuthentication`  
 **Description:** Contains data related to twilio's authentication  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -348,7 +348,7 @@
 | PARTICIPANTCONVERSATIONLIMIT | int |  | YES | ((0)) |
 
 ## CustomerTwilioPhoneNumber
-**Physical table:** `OSUSR_5UI_CUSTOMERPROVISIONEDPHONENUMBER`  
+**Physical table:** `OSUSR_5ui_CustomerProvisionedPhoneNumber`  
 **Description:** Contains a customers Twilio provisioned numbers for SMS and the identity values that Phone number is connected to  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -367,7 +367,7 @@
 | VERIFICATIONSTATUSID | int |  | YES | (NULL) |
 
 ## CustomerTwilioPhoneNumberUser
-**Physical table:** `OSUSR_5UI_CUSTOMERTWILIOPHONENUMBEREMPLOYEE`  
+**Physical table:** `OSUSR_5ui_CustomerTwilioPhoneNumberEmployee`  
 **Description:** A users associated with a CustomerTwilioPhoneNumber  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -383,7 +383,7 @@
 | CUSTOMERTWILIOPHONENUMBERID | bigint |  | YES | (NULL) |
 
 ## DefaultTheme
-**Physical table:** `OSUSR_3BU_DEFAULTTHEME`  
+**Physical table:** `OSUSR_3bu_DefaultTheme`  
 **Description:** Entity with base/default themes for the Location Theme  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -400,7 +400,7 @@
 | ACCENTCOLOR | nvarchar | 50 | YES | ('') |
 
 ## GymProgram
-**Physical table:** `OSUSR_5UI_GYMPROGRAM`  
+**Physical table:** `OSUSR_5ui_GymProgram`  
 **Description:** Contains all Programs for all Gyms (Customers)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -427,7 +427,7 @@
 | ISCLASSPASSENABLED | bit |  | YES |  |
 
 ## GymProgramLocationIntegrationAvailability
-**Physical table:** `OSUSR_5UI_GYMPROGRAMLOCATIONINTEGRATIONAVAILABILITY`  
+**Physical table:** `OSUSR_5ui_GymProgramLocationIntegrationAvailability`  
 **Description:** Holds records of Program/Location combinations and if they are enabled in Wellhub or Classpass ProgramLocations that are disabled do not exist in this table  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -444,7 +444,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ImageType
-**Physical table:** `OSUSR_3BU_IMAGETYPE`  
+**Physical table:** `OSUSR_3bu_ImageType`  
 **Description:** DO NOT DELETE THIS without checking with Clay first. This entity identifies the image type from CustomerImage entity, which contains old customer pictures that Clay mentioned he would like to migrate somewhere. Make sure that work is done or don't need to be done before deleting this entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -458,7 +458,7 @@
 | DESCRIPTION | nvarchar | 50 | YES | ('') |
 
 ## LeadWebFormSpamProtection
-**Physical table:** `OSUSR_72O_LEADWEBFORMSPAMPROTECTION`  
+**Physical table:** `OSUSR_72o_LeadWebFormSpamProtection`  
 **Description:** Contains all types of spam protection for the lead web form  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -469,7 +469,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## Location
-**Physical table:** `OSUSR_72O_LOCATION`  
+**Physical table:** `OSUSR_72o_Location`  
 **Description:** Entity which holds information about a Location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -526,7 +526,7 @@
 | IANATIMEZONEIDENTIFIER | bigint |  | YES | (NULL) |
 
 ## LocationCoordinates
-**Physical table:** `OSUSR_72O_LOCATIONCOORDINATES`  
+**Physical table:** `OSUSR_72o_LocationCoordinates`  
 **Description:** Contains latitute and longitude for the specified location  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -544,7 +544,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## LocationHistory
-**Physical table:** `OSUSR_5UI_LOCATIONHISTORY`  
+**Physical table:** `OSUSR_5ui_LocationHistory`  
 **Description:** Entity that will have the Location history  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -553,7 +553,7 @@
 | HISTORY | nvarchar | -1 | YES | ('') |
 
 ## LocationPeopleSettings
-**Physical table:** `OSUSR_3BU_LOCATIONPEOPLESETTINGS`  
+**Physical table:** `OSUSR_3bu_LocationPeopleSettings`  
 **Description:** Entity that has the location people settings  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -572,7 +572,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LocationPeopleSettingsHistory
-**Physical table:** `OSUSR_3BU_LOCATIONPEOPLESETTINGSHISTORY`  
+**Physical table:** `OSUSR_3bu_LocationPeopleSettingsHistory`  
 **Description:** Entity that will have the people settings history  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -582,7 +582,7 @@
 | HISTORY | nvarchar | -1 | YES | ('') |
 
 ## LocationProgram
-**Physical table:** `OSUSR_5UI_LOCATIONPROGRAMSIMPLESIGNIN`  
+**Physical table:** `OSUSR_5ui_LocationProgramSimpleSignIn`  
 **Description:** Associates a Location with a Program for Simple Sign-In filtering  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -594,7 +594,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LocationSettingPartner
-**Physical table:** `OSUSR_5UI_LOCATIONSETTINGPARTNER`  
+**Physical table:** `OSUSR_5ui_LocationSettingPartner`  
 **Description:** Contains integration partner IDs for Customers and Locations  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -612,7 +612,7 @@
 | EXTERNALID | nvarchar | 100 | YES | ('') |
 
 ## PayRate
-**Physical table:** `OSUSR_5UI_PAYRATE`  
+**Physical table:** `OSUSR_5ui_PayRate`  
 **Description:** Set on Payroll > Pay Rates. Holds the PayRates per Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -635,7 +635,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PayRateRule
-**Physical table:** `OSUSR_5UI_PAYRATERULE`  
+**Physical table:** `OSUSR_5ui_PayRateRule`  
 **Description:** Set when adding/editing a PayRate. Holds the PayRateRules per PayRate/Customer.  Examples:  PerClassOrSession {Coach}/Provider receives $[Rate] per class/session.  PerHour Employee receives $[Rate] per hour.  PerAttendee (with PerAttendeeStandard SubRuleType) {Coach}/Provider receives $[Rate] per attendee.  PercentageOfSessionRevenue (for Appointments only) Employee receives %[Rate] of session revenue.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -651,7 +651,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PayRateRuleType
-**Physical table:** `OSUSR_5UI_PAYRATERULETYPE`  
+**Physical table:** `OSUSR_5ui_PayRateRuleType`  
 **Description:** Holds the types of PayRateRules  Examples:  PerClassOrSession {Coach}/Provider receives $ per class/session.  PerHour Employee receives $ per hour.  PerAttendee (with PerAttendeeStandard SubRuleType) {Coach}/Provider receives $ per attendee.  PercentageOfSessionRevenue (for Appointments only) Employee receives % of session revenue.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -662,7 +662,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PayRateSubRule
-**Physical table:** `OSUSR_5UI_PAYRATESUBRULE`  
+**Physical table:** `OSUSR_5ui_PayRateSubRule`  
 **Description:** Set when adding/editing a PayRate. Holds the PayRateSubRules per PayRateRule/PayRate/Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -680,7 +680,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## PayRateSubRuleType
-**Physical table:** `OSUSR_5UI_PAYRATESUBRULETYPE`  
+**Physical table:** `OSUSR_5ui_PayRateSubRuleType`  
 **Description:** Holds the types of PayRateSubRules  Examples:  PerAttendeeStandard {Coach}/Provider receives $ per attendee.  PerAttendeeFlat When # of attendees is between X and Y, {coach} receives $ for the class/session.  PerAttendeeTiered When # of attendees is between X and Y, {coach} receives $ per attendee.  PerAttendeeIncremental With a total of X to Y attendees, {coach} receives $ per attendee.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -691,7 +691,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## PayRateType
-**Physical table:** `OSUSR_5UI_PAYRATETYPE`  
+**Physical table:** `OSUSR_5ui_PayRateType`  
 **Description:** Holds the types of PayRates  Class: Pay rates that can be assigned to classes.  Class pay rate rules include pay per class, pay per hour, and pay per attendee.  Appointment: Pay rates that can be assigned to appointments.  Appointment pay rate rules include pay per appointment, pay per hour, and pay per attendee.  Administrative: Pay rates for time-based work not associated with coaching classes or providing services; e.g. front desk, admin, cleaning. Administrative pay rates have one available rule: pay per hour.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -702,7 +702,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ProcessingFeeTaxType
-**Physical table:** `OSUSR_5UI_PROCESSINGFEETAXTYPE`  
+**Physical table:** `OSUSR_5ui_ProcessingFeeTaxType`  
 **Description:** Contains all type of taxable configurations that can be selected for a given location's POPF tax strategy.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -713,7 +713,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ReinstateCustomer
-**Physical table:** `OSUSR_5UI_REINSTATECUSTOMER`  
+**Physical table:** `OSUSR_5ui_ReinstateCustomer`  
 **Description:** Auxiliar entity that contains all waivers asynchronous processes, which will run through the Waivers_AP BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -727,7 +727,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Request
-**Physical table:** `OSUSR_5UI_REQUEST`  
+**Physical table:** `OSUSR_5ui_Request`  
 **Description:** Request data to be used in an Asynchronous Process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -748,7 +748,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestType
-**Physical table:** `OSUSR_5UI_REQUESTTYPE`  
+**Physical table:** `OSUSR_5ui_RequestType`  
 **Description:** The type of request  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -759,7 +759,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## RetainEmailTemplate
-**Physical table:** `OSUSR_5UI_RETAINEMAILTEMPLATE`  
+**Physical table:** `OSUSR_5ui_RetainEmailTemplate`  
 **Description:** Entity which holds the template for Retain emails  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -778,7 +778,7 @@
 | ISDEFAULT | bit |  | YES | ((0)) |
 
 ## SeamCustomerDevice
-**Physical table:** `OSUSR_5UI_SEAMCUSTOMERDEVICE`  
+**Physical table:** `OSUSR_5ui_SeamCustomerDevice`  
 **Description:** Seam device under this Customer  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -794,7 +794,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## SeamCustomerDeviceCount
-**Physical table:** `OSUSR_5UI_SEAMCUSTOMERDEVICECOUNT`  
+**Physical table:** `OSUSR_5ui_SeamCustomerDeviceCount`  
 **Description:** The Device Count across all Seam accounts for this customer ID  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -810,7 +810,7 @@
 | DEVICECOUNTPRIORBILLPERIOD | int |  | YES | ((0)) |
 
 ## SeamCustomerLocationMapping
-**Physical table:** `OSUSR_5UI_SEAMCUSTOMERLOCATIONMAPPING`  
+**Physical table:** `OSUSR_5ui_SeamCustomerLocationMapping`  
 **Description:** Mappping of Wodify and Seam Data  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -827,7 +827,7 @@
 | MAXDEVICECOUNTBILLINGPERIOD | int |  | YES | ((0)) |
 
 ## SecureProgrammingOption
-**Physical table:** `OSUSR_5UI_SECUREPROGRAMMINGOPTION`  
+**Physical table:** `OSUSR_5ui_SecureProgrammingOption`  
 **Description:** When Secure Wod Programming is enabled, this entity contains all possible options.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -837,7 +837,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## SimpleSignInSort
-**Physical table:** `OSUSR_5UI_SIMPLESIGNINSORT`  
+**Physical table:** `OSUSR_5ui_SimpleSignInSort`  
 **Description:** Different Sort types for Simple Sign In  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -848,7 +848,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## ThemeLocation
-**Physical table:** `OSUSR_3BU_THEMELOCATION`  
+**Physical table:** `OSUSR_3bu_ThemeLocation`  
 **Description:** Represents a theme color for the wodify client view  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -868,7 +868,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ThemeLocationCSS
-**Physical table:** `OSUSR_3BU_THEMELOCATIONCSS`  
+**Physical table:** `OSUSR_3bu_ThemeLocationCSS`  
 **Description:** Entity to hold the Theme Location CSS  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -877,7 +877,7 @@
 | CSS | nvarchar | -1 | YES | ('') |
 
 ## WodifindLocationOffering
-**Physical table:** `OSUSR_5UI_WODIFINDLOCATIONOFFERING`  
+**Physical table:** `OSUSR_5ui_WodifindLocationOffering`  
 **Description:** List of offerings for a given Wodifind-enabled location (e.g., programs/services offered)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -891,7 +891,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WodifindOfferingType
-**Physical table:** `OSUSR_5UI_WODIFINDOFFERINGTYPE`  
+**Physical table:** `OSUSR_5ui_WodifindOfferingType`  
 **Description:** Offering type for Wodifind-enabled location (e.g., program)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -900,7 +900,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## WodifySitesAccess
-**Physical table:** `OSUSR_5UI_WODIFYSITES`  
+**Physical table:** `OSUSR_5ui_WodifySites`  
 **Description:** Stores records for customers with Wodify Sites active  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -913,7 +913,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WorkatoCustomerAccount
-**Physical table:** `OSUSR_5UI_WORKATOCUSTOMERACCOUNT`  
+**Physical table:** `OSUSR_5ui_WorkatoCustomerAccount`  
 **Description:** Contains mapping of Wodify Customer Id, Location Id to Workato Workspace Id  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -928,7 +928,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## WorkatoCustomerAccountUser
-**Physical table:** `OSUSR_5UI_WORKATOCUSTOMERACCOUNTUSER`  
+**Physical table:** `OSUSR_5ui_WorkatoCustomerAccountUser`  
 **Description:** Contains a mapping of Wodify Users to Workato Users and Workspace  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -6,7 +6,7 @@
 - [TimerIntervals](#timerintervals)
 
 ## Timer
-**Physical table:** `OSUSR_QP6_TIMER`  
+**Physical table:** `OSUSR_qp6_Timer`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -23,7 +23,7 @@
 | COOLDOWNCOLOR | nvarchar | 50 | YES | ('') |
 
 ## TimerIntervals
-**Physical table:** `OSUSR_QP6_TIMERINTERVALS`  
+**Physical table:** `OSUSR_qp6_TimerIntervals`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -8,7 +8,7 @@
 - [MenuSubItem](#menusubitem)
 
 ## LdapAuthenticationType
-**Physical table:** `OSUSR_I8Y_LDAPAUTHENTICATIONTYPE`  
+**Physical table:** `OSUSR_i8y_LdapAuthenticationType`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -18,7 +18,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## LDAPSupportedProtocols
-**Physical table:** `OSUSR_I8Y_LDAPSUPPORTEDPROTOCOLS`  
+**Physical table:** `OSUSR_i8y_LDAPSupportedProtocols`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -27,7 +27,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## MenuItem
-**Physical table:** `OSUSR_I8Y_MENUITEM`  
+**Physical table:** `OSUSR_i8y_MenuItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## MenuSubItem
-**Physical table:** `OSUSR_I8Y_MENUSUBITEM`  
+**Physical table:** `OSUSR_i8y_MenuSubItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |

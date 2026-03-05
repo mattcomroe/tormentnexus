@@ -14,51 +14,51 @@
 - [BeeTemplateStructure](#beetemplatestructure)
 
 ## Bee_User
-**Physical table:** `OSUSR_IAU_BEE_USER`  
+**Physical table:** `OSUSR_iau_Bee_User`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeMergeContent
-**Physical table:** `OSUSR_IAU_BEEMERGECONTENT`  
+**Physical table:** `OSUSR_iau_BeeMergeContent`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeMergeTag
-**Physical table:** `OSUSR_IAU_BEEMERGETAG`  
+**Physical table:** `OSUSR_iau_BeeMergeTag`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeSpecialLink
-**Physical table:** `OSUSR_IAU_BEESPECIALLINK`  
+**Physical table:** `OSUSR_iau_BeeSpecialLink`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeTemplate
-**Physical table:** `OSUSR_IAU_BEETEMPLATE`  
+**Physical table:** `OSUSR_iau_BeeTemplate`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeTemplate_MergeContent
-**Physical table:** `OSUSR_IAU_BEETEMPLATE_MERGECONTENT`  
+**Physical table:** `OSUSR_iau_BeeTemplate_MergeContent`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeTemplate_MergeTag
-**Physical table:** `OSUSR_IAU_BEETEMPLATE_MERGETAG`  
+**Physical table:** `OSUSR_iau_BeeTemplate_MergeTag`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeTemplate_SpecialLink
-**Physical table:** `OSUSR_IAU_BEETEMPLATE_SPECIALLINK`  
+**Physical table:** `OSUSR_iau_BeeTemplate_SpecialLink`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeTemplateContent
-**Physical table:** `OSUSR_IAU_BEETEMPLATECONTENT`  
+**Physical table:** `OSUSR_iau_BeeTemplateContent`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## BeeTemplateStructure
-**Physical table:** `OSUSR_IAU_BEETEMPLATESTRUCTURE`  
+**Physical table:** `OSUSR_iau_BeeTemplateStructure`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

@@ -5,7 +5,7 @@
 - [GoogleAccount](#googleaccount)
 
 ## GoogleAccount
-**Physical table:** `OSUSR_XOB_GOOGLEACCOUNT`  
+**Physical table:** `OSUSR_xob_GoogleAccount`  
 **Description:** A google account.  
 
 | Column | Data Type | Max Length | Nullable | Default |

@@ -5,7 +5,7 @@
 - [APIMethod](#apimethod)
 
 ## APIMethod
-**Physical table:** `OSUSR_WV5_APIMETHOD`  
+**Physical table:** `OSUSR_wv5_APIMethod`  
 **Description:** Specific API methods.   Update the following support document everytime a record it's created: https://docs.google.com/document/d/1IAsZosiKY0vJL1fMrSi6pI1eMhxQWvNaB0R9vtv-LwA/  
 
 | Column | Data Type | Max Length | Nullable | Default |

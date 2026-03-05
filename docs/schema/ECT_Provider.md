@@ -33,7 +33,7 @@
 - [WebpageContent](#webpagecontent)
 
 ## AppConfig
-**Physical table:** `OSUSR_S41_APPCONFIG`  
+**Physical table:** `OSUSR_s41_AppConfig`  
 **Description:** ECT configuration for an application. Each application can have ECT enabled or disabled. If the application has ECT enabled, it can be for all users, if GroupId is null, or for a group of users, if the GroupId is filled in.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## Background
-**Physical table:** `OSUSR_S41_BACKGROUND`  
+**Physical table:** `OSUSR_s41_Background`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -55,7 +55,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## CallbackRule
-**Physical table:** `OSUSR_S41_CALLBACKRULE`  
+**Physical table:** `OSUSR_s41_CallbackRule`  
 **Description:** deprecated entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -65,7 +65,7 @@
 | RULE_ID | int |  | YES | (NULL) |
 
 ## DeviceColor
-**Physical table:** `OSUSR_S41_DEVICECOLOR`  
+**Physical table:** `OSUSR_s41_DeviceColor`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -73,7 +73,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## Feedback
-**Physical table:** `OSUSR_S41_FEEDBACK`  
+**Physical table:** `OSUSR_s41_Feedback`  
 **Description:** Feedback sent by users  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -105,7 +105,7 @@
 | ESPACEUID | nvarchar | 50 | YES | ('') |
 
 ## FeedbackCookie
-**Physical table:** `OSUSR_S41_FEEDBACKCOOKIE`  
+**Physical table:** `OSUSR_s41_FeedbackCookie`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -114,7 +114,7 @@
 | COOKIEHEADER | ntext | 1073741823 | YES | ('') |
 
 ## FeedbackExt
-**Physical table:** `OSUSR_S41_FEEDBACKEXT`  
+**Physical table:** `OSUSR_s41_FeedbackExt`  
 **Description:** Extension to the Feedback entity. Feedback is a public entity in a system component so we don't want to change it.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -132,7 +132,7 @@
 | APPLICATIONID | int |  | YES | (NULL) |
 
 ## FeedbackExt_Mobile
-**Physical table:** `OSUSR_S41_FEEDBACKEXT_MOBILE`  
+**Physical table:** `OSUSR_s41_FeedbackExt_Mobile`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -141,7 +141,7 @@
 | DEVICEMODEL | nvarchar | 50 | YES | ('') |
 
 ## FeedbackFrame
-**Physical table:** `OSUSR_S41_FEEDBACKFRAME`  
+**Physical table:** `OSUSR_s41_FeedbackFrame`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -151,7 +151,7 @@
 | URL | nvarchar | 2000 | YES | ('') |
 
 ## FeedbackLocalInfo
-**Physical table:** `OSUSR_S41_FEEDBACKLOCALINFO`  
+**Physical table:** `OSUSR_s41_FeedbackLocalInfo`  
 **Description:** Entity to hold the status of the synch with other systems  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -171,7 +171,7 @@
 | ESPACE_UID | nvarchar | 50 | YES | ('') |
 
 ## FeedbackMigrationQueue
-**Physical table:** `OSUSR_S41_FEEDBACKMIGRATIONQUEUE`  
+**Physical table:** `OSUSR_s41_FeedbackMigrationQueue`  
 **Description:** Contains the IDs of all the Feedback records that need to be migrated to the latest version. Filled in at the start of a migration process.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -182,7 +182,7 @@
 | MIGRATIONDATETIME | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## FeedbackScreenshot
-**Physical table:** `OSUSR_S41_FEEDBACKSCREENSHOT`  
+**Physical table:** `OSUSR_s41_FeedbackScreenshot`  
 **Description:** A screenshot of the users's screen when the feedback was provided. Screenshots are received through the JavaScript API  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -193,7 +193,7 @@
 | IMAGEMIMEFORMAT | nvarchar | 150 | YES | ('') |
 
 ## FeedbackSoundMessage
-**Physical table:** `OSUSR_S41_FEEDBACKSOUNDMESSAGE`  
+**Physical table:** `OSUSR_s41_FeedbackSoundMessage`  
 **Description:** Sound recorded when the feedback was provided. Sounds are received through the JavaScript API  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -204,7 +204,7 @@
 | SOUNDMIMEFORMAT | nvarchar | 150 | YES | ('') |
 
 ## FeedbackStatus
-**Physical table:** `OSUSR_S41_FEEDBACKSTATUS`  
+**Physical table:** `OSUSR_s41_FeedbackStatus`  
 **Description:** Each feedback can be either opened or closed  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -215,7 +215,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## FeedbackWebpageContent
-**Physical table:** `OSUSR_S41_FEEDBACKWEBPAGECONTENT`  
+**Physical table:** `OSUSR_s41_FeedbackWebpageContent`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -224,7 +224,7 @@
 | WEBPAGE_CONTENT_ID | int |  | YES | (NULL) |
 
 ## HttpStatusCode
-**Physical table:** `OSUSR_S41_HTTPSTATUSCODE`  
+**Physical table:** `OSUSR_s41_HttpStatusCode`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -232,7 +232,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## LastFeedback
-**Physical table:** `OSUSR_S41_LASTFEEDBACK`  
+**Physical table:** `OSUSR_s41_LastFeedback`  
 **Description:** Save the last feedback seen by application and user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -243,7 +243,7 @@
 | USERID | int |  | YES | (NULL) |
 
 ## MenuItem
-**Physical table:** `OSUSR_S41_MENUITEM`  
+**Physical table:** `OSUSR_s41_MenuItem`  
 **Description:** Menu item to be used in menu web block parameters.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -253,7 +253,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## MenuSubItem
-**Physical table:** `OSUSR_S41_MENUSUBITEM`  
+**Physical table:** `OSUSR_s41_MenuSubItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -264,7 +264,7 @@
 | MENUITEMID | int |  | YES | (NULL) |
 
 ## RequestBucket
-**Physical table:** `OSUSR_S41_REQUESTBUCKET`  
+**Physical table:** `OSUSR_s41_RequestBucket`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -277,7 +277,7 @@
 | USERID | int |  | YES | (NULL) |
 
 ## Resource
-**Physical table:** `OSUSR_S41_RESOURCE`  
+**Physical table:** `OSUSR_s41_Resource`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -288,7 +288,7 @@
 | THEME_ID | int |  | YES | (NULL) |
 
 ## Rule
-**Physical table:** `OSUSR_S41_RULE`  
+**Physical table:** `OSUSR_s41_Rule`  
 **Description:** deprecated entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -304,7 +304,7 @@
 | ALLOW_ANONYMOUS_USER | bit |  | YES | ((0)) |
 
 ## Rule_eSpace
-**Physical table:** `OSUSR_S41_RULE_ESPACE`  
+**Physical table:** `OSUSR_s41_Rule_eSpace`  
 **Description:** deprecated entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -314,7 +314,7 @@
 | RULE_ID | int |  | YES | (NULL) |
 
 ## Rule_Group
-**Physical table:** `OSUSR_S41_RULE_GROUP`  
+**Physical table:** `OSUSR_s41_Rule_Group`  
 **Description:** deprecated entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -324,7 +324,7 @@
 | RULE_ID | int |  | YES | (NULL) |
 
 ## Rule_User
-**Physical table:** `OSUSR_S41_RULE_USER`  
+**Physical table:** `OSUSR_s41_Rule_User`  
 **Description:** deprecated entity  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -334,7 +334,7 @@
 | RULE_ID | int |  | YES | (NULL) |
 
 ## Theme
-**Physical table:** `OSUSR_S41_THEME`  
+**Physical table:** `OSUSR_s41_Theme`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -343,7 +343,7 @@
 | MAINCSSRESOURCE | int |  | YES | (NULL) |
 
 ## Theme_Espace
-**Physical table:** `OSUSR_S41_THEME_ESPACE`  
+**Physical table:** `OSUSR_s41_Theme_Espace`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -352,7 +352,7 @@
 | ESPACEID | int |  | YES | (NULL) |
 
 ## UserUsedECT
-**Physical table:** `OSUSR_S41_USERUSEDECT`  
+**Physical table:** `OSUSR_s41_UserUsedECT`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -361,7 +361,7 @@
 | ESPACE | int |  | YES | ((0)) |
 
 ## WebpageContent
-**Physical table:** `OSUSR_S41_WEBPAGECONTENT`  
+**Physical table:** `OSUSR_s41_WebpageContent`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

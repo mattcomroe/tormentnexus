@@ -6,7 +6,7 @@
 - [UserTempStorage](#usertempstorage)
 
 ## UserSecret
-**Physical table:** `OSUSR_HUK_USERSECRET`  
+**Physical table:** `OSUSR_huk_UserSecret`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -16,7 +16,7 @@
 | OTPAUTH | nvarchar | 500 | YES | ('') |
 
 ## UserTempStorage
-**Physical table:** `OSUSR_HUK_USERTEMPSTORAGE`  
+**Physical table:** `OSUSR_huk_UserTempStorage`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

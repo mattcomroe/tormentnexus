@@ -11,7 +11,7 @@
 - [TimeFormat](#timeformat)
 
 ## GeneralListenerRequestType
-**Physical table:** `OSUSR_SZ1_GENERALLISTENERREQUESTTYPE1`  
+**Physical table:** `OSUSR_sz1_GeneralListenerRequestType1`  
 **Description:** Type of Request that triggers the General Listener  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -23,7 +23,7 @@
 | DESCRIPTION | nvarchar | 300 | YES | ('') |
 
 ## LoginSource
-**Physical table:** `OSUSR_72O_LOGINSOURCE`  
+**Physical table:** `OSUSR_72o_LoginSource`  
 **Description:** Contains the possible sources of login  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -33,7 +33,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## Picklist
-**Physical table:** `OSUSR_72O_PICKLIST`  
+**Physical table:** `OSUSR_72o_Picklist`  
 **Description:** Defines the Picklists to be used for drop downs  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | CUSTOMERID | bigint |  | YES | ((0)) |
 
 ## PicklistType
-**Physical table:** `OSUSR_72O_PICKLISTTYPE`  
+**Physical table:** `OSUSR_72o_PicklistType`  
 **Description:** Contains all possible Types of Picklists  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -61,7 +61,7 @@
 | ISSYSTEMLIST | bit |  | YES | ((0)) |
 
 ## PicklistValue
-**Physical table:** `OSUSR_72O_PICKLISTVALUE`  
+**Physical table:** `OSUSR_72o_PicklistValue`  
 **Description:** Defines the possible Values for a Picklist to be used in dropdowns  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -83,7 +83,7 @@
 | DESCRIPTION | nvarchar | 500 | YES | ('') |
 
 ## PicklistValueType
-**Physical table:** `OSUSR_72O_PICKLISTVALUETYPE`  
+**Physical table:** `OSUSR_72o_PicklistValueType`  
 **Description:** Contains the Types for PicklistValues  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -96,7 +96,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## TimeFormat
-**Physical table:** `OSUSR_72O_TIMEFORMAT`  
+**Physical table:** `OSUSR_72o_TimeFormat`  
 **Description:** Contains all possible time formats  
 
 | Column | Data Type | Max Length | Nullable | Default |

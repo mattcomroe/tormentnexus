@@ -7,16 +7,16 @@
 - [Rendering](#rendering)
 
 ## Action
-**Physical table:** `OSUSR_SS2_ACTION`  
+**Physical table:** `OSUSR_ss2_Action`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## EventDescription
-**Physical table:** `OSUSR_SS2_EVENTDESCRIPTION`  
+**Physical table:** `OSUSR_ss2_EventDescription`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Rendering
-**Physical table:** `OSUSR_SS2_RENDERING`  
+**Physical table:** `OSUSR_ss2_Rendering`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

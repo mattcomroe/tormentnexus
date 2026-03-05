@@ -6,7 +6,7 @@
 - [TokenType](#tokentype)
 
 ## Token
-**Physical table:** `OSUSR_063_TOKEN`  
+**Physical table:** `OSUSR_063_Token`  
 **Description:** A token represents a signed piece of data used to verify it was sent by our servers  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -19,7 +19,7 @@
 | ISONETIMEUSE | bit |  | YES | ((0)) |
 
 ## TokenType
-**Physical table:** `OSUSR_063_TOKENTYPE`  
+**Physical table:** `OSUSR_063_TokenType`  
 **Description:** A type of token that can be generated with this service  
 
 | Column | Data Type | Max Length | Nullable | Default |

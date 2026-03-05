@@ -18,7 +18,7 @@
 - [ShoppingCart](#shoppingcart)
 
 ## Brand
-**Physical table:** `OSUSR_0EI_BRAND`  
+**Physical table:** `OSUSR_0ei_Brand`  
 **Description:** Entity that holds the records of type Brand.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -32,7 +32,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Model
-**Physical table:** `OSUSR_0EI_MODEL`  
+**Physical table:** `OSUSR_0ei_Model`  
 **Description:** Entity that holds the records of type Model for products.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Product
-**Physical table:** `OSUSR_0EI_PRODUCT`  
+**Physical table:** `OSUSR_0ei_Product`  
 **Description:** Entity that holds the records of type Product.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ProductCategory
-**Physical table:** `OSUSR_0EI_PRODUCTCATEGORY`  
+**Physical table:** `OSUSR_0ei_ProductCategory`  
 **Description:** Static Entity with the available categories for products.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -86,7 +86,7 @@
 | PRODUCTTYPEID | int |  | YES | (NULL) |
 
 ## ProductColor
-**Physical table:** `OSUSR_0EI_PRODUCTCOLOR`  
+**Physical table:** `OSUSR_0ei_ProductColor`  
 **Description:** Static Entity with the available colors for a product.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -94,7 +94,7 @@
 | COLOR | nvarchar | 50 | NO |  |
 
 ## ProductFavorite
-**Physical table:** `OSUSR_0EI_PRODUCTFAVORITE`  
+**Physical table:** `OSUSR_0ei_ProductFavorite`  
 **Description:** Entity that holds the value if product is favorite.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -104,7 +104,7 @@
 | PRODUCTID | int |  | YES | (NULL) |
 
 ## ProductFeature
-**Physical table:** `OSUSR_0EI_PRODUCTFEATURE`  
+**Physical table:** `OSUSR_0ei_ProductFeature`  
 **Description:** Entity that holds the features for products  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -119,7 +119,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ProductImage
-**Physical table:** `OSUSR_0EI_PRODUCTIMAGE`  
+**Physical table:** `OSUSR_0ei_ProductImage`  
 **Description:** Entity that holds the sample images for Products.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -137,7 +137,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ProductInventory
-**Physical table:** `OSUSR_0EI_PRODUCTINVENTORY`  
+**Physical table:** `OSUSR_0ei_ProductInventory`  
 **Description:** Entity that holds the records of type ProductInventory.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -155,7 +155,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ProductSales
-**Physical table:** `OSUSR_0EI_PRODUCTSALES`  
+**Physical table:** `OSUSR_0ei_ProductSales`  
 **Description:** Entity that holds the records of type Product Sales.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -172,7 +172,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## ProductSize
-**Physical table:** `OSUSR_0EI_PRODUCTSIZE`  
+**Physical table:** `OSUSR_0ei_ProductSize`  
 **Description:** Static Entity with the available sizes for a product.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -180,7 +180,7 @@
 | SIZE | nvarchar | 50 | NO |  |
 
 ## ProductSort
-**Physical table:** `OSUSR_0EI_PRODUCTSORT`  
+**Physical table:** `OSUSR_0ei_ProductSort`  
 **Description:** Product sort  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -192,7 +192,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## ProductType
-**Physical table:** `OSUSR_0EI_PRODUCTTYPE`  
+**Physical table:** `OSUSR_0ei_ProductType`  
 **Description:** Static Entity with the available types enclosing product categories.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -203,7 +203,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## ShoppingCart
-**Physical table:** `OSUSR_0EI_SHOPPINGCART`  
+**Physical table:** `OSUSR_0ei_ShoppingCart`  
 **Description:** Entity that holds the records defining the contents of the shopping cart.  
 
 | Column | Data Type | Max Length | Nullable | Default |

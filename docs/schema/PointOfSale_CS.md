@@ -5,7 +5,7 @@
 - [Cart](#cart)
 
 ## Cart
-**Physical table:** `OSUSR_72O_CART`  
+**Physical table:** `OSUSR_72o_Cart`  
 **Description:** Contains info of a cart in POS  
 
 | Column | Data Type | Max Length | Nullable | Default |

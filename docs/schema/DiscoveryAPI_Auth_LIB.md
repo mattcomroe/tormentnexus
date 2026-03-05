@@ -5,7 +5,7 @@
 - [AuthDetail](#authdetail)
 
 ## AuthDetail
-**Physical table:** `OSUSR_NMO_AUTHDETAIL`  
+**Physical table:** `OSUSR_nmo_AuthDetail`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -7,7 +7,7 @@
 - [FeatureSettings](#featuresettings)
 
 ## BetaCustomer
-**Physical table:** `OSUSR_XLR_BETATENANT`  
+**Physical table:** `OSUSR_xlr_BetaTenant`  
 **Description:** The beta Customer records that tie a given Customer to a beta Customer type.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -22,7 +22,7 @@
 | ISFEATUREON | bit |  | YES | ((0)) |
 
 ## Feature
-**Physical table:** `OSUSR_XLR_FEATURE`  
+**Physical table:** `OSUSR_xlr_Feature`  
 **Description:** It represents the features that are available only for Beta Customers. As an example, Social, White Labeling, etc  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | LABEL | nvarchar | 50 | YES | ('') |
 
 ## FeatureSettings
-**Physical table:** `OSUSR_8RV_GAFEATURE`  
+**Physical table:** `OSUSR_8rv_GAFeature`  
 **Description:** Settings for each feature  
 
 | Column | Data Type | Max Length | Nullable | Default |

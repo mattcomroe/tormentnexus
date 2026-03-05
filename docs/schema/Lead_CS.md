@@ -22,7 +22,7 @@
 - [RequestType](#requesttype)
 
 ## AsyncProcess
-**Physical table:** `OSUSR_1SP_ASYNCPROCESS1`  
+**Physical table:** `OSUSR_1sp_AsyncProcess1`  
 **Description:** Auxiliar entity that contains all asynchronous processes, which will run through the AP module in BPT process  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -31,7 +31,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## DropIn
-**Physical table:** `OSUSR_1SP_DROPIN`  
+**Physical table:** `OSUSR_1sp_DropIn`  
 **Description:** Unregistered drop-in identity (pre-Lead/Client) only. Do not insert for existing Leads/Clients.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -75,7 +75,7 @@
 | TOTALCLASSSIGNINS | int |  | YES | ((0)) |
 
 ## Lead
-**Physical table:** `OSUSR_72O_LEADS`  
+**Physical table:** `OSUSR_72o_Leads`  
 **Description:** Contains Lead's data  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -146,7 +146,7 @@
 | LEADSTATUSID | int |  | YES | (NULL) |
 
 ## LeadConversionBoardCustomizedCardOption
-**Physical table:** `OSUSR_1SP_LEADBOARDCUSTOMIZEDCARDS`  
+**Physical table:** `OSUSR_1sp_LeadBoardCustomizedCards`  
 **Description:** Lead Conversion Board Customized Card options  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -157,7 +157,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## LeadConversionBoardSetting
-**Physical table:** `OSUSR_1SP_LEADCARD`  
+**Physical table:** `OSUSR_1sp_LeadCard`  
 **Description:** Lead Conversion Board settings for a user  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -181,7 +181,7 @@
 | CONVERTEDTIMEFRAMEID | int |  | YES | ((0)) |
 
 ## LeadConversionBoardSettingStatus
-**Physical table:** `OSUSR_1SP_LEADCARDSTATUSES`  
+**Physical table:** `OSUSR_1sp_LeadCardStatuses`  
 **Description:** Extends LeadConversionBoardSettings to allow selection of multiple statuses  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -196,7 +196,7 @@
 | LEADSTATUSID_NEW | int |  | YES | (NULL) |
 
 ## LeadConversionBoardSortBy
-**Physical table:** `OSUSR_1SP_LEADBOARDSORTBY`  
+**Physical table:** `OSUSR_1sp_LeadBoardSortBy`  
 **Description:** Lead Conversion Board sort by types  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -207,7 +207,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## LeadCreatedFromSource
-**Physical table:** `OSUSR_72O_LEADCREATEDFROMSOURCE`  
+**Physical table:** `OSUSR_72o_LeadCreatedFromSource`  
 **Description:** possible records for where was the lead created from  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -219,7 +219,7 @@
 | DESCRIPTION | nvarchar | 50 | YES | ('') |
 
 ## LeadFileStorage
-**Physical table:** `OSUSR_OV4_LEADRACKSPACEFILE`  
+**Physical table:** `OSUSR_ov4_LeadRackspaceFile`  
 **Description:** Contains all the FileStorage associated with the Lead  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -230,7 +230,7 @@
 | FILESTORAGEID | int |  | YES | (NULL) |
 
 ## LeadFormAttributes
-**Physical table:** `OSUSR_72O_LEADFORMATTRIBUTES`  
+**Physical table:** `OSUSR_72o_LeadFormAttributes`  
 **Description:** For the dynamic lead form, contains the possible mandatory and optional attributes for that form  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -248,7 +248,7 @@
 | USAONLY | bit |  | YES | ((0)) |
 
 ## LeadGroup
-**Physical table:** `OSUSR_1SP_LEADGROUP`  
+**Physical table:** `OSUSR_1sp_LeadGroup`  
 **Description:** The group of leads  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -258,7 +258,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## LeadGroupParticipant
-**Physical table:** `OSUSR_1SP_LEADGROUPPARTICIPANT`  
+**Physical table:** `OSUSR_1sp_LeadGroupParticipant`  
 **Description:** Contains a group of leads with types within a group  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -275,7 +275,7 @@
 | LEADID | int |  | YES | (NULL) |
 
 ## LeadGroupParticipantType
-**Physical table:** `OSUSR_1SP_LEADGROUPPARTICIPANTTYPE`  
+**Physical table:** `OSUSR_1sp_LeadGroupParticipantType`  
 **Description:** Lead Group participant type (for instance guardians, members, dependents)  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -286,7 +286,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## LeadStatus
-**Physical table:** `OSUSR_1SP_LEADSTATUS`  
+**Physical table:** `OSUSR_1sp_LeadStatus`  
 **Description:** Defines the possible Values for Lead status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -305,7 +305,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LeadStatusActivityFeed
-**Physical table:** `OSUSR_1SP_LEADSTATUSACTIVITYFEED`  
+**Physical table:** `OSUSR_1sp_LeadStatusActivityFeed`  
 **Description:** Connects Status History with the Lead  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -321,7 +321,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## LeadStatusStatic
-**Physical table:** `OSUSR_1SP_LEADSTATUSSTATIC`  
+**Physical table:** `OSUSR_1sp_LeadStatusStatic`  
 **Description:** List of bootstrapped lead status  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -333,7 +333,7 @@
 | ISUSERSELECTABLE | bit |  | YES | ((0)) |
 
 ## Request
-**Physical table:** `OSUSR_1SP_REQUEST`  
+**Physical table:** `OSUSR_1sp_Request`  
 **Description:** Contains all requests made by our Customers or Customer's Clients, that will run in the background  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -356,7 +356,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## RequestType
-**Physical table:** `OSUSR_1SP_REQUESTTYPE`  
+**Physical table:** `OSUSR_1sp_RequestType`  
 **Description:** Type of request record  
 
 | Column | Data Type | Max Length | Nullable | Default |

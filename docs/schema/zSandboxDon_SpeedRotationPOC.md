@@ -12,7 +12,7 @@
 - [ReportLogName](#reportlogname)
 
 ## DailyPerformanceMetric
-**Physical table:** `OSUSR_U76_DAILYPERFORMANCEMETRIC`  
+**Physical table:** `OSUSR_u76_DailyPerformanceMetric`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -35,7 +35,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## DailyPerformanceReport
-**Physical table:** `OSUSR_U76_PERFORMANCEREPORT`  
+**Physical table:** `OSUSR_u76_PerformanceReport`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -62,7 +62,7 @@
 | WEBPAGENAME | nvarchar | 50 | YES | ('') |
 
 ## GeneralLogModule_Name
-**Physical table:** `OSUSR_U76_GENERALLOGMODULE_NAME`  
+**Physical table:** `OSUSR_u76_GeneralLogModule_Name`  
 **Description:** Type Of data requested from general logs: slowSQL, slowExtension  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -74,7 +74,7 @@
 | SQLFILTER | nvarchar | 50 | YES | ('') |
 
 ## LogStatistics
-**Physical table:** `OSUSR_U76_LOGSTATISTICS`  
+**Physical table:** `OSUSR_u76_LogStatistics`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -85,7 +85,7 @@
 | GUID | nvarchar | 50 | YES | ('') |
 
 ## PerformanceActionName
-**Physical table:** `OSUSR_U76_PERFORMANCEACTIONNAME`  
+**Physical table:** `OSUSR_u76_PerformanceActionName`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -99,7 +99,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PerformanceEspace
-**Physical table:** `OSUSR_U76_PERFORMANCEESPACE`  
+**Physical table:** `OSUSR_u76_PerformanceEspace`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -113,7 +113,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## PerformanceWebPage
-**Physical table:** `OSUSR_U76_PERFORMANCEWEBPAGE`  
+**Physical table:** `OSUSR_u76_PerformanceWebPage`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -128,7 +128,7 @@
 | ISACTIVE | bit |  | YES | ((0)) |
 
 ## ReportLogName
-**Physical table:** `OSUSR_U76_REPORTLOGNAME`  
+**Physical table:** `OSUSR_u76_ReportLogName`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

@@ -9,7 +9,7 @@
 - [PromoCodeProduct](#promocodeproduct)
 
 ## PromoCode
-**Physical table:** `OSUSR_ROC_PROMOCODE`  
+**Physical table:** `OSUSR_roc_PromoCode`  
 **Description:** Promotion code that enables discounts when input on purchases.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -32,7 +32,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PromoCodeInvoiceDetailExtraDiscount
-**Physical table:** `OSUSR_ROC_PROMOCODEINVOICEDETAILEXTRADISCOUNT`  
+**Physical table:** `OSUSR_roc_PromoCodeInvoiceDetailExtraDiscount`  
 **Description:** References invoice detail extra discount records that were created when applying a promo code to an invoice.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -44,7 +44,7 @@
 | ISDROPIN | bit |  | YES | ((0)) |
 
 ## PromoCodeLocation
-**Physical table:** `OSUSR_ROC_PROMOCODELOCATION`  
+**Physical table:** `OSUSR_roc_PromoCodeLocation`  
 **Description:** Locations where a promo code is applicable.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -54,7 +54,7 @@
 | LOCATIONID | int |  | YES | (NULL) |
 
 ## PromoCodeMembership
-**Physical table:** `OSUSR_ROC_PROMOCODECLASSMEMBERSHIP`  
+**Physical table:** `OSUSR_roc_PromoCodeClassMembership`  
 **Description:** Memberships that are eligible for a discount using a promo code.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -69,7 +69,7 @@
 | HASRENEWALAPPLICATION | bit |  | YES | ((0)) |
 
 ## PromoCodeProduct
-**Physical table:** `OSUSR_ROC_PROMOCODEPRODUCT`  
+**Physical table:** `OSUSR_roc_PromoCodeProduct`  
 **Description:** Products that are eligible for a discount using a promo code.  
 
 | Column | Data Type | Max Length | Nullable | Default |

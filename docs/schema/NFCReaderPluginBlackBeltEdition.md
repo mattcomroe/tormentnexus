@@ -8,25 +8,25 @@
 - [WritingState](#writingstate)
 
 ## RTD
-**Physical table:** `OSUSR_16R_RTD`  
+**Physical table:** `OSUSR_16r_RTD`  
 **Description:** Record Type Definition (RTD) types available per NFC technical specification.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## ShareState
-**Physical table:** `OSUSR_16R_SHARESTATE`  
+**Physical table:** `OSUSR_16r_ShareState`  
 **Description:** Possible sharing states obtained while sharing NFC Ndef Records.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## TNF
-**Physical table:** `OSUSR_16R_TNF`  
+**Physical table:** `OSUSR_16r_TNF`  
 **Description:** Type Name Formats (TNFs) per NDEF technical specification. Used to interpret the payload format from an Ndef Tag.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## WritingState
-**Physical table:** `OSUSR_16R_WRITINGSTATE`  
+**Physical table:** `OSUSR_16r_WritingState`  
 **Description:** Possible writing states obtained while writing NFC Ndef Records.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

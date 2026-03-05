@@ -15,7 +15,7 @@
 - [SegmentRuleTimeType](#segmentruletimetype)
 
 ## BootstrappedSegmentError
-**Physical table:** `OSUSR_2WP_BOOTSTRAPPEDSEGMENTERROR`  
+**Physical table:** `OSUSR_2wp_BootstrappedSegmentError`  
 **Description:** Table to track customers who failed to create bootstrapped segment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -26,7 +26,7 @@
 | CREATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## Segment
-**Physical table:** `OSUSR_2WP_SEGMENT`  
+**Physical table:** `OSUSR_2wp_Segment`  
 **Description:** Segment  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -49,7 +49,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## SegmentCloudSearchQuery
-**Physical table:** `OSUSR_2WP_SEGMENTCLOUDSEARCHQUERY`  
+**Physical table:** `OSUSR_2wp_SegmentCloudSearchQuery`  
 **Description:** Segment CloudSearch Query  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -61,7 +61,7 @@
 | QUERY | nvarchar | 2000 | YES | ('') |
 
 ## SegmentLogicOperator
-**Physical table:** `OSUSR_2WP_SEGMENTLOGICOPERATOR`  
+**Physical table:** `OSUSR_2wp_SegmentLogicOperator`  
 **Description:** Contains the logic operator to be used in the segment rule values table  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -80,7 +80,7 @@
 | USEONMULTICHOICEWITHSUBCAT | bit |  | YES | ((0)) |
 
 ## SegmentPeople
-**Physical table:** `OSUSR_2WP_SEGMENTPEOPLE`  
+**Physical table:** `OSUSR_2wp_SegmentPeople`  
 **Description:** Segment People  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -98,7 +98,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## SegmentPeopleType
-**Physical table:** `OSUSR_2WP_SEGMENTPEOPLETYPE`  
+**Physical table:** `OSUSR_2wp_SegmentPeopleType`  
 **Description:** SegmentPeople Type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -111,7 +111,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SegmentRule
-**Physical table:** `OSUSR_2WP_SEGMENTRULE`  
+**Physical table:** `OSUSR_2wp_SegmentRule`  
 **Description:** Segment Rule  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -137,7 +137,7 @@
 | ISSPECIFICTIME | bit |  | YES | ((0)) |
 
 ## SegmentRule_Definition
-**Physical table:** `OSUSR_2WP_SEGMENTRULE_DEFINITION`  
+**Physical table:** `OSUSR_2wp_SegmentRule_Definition`  
 **Description:** Segment Rule Definition  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -173,7 +173,7 @@
 | ISLEADSTATUSPICKLISTVALUE | bit |  | YES | ((0)) |
 
 ## SegmentRule_Scope
-**Physical table:** `OSUSR_2WP_SEGMENTRULE_SCOPE`  
+**Physical table:** `OSUSR_2wp_SegmentRule_Scope`  
 **Description:** Segment Rule Scope  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -183,7 +183,7 @@
 | ORDER | int |  | YES | ((0)) |
 
 ## SegmentRule_Type
-**Physical table:** `OSUSR_2WP_SEGMENTRULE_TYPE`  
+**Physical table:** `OSUSR_2wp_SegmentRule_Type`  
 **Description:** SegmentRule Type  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -194,7 +194,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## SegmentRuleTimeType
-**Physical table:** `OSUSR_2WP_SEGMENTRULETIMETYPE`  
+**Physical table:** `OSUSR_2wp_SegmentRuleTimeType`  
 **Description:** Entity that has the values allowed when in custom time type definition  
 
 | Column | Data Type | Max Length | Nullable | Default |

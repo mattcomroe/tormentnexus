@@ -6,7 +6,7 @@
 - [PublishEventFailure](#publisheventfailure)
 
 ## PublishEventBackup
-**Physical table:** `OSUSR_CV7_PUBLISHEVENTBACKUP`  
+**Physical table:** `OSUSR_cv7_PublishEventBackup`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|
@@ -18,7 +18,7 @@
 | ERROR | nvarchar | 50 | YES | ('') |
 
 ## PublishEventFailure
-**Physical table:** `OSUSR_CV7_PUBLISHEVENTFAILURE`  
+**Physical table:** `OSUSR_cv7_PublishEventFailure`  
 
 | Column | Data Type | Max Length | Nullable | Default |
 |--------|-----------|------------|----------|---------|

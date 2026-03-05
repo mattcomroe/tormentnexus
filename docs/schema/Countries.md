@@ -10,7 +10,7 @@
 - [State](#state)
 
 ## Country
-**Physical table:** `OSUSR_I7M_COUNTRY1`  
+**Physical table:** `OSUSR_i7m_Country1`  
 **Description:** List of ISO known countries  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -26,7 +26,7 @@
 | CALLINGCODE | nvarchar | 50 | YES | ('') |
 
 ## CountryCallingCode
-**Physical table:** `OSUSR_I7M_COUNTRYCALLINGCODE`  
+**Physical table:** `OSUSR_i7m_CountryCallingCode`  
 **Description:** List of ISO known countries  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -36,7 +36,7 @@
 | COUNTRYCALLINGCODE | int |  | YES | ((0)) |
 
 ## CountryConceptLocalization
-**Physical table:** `OSUSR_I7M_COUNTRYCONCEPTLOCALIZATION1`  
+**Physical table:** `OSUSR_i7m_CountryConceptLocalization1`  
 **Description:** the joining table that maps Localizable Concepts to their names in different country or areas  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -47,7 +47,7 @@
 | TERM | nvarchar | 200 | YES | ('') |
 
 ## CurrencyConfiguration
-**Physical table:** `OSUSR_I7M_CURRENCYCONFIGURATION`  
+**Physical table:** `OSUSR_i7m_CurrencyConfiguration`  
 **Description:** Contains a list of currency configurations  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -61,7 +61,7 @@
 | GROUPSEPARATOR | nvarchar | 50 | YES | ('') |
 
 ## LocalizableConcept
-**Physical table:** `OSUSR_I7M_LOCALIZABLECONCEPT1`  
+**Physical table:** `OSUSR_i7m_LocalizableConcept1`  
 **Description:** Concepts that have different names or terms based on different country of area. ex.Tax ID, Personal ID; Personal ID in the US would be SSN and Portugal CC number.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -72,7 +72,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## State
-**Physical table:** `OSUSR_I7M_STATE1`  
+**Physical table:** `OSUSR_i7m_State1`  
 **Description:** States by country  
 
 | Column | Data Type | Max Length | Nullable | Default |

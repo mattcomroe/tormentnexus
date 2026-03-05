@@ -6,7 +6,7 @@
 - [MenuSubItem](#menusubitem)
 
 ## MenuItem
-**Physical table:** `OSUSR_MEC_MENUITEM`  
+**Physical table:** `OSUSR_mec_MenuItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -16,7 +16,7 @@
 | CAPTION | nvarchar | 50 | YES | ('') |
 
 ## MenuSubItem
-**Physical table:** `OSUSR_MEC_MENUSUBITEM`  
+**Physical table:** `OSUSR_mec_MenuSubItem`  
 **Description:** Records in this entity will be automatically created when dragging web screens to the Common\Menu web block. Their labels can later be changed.  
 
 | Column | Data Type | Max Length | Nullable | Default |

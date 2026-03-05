@@ -7,7 +7,7 @@
 - [PaymentMethodStatusHistory](#paymentmethodstatushistory)
 
 ## CustomerPaymentProcessorConfigurationHistory
-**Physical table:** `OSUSR_A3Y_TENANTPAYMENTPROCESSORCONFIGURATIONHISTORY`  
+**Physical table:** `OSUSR_a3y_TenantPaymentProcessorConfigurationHistory`  
 **Description:** Represents payment processor configuration histories. This is the customer-level history record for when a customer's payment processor changed from one to another.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -21,7 +21,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## LocationPaymentProcessorConfigurationHistory
-**Physical table:** `OSUSR_A3Y_LOCATIONPAYMENTPROCESSORCONFIGURATIONHISTORY`  
+**Physical table:** `OSUSR_a3y_LocationPaymentProcessorConfigurationHistory`  
 **Description:** Represents a change of a Location's payment processor configuration. This is so we can go back and forth between the configuration if we should need to.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -37,7 +37,7 @@
 | CUSTOMERID | bigint |  | YES | (NULL) |
 
 ## PaymentMethodStatusHistory
-**Physical table:** `OSUSR_A3Y_PAYMENTMETHODSTATUSHISTORY`  
+**Physical table:** `OSUSR_a3y_PaymentMethodStatusHistory`  
 **Description:** Represents a status change made to a payment method due to a payment processor change. This relates a payment method to the payment processor configuration history record so it can be changed back if we should need to.  
 
 | Column | Data Type | Max Length | Nullable | Default |

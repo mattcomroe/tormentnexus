@@ -6,12 +6,12 @@
 - [Seam](#seam)
 
 ## CustomerBrandedApp
-**Physical table:** `OSUSR_HP3_CUSTOMERBRANDEDAPP`  
+**Physical table:** `OSUSR_hp3_CustomerBrandedApp`  
 **Description:** Associates a feature with a package.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## Seam
-**Physical table:** `OSUSR_HP3_SEAM`  
+**Physical table:** `OSUSR_hp3_Seam`  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._

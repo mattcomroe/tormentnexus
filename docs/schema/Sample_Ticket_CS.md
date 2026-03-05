@@ -12,7 +12,7 @@
 - [TicketStatus](#ticketstatus)
 
 ## Ticket
-**Physical table:** `OSUSR_GDK_TICKET`  
+**Physical table:** `OSUSR_gdk_Ticket`  
 **Description:** Entity to hold all information regarding the Tickets  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -30,7 +30,7 @@
 | UPDATEDBY | int |  | YES | (NULL) |
 
 ## TicketAttachment
-**Physical table:** `OSUSR_GDK_TICKETATTACHMENT`  
+**Physical table:** `OSUSR_gdk_TicketAttachment`  
 **Description:** Entity to hold all information regarding the Tickets attachments  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -42,7 +42,7 @@
 | UPDATEDON | datetime |  | YES | ('1900-01-01 00:00:00') |
 
 ## TicketAttachmentBinary
-**Physical table:** `OSUSR_GDK_TICKETATTACHMENTBINARY`  
+**Physical table:** `OSUSR_gdk_TicketAttachmentBinary`  
 **Description:** Entity to store TicketAttachmentsBinary on the database  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -51,7 +51,7 @@
 | CONTENT | varbinary | -1 | YES | (NULL) |
 
 ## TicketCategory
-**Physical table:** `OSUSR_GDK_TICKETCATEGORY`  
+**Physical table:** `OSUSR_gdk_TicketCategory`  
 **Description:** Entity that holds the records of type TicketCategory.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -64,7 +64,7 @@
 | FILLCOLOR | nvarchar | 50 | YES | ('') |
 
 ## TicketFilterByPeriod
-**Physical table:** `OSUSR_GDK_TICKETFILTERBYPERIOD`  
+**Physical table:** `OSUSR_gdk_TicketFilterByPeriod`  
 **Description:** Entity that holds the records of type TicketFilterByPeriod.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -75,7 +75,7 @@
 | IS_ACTIVE | bit |  | YES | ((0)) |
 
 ## TicketMessage
-**Physical table:** `OSUSR_GDK_TICKETMESSAGE`  
+**Physical table:** `OSUSR_gdk_TicketMessage`  
 **Description:** Entity to hold Ticket messages  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -93,7 +93,7 @@
 | UPDATEDBY | bigint |  | YES | (NULL) |
 
 ## TicketPriority
-**Physical table:** `OSUSR_GDK_TICKETPRIORITY`  
+**Physical table:** `OSUSR_gdk_TicketPriority`  
 **Description:** Entity that holds the records of type TicketPriority.  
 
 | Column | Data Type | Max Length | Nullable | Default |
@@ -109,7 +109,7 @@
 | TEXTCOLOR | nvarchar | 50 | YES | ('') |
 
 ## TicketStatus
-**Physical table:** `OSUSR_GDK_TICKETSTATUS`  
+**Physical table:** `OSUSR_gdk_TicketStatus`  
 **Description:** Entity that holds the records of type TicketStatus.  
 
 | Column | Data Type | Max Length | Nullable | Default |

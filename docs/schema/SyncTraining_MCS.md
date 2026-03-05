@@ -9,31 +9,31 @@
 - [LocalSample_ProductSales](#localsample-productsales)
 
 ## LocalSample_Product
-**Physical table:** `OSUSR_TEB_LOCALSAMPLE_PRODUCT`  
+**Physical table:** `OSUSR_teb_LocalSample_Product`  
 **Description:** Maps to Server Sample_Product and the Immutable table Sample_Product_Category  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## LocalSample_ProductCategory
-**Physical table:** `OSUSR_TEB_LOCALSAMPLE_PRODUCTCATEGORY`  
+**Physical table:** `OSUSR_teb_LocalSample_ProductCategory`  
 **Description:** LocalStorage of static table.  Only used for listing such as a dropdown select.  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## LocalSample_ProductImage
-**Physical table:** `OSUSR_TEB_LOCALSAMPLE_PRODUCTIMAGE`  
+**Physical table:** `OSUSR_teb_LocalSample_ProductImage`  
 **Description:** Maps to the server Table Sample_ProductImage  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## LocalSample_ProductInventory
-**Physical table:** `OSUSR_TEB_LOCALSAMPLE_PRODUCTINVENTORY`  
+**Physical table:** `OSUSR_teb_LocalSample_ProductInventory`  
 **Description:** Maps to server table Sample_ProductInventory and Sample_WarehoseLocation  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
 
 ## LocalSample_ProductSales
-**Physical table:** `OSUSR_TEB_LOCALSAMPLE_PRODUCTSALES`  
+**Physical table:** `OSUSR_teb_LocalSample_ProductSales`  
 **Description:** Maps to server table Sample_ProductSales  
 
-_Column definitions not found in schema export._
+_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
