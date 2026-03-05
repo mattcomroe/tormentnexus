@@ -7,4 +7,4 @@
 ## Request
 **Physical table:** `OSUSR_5k2_Request`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

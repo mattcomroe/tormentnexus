@@ -9,14 +9,14 @@
 ## Belt
 **Physical table:** `OSUSR_r77_Belt1`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## IntelStickConfig
 **Physical table:** `OSUSR_r77_IntelStickConfig1`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## TestEnvironment
 **Physical table:** `OSUSR_r77_TestEnvironment1`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

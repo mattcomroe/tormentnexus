@@ -24,89 +24,89 @@
 ## Sample_Accounts
 **Physical table:** `OSUSR_49t_Sample_Accounts`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Budget
 **Physical table:** `OSUSR_49t_Sample_Budget`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Department
 **Physical table:** `OSUSR_49t_Sample_Department`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Employee
 **Physical table:** `OSUSR_49t_Sample_Employee`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Notification
 **Physical table:** `OSUSR_49t_Sample_Notification`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Office
 **Physical table:** `OSUSR_49t_Sample_Office`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Priority
 **Physical table:** `OSUSR_49t_Sample_Priority`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Product
 **Physical table:** `OSUSR_49t_Sample_Product`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_ProductCategory
 **Physical table:** `OSUSR_49t_Sample_ProductCategory`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_ProductImage
 **Physical table:** `OSUSR_49t_Sample_ProductImage`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_ProductInventory
 **Physical table:** `OSUSR_49t_Sample_ProductInventory`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_ProductSales
 **Physical table:** `OSUSR_49t_Sample_ProductSales`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Request
 **Physical table:** `OSUSR_49t_Sample_Request`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_RequestFile
 **Physical table:** `OSUSR_49t_Sample_RequestFile`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_RequestStatus
 **Physical table:** `OSUSR_49t_Sample_RequestStatus`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_Transaction
 **Physical table:** `OSUSR_49t_Sample_Transaction`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_TransactionType
 **Physical table:** `OSUSR_49t_Sample_TransactionType`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Sample_WarehouseLocation
 **Physical table:** `OSUSR_49t_Sample_WarehouseLocation`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

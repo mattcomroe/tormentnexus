@@ -14,39 +14,39 @@
 ## CKEditorContent
 **Physical table:** `OSUSR_ds1_CKEditorContent`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## CustomerSettingSignIn
 **Physical table:** `OSUSR_ds1_CustomerSettingSignIn`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FolderType
 **Physical table:** `OSUSR_ds1_FolderType`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## GlobalUserMFA
 **Physical table:** `OSUSR_ds1_GlobalUserMFA`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## GlobalUserTrustedDevice
 **Physical table:** `OSUSR_ds1_GlobalUserTrustedDevice`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## TributeContent
 **Physical table:** `OSUSR_ds1_TributeContent`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## WorkatoSession
 **Physical table:** `OSUSR_ds1_WorkatoSession`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## WorkatoSessionAudit
 **Physical table:** `OSUSR_ds1_WorkatoSessionAudit`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

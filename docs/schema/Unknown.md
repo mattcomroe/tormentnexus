@@ -175,142 +175,142 @@ _Column definitions unavailable — table is in a restricted external database (
 ## Log_Cyclic_Job
 **Physical table:** `OSLOG_CYCLIC_JOB`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Cyclic_Job_Previous
 **Physical table:** `OSLOG_CYCLIC_JOB_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Error
 **Physical table:** `OSLOG_ERROR`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Error_Previous
 **Physical table:** `OSLOG_ERROR_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Extension
 **Physical table:** `OSLOG_EXTENSION`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Extension_Previous
 **Physical table:** `OSLOG_EXTENSION_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_General
 **Physical table:** `OSLOG_GENERAL`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_General_Previous
 **Physical table:** `OSLOG_GENERAL_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Integration
 **Physical table:** `OSLOG_INTEGRATION`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Integration_Detail
 **Physical table:** `OSLOG_INT_DETAIL`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Integration_Detail_Previous
 **Physical table:** `OSLOG_INT_DETAIL_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Integration_Previous
 **Physical table:** `OSLOG_INTEGRATION_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Mobile_Request
 **Physical table:** `OSLOG_MOBILE_REQUEST`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Mobile_Request_Detail
 **Physical table:** `OSLOG_MR_DETAIL`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Mobile_Request_Detail_Previous
 **Physical table:** `OSLOG_MR_DETAIL_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Mobile_Request_Previous
 **Physical table:** `OSLOG_MOBILE_REQUEST_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_RequestEvent
 **Physical table:** `OSLOG_REQUESTEVENT`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_RequestEvent_Previous
 **Physical table:** `OSLOG_REQUESTEVENT_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Screen
 **Physical table:** `OSLOG_SCREEN`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Screen_Previous
 **Physical table:** `OSLOG_SCREEN_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_ServiceAPI
 **Physical table:** `OSLOG_SRVAPI`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_ServiceAPI_Detail
 **Physical table:** `OSLOG_SRVAPI_DETAIL`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_ServiceAPI_Detail_Previous
 **Physical table:** `OSLOG_SRVAPI_DETAIL_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_ServiceAPI_Previous
 **Physical table:** `OSLOG_SRVAPI_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Web_Reference
 **Physical table:** `OSLOG_WEB_REFERENCE`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Web_Reference_Previous
 **Physical table:** `OSLOG_WEB_REFERENCE_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Web_Service
 **Physical table:** `OSLOG_WEB_SERVICE`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Log_Web_Service_Previous
 **Physical table:** `OSLOG_WEB_SERVICE_PREVIOUS`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## oslog_general_summary
 **Physical table:** `[OSLog_Summary].[dbo].[oslog_general_summary]`  
@@ -603,7 +603,7 @@ _Column definitions unavailable — table is in a restricted external database (
 ## UCT_RETAIN
 **Physical table:** `[outsystems].[dbo].[UCT_RETAIN]`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## USERPRTOTAL
 **Physical table:** `[YearReviewDB].[dbo].[OSUSR_R4Q_USERPRTOTAL]`  

@@ -34,18 +34,18 @@
 **Physical table:** `OSUSR_uu0_LocalClientVariable`  
 **Description:** Store single attribute configuration settings. These will persist past a lost session.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LocalFeatureSpecificClientVariable
 **Physical table:** `OSUSR_uu0_LocalFeatureSpecificClientVariable`  
 **Description:** Store single attribute configuration settings. These will persist past a lost session.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LocalSyncAtom_TimeStamps
 **Physical table:** `OSUSR_uu0_LocalSyncAtom_TimeStamps`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SyncUnits
 **Physical table:** `OSUSR_uu0_SyncUnits`  

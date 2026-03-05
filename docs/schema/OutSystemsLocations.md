@@ -12,28 +12,28 @@
 **Physical table:** `OSUSR_ej8_LogType`  
 **Description:** Type of the log being recorded.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SearchPlacesErrors
 **Physical table:** `OSUSR_ej8_SearchPlacesErrors`  
 **Description:** Static entity with the available search places errors.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SearchPlacesEvent
 **Physical table:** `OSUSR_ej8_SearchPlacesEvent`  
 **Description:** Static entity with the available search places events.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SearchTypes
 **Physical table:** `OSUSR_ej8_SearchTypes`  
 **Description:** Static entity with the available search types.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Verbosity
 **Physical table:** `OSUSR_ej8_Verbosity`  
 **Description:** Level of logs to be written or read.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

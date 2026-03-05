@@ -8,9 +8,9 @@
 ## EmojiTest
 **Physical table:** `OSUSR_jki_EmojiTest`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## item
 **Physical table:** `OSUSR_jki_item`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

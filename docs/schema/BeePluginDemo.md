@@ -16,49 +16,49 @@
 ## Bee_User
 **Physical table:** `OSUSR_iau_Bee_User`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeMergeContent
 **Physical table:** `OSUSR_iau_BeeMergeContent`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeMergeTag
 **Physical table:** `OSUSR_iau_BeeMergeTag`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeSpecialLink
 **Physical table:** `OSUSR_iau_BeeSpecialLink`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeTemplate
 **Physical table:** `OSUSR_iau_BeeTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeTemplate_MergeContent
 **Physical table:** `OSUSR_iau_BeeTemplate_MergeContent`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeTemplate_MergeTag
 **Physical table:** `OSUSR_iau_BeeTemplate_MergeTag`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeTemplate_SpecialLink
 **Physical table:** `OSUSR_iau_BeeTemplate_SpecialLink`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeTemplateContent
 **Physical table:** `OSUSR_iau_BeeTemplateContent`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## BeeTemplateStructure
 **Physical table:** `OSUSR_iau_BeeTemplateStructure`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

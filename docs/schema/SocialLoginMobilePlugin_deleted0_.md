@@ -8,10 +8,10 @@
 ## Authentication
 **Physical table:** `OSUSR_dpt_Authentication`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Provider
 **Physical table:** `OSUSR_dpt_Provider`  
 **Description:** Holds static information about the available social login providers.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

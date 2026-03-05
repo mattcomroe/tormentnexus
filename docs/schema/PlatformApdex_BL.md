@@ -15,44 +15,44 @@
 ## LogStatistics
 **Physical table:** `OSUSR_u2l_LogStatistics`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics2
 **Physical table:** `OSUSR_u2l_LogStatistics2`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics3
 **Physical table:** `OSUSR_u2l_LogStatistics3`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics4
 **Physical table:** `OSUSR_u2l_LogStatistics4`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics5
 **Physical table:** `OSUSR_u2l_LogStatistics5`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics6
 **Physical table:** `OSUSR_u2l_LogStatistics6`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics7
 **Physical table:** `OSUSR_u2l_LogStatistics7`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics8
 **Physical table:** `OSUSR_u2l_LogStatistics8`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## LogStatistics9
 **Physical table:** `OSUSR_u2l_LogStatistics9`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

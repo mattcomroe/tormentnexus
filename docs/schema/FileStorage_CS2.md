@@ -41,19 +41,19 @@
 **Physical table:** `OSUSR_8e7_ArchiveFile`  
 **Description:** Stores information related to an archive file  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FileMetadata_2
 **Physical table:** `OSUSR_8e7_FileMetadata_2`  
 **Description:** Holds metadata about a file stored  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FileMetadata_Archive
 **Physical table:** `OSUSR_8e7_ArchiveFileMetadata`  
 **Description:** Holds metadata about a archive file stored  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FileType
 **Physical table:** `OSUSR_8e7_FileType`  
@@ -81,19 +81,19 @@ _Column definitions pending — not found in initial schema export. Run `scripts
 **Physical table:** `OSUSR_8e7_FolderOrCategory1`  
 **Description:** contains Folder or Category values  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FolderPermission
 **Physical table:** `OSUSR_8e7_FolderPermission1`  
 **Description:** Stores the different permissions assigned to  folder in MediaFolder  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FolderPermissionsType
 **Physical table:** `OSUSR_8e7_FolderPermissionsType1`  
 **Description:** Type of folder permissions for media library  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Image
 **Physical table:** `OSUSR_8e7_Image`  
@@ -111,19 +111,19 @@ _Column definitions pending — not found in initial schema export. Run `scripts
 **Physical table:** `OSUSR_8e7_ArchiveImage`  
 **Description:** If the entity ArchiveFile is an image, it will have a record here with the external properties for images  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## MediaFolder
 **Physical table:** `OSUSR_8e7_MediaFolder`  
 **Description:** Stores the folder/category for a permission for CkBox  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## MediaLibraryWorkspace
 **Physical table:** `OSUSR_8e7_MediaLibraryWorkspace1`  
 **Description:** Stores the Customer/Tenant's WorkspaceId for CkBox  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## MIMEType
 **Physical table:** `OSUSR_8e7_MIMEType`  
@@ -145,10 +145,10 @@ _Column definitions pending — not found in initial schema export. Run `scripts
 **Physical table:** `OSUSR_8e7_NameIdentifier`  
 **Description:** Name identifier used to identify a file. Used with Identifier.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Source
 **Physical table:** `OSUSR_8e7_Source`  
 **Description:** From where the request is done.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

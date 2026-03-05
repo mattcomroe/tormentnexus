@@ -61,19 +61,19 @@
 **Physical table:** `OSUSR_qdm_DeviceLog`  
 **Description:** Logs Smart Device events from Seam and Workflows  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## DeviceEventSource
 **Physical table:** `OSUSR_qdm_DeviceEventSource`  
 **Description:** Source of Device event, Seam or Workflows  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## DeviceEventType
 **Physical table:** `OSUSR_qdm_DeviceEventType`  
 **Description:** Type of Device event  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## InputType
 **Physical table:** `OSUSR_qdm_InputType`  
@@ -90,13 +90,13 @@ _Column definitions pending — not found in initial schema export. Run `scripts
 **Physical table:** `OSUSR_qdm_PageButton`  
 **Description:** Entity to associate a Workflow Button Page with Workflow Buttons, i.e. shows which Buttons is on a Page.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## PersonAccessCode
 **Physical table:** `OSUSR_qdm_PersonAccessCode`  
 **Description:** joining table that maps Access Code to a person and/or Reservation  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SmartButtonPage
 **Physical table:** `OSUSR_qdm_CustomMenuItem`  

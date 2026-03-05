@@ -8,4 +8,4 @@
 **Physical table:** `OSUSR_t08_ExternalIdentity`  
 **Description:** Maps external identifiers from integrations to records in wodify entities  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

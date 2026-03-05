@@ -9,14 +9,14 @@
 ## CDNExclusionRegex
 **Physical table:** `OSUSR_2ee_CDNExclusionRegex`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## MenuItem
 **Physical table:** `OSUSR_2ee_MenuItem1`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Parameters
 **Physical table:** `OSUSR_2ee_Parameters1`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

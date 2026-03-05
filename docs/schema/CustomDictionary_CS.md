@@ -41,16 +41,16 @@
 **Physical table:** `OSUSR_ef1_StaticTermCategory`  
 **Description:** Entity that holds the Categories for static terms that are Customizable per Users and per Language (Locale)  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## StaticTermV2
 **Physical table:** `OSUSR_ef1_StaticTermV2`  
 **Description:** Mobile version of Static Term that holds the Terms that are Customizable per Users and per Language (Locale)  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## StaticTermV2Attribute
 **Physical table:** `OSUSR_ef1_StaticTermV2Attribute`  
 **Description:** Static Entity that relates to the attribute available in terms  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

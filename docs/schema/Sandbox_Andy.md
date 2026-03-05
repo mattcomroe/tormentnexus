@@ -20,71 +20,71 @@
 ## CircuitGroupTemplate
 **Physical table:** `OSUSR_sgj_CircuitTemplateGroupTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## CircuitTemplate
 **Physical table:** `OSUSR_sgj_CircuitTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## CircuitWorkoutTemplate
 **Physical table:** `OSUSR_sgj_CircuitTemplateWorkoutTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Data
 **Physical table:** `OSUSR_sgj_Data`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## DataFetch_BenchmarkResult
 **Physical table:** `OSUSR_sgj_DataFetch_BenchmarkResult`  
 **Description:** Stores a result from a data fetching benchmark  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## DataFetch_BenchmarkType
 **Physical table:** `OSUSR_sgj_DataFetch_BenchmarkType`  
 **Description:** Types of datafetching benchmarks  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ExerciseCircuitTemplate
 **Physical table:** `OSUSR_sgj_ExerciseTemplateCircuitTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ExerciseGroupTemplate
 **Physical table:** `OSUSR_sgj_ExerciseTemplateGroupTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ExerciseTemplate
 **Physical table:** `OSUSR_sgj_ExerciseTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ExerciseWorkoutTemplate
 **Physical table:** `OSUSR_sgj_ExerciseTemplateWorkoutTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FeedbackMessageType
 **Physical table:** `OSUSR_sgj_FeedbackMessageType`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## GroupTemplate
 **Physical table:** `OSUSR_sgj_GroupTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## GroupWorkoutTemplate
 **Physical table:** `OSUSR_sgj_GroupTemplateWorkoutTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## WorkoutTemplate
 **Physical table:** `OSUSR_sgj_WorkoutTemplate`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

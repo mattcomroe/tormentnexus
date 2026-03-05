@@ -9,15 +9,15 @@
 ## ActivityFeedParticipantType
 **Physical table:** `OSUSR_j72_ActivityFeedParticipantType`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ForByEntityMapping
 **Physical table:** `OSUSR_j72_ObjectTypeEntityMapping`  
 **Description:** maps ObjectType to EventPublisher Entity, only for "for" and "by"  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ZosTB0
 **Physical table:** `OSUSR_x4w_ZosTB0`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

@@ -28,85 +28,85 @@
 **Physical table:** `OSUSR_57f_ActivityFeed1`  
 **Description:** Feeds to hydrate in Firestore  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ActivityFeedEventPublisherActionMapping
 **Physical table:** `OSUSR_57f_ActivityFeedEventPublisherAction`  
 **Description:** Cotains the mapping of Event Publish Actions to Activity Feeds to hydrate in Firestore  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ActivityFeedParticipantType
 **Physical table:** `OSUSR_57f_ActivityFeedParticipantType`  
 **Description:** [POC]  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## CUDAction
 **Physical table:** `OSUSR_57f_CUDAction`  
 **Description:** Create, Update, or Delete labels to be used when building Event JSON.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## EntityAssociatedObjectMapping
 **Physical table:** `OSUSR_57f_EntityAssociatedObjectMapping`  
 **Description:** (see entity diagram for details) Used to determine which additional object(s) should be parsed and included in the associated feeds for an event if a given entity related to an event. Ex: Event is published where a clients group ID is updated, we want to include the other group members in the associated feeds  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## EntityListItemDetailsLabelMapping
 **Physical table:** `OSUSR_57f_EntityListItemDetailsLabelNameMapping`  
 **Description:** Associates an EventPublisherEntity with the name of its label field name as used in the Updated  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## EventPublisherAction
 **Physical table:** `OSUSR_57f_EventPublisherAction`  
 **Description:** List of applications actions to report to Event Publisher  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## EventPublisherApplicationSource
 **Physical table:** `OSUSR_57f_EventPublisherSource`  
 **Description:** List of applications and systems to show where events are originating  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## EventPublisherBusinessEntity
 **Physical table:** `OSUSR_57f_EventPublisherBusinessActions`  
 **Description:** List of business entities (caetgories) to be referenced in EventPublisherActions entity  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## EventPublisherEntity
 **Physical table:** `OSUSR_57f_EventPublisherEntity`  
 **Description:** Outsystems entities in EventPublisher payloads.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FirestoreActivityFeedEntityMapping
 **Physical table:** `OSUSR_57f_FirestoreActivityFeedEntityMapping`  
 **Description:** maps an FirestoreEventPublisherEntity to an ActivityFeed  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FirestoreEntityAssociatedObjectMapping
 **Physical table:** `OSUSR_57f_FirestoreEntityAssociatedObjectMapping`  
 **Description:** (see entity diagram for details) Used to determine which additional object(s) should be parsed and included in the associated feeds for an event if a given entity related to an event. Ex: Event is published where task followers are added/updated, we want to include all followers in the associated feeds.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## FirestoreEventPublisherEntity
 **Physical table:** `OSUSR_57f_FirestoreEventPublisherEntity`  
 **Description:** Firestore counterpart of EventPublisherEntity  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ForByEntityMapping
 **Physical table:** `OSUSR_57f_ForByEntityMapping`  
 **Description:** [POC]maps ObjectType to EventPublisher Entity, only for "for" and "by"  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ProcessStatus
 **Physical table:** `OSUSR_57f_ProcessStatus`  
@@ -154,22 +154,22 @@ _Column definitions pending — not found in initial schema export. Run `scripts
 **Physical table:** `OSUSR_57f_SEB_BPTWatchTable`  
 **Description:** Data about the processing of an Event via BPT.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SEB_EventError
 **Physical table:** `OSUSR_57f_SEB_EventError`  
 **Description:** Error associated with an Event  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## SEB_EventToSend
 **Physical table:** `OSUSR_57f_SEB_EventToSend`  
 **Description:** Data associated with an Event to be processed for EventBridge.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Subscriber
 **Physical table:** `OSUSR_57f_Subscriber3`  
 **Description:** Available subscribers to the event publisher system.  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._

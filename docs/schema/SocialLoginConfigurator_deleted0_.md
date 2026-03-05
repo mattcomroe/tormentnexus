@@ -12,29 +12,29 @@
 ## AppleUserInfo
 **Physical table:** `OSUSR_njs_AppleUserInfo`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ApplicationConfiguration
 **Physical table:** `OSUSR_njs_ApplicationConfiguration`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## ApplicationType
 **Physical table:** `OSUSR_njs_ApplicationType`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## AuthenticationConfiguration
 **Physical table:** `OSUSR_njs_AuthenticationConfiguration`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## AuthenticationDetail
 **Physical table:** `OSUSR_njs_AuthenticationDetail`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
 
 ## Provider
 **Physical table:** `OSUSR_njs_Provider`  
 
-_Column definitions pending — not found in initial schema export. Run `scripts/missing_outsystems.sql` to populate._
+_Table not present in the dev environment — schema unavailable. May exist in production only._
