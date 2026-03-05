@@ -1,0 +1,4 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH,IS_NULLABLE,COLUMN_DEFAULT
+dbo,oslog_Parameter,Id,int,,NO,
+dbo,oslog_Parameter,Name,nvarchar,50,NO,
+dbo,oslog_Parameter,Val,nvarchar,250,YES,
